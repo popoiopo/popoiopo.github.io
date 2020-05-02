@@ -2,6 +2,7 @@
 #+DATE: <2020-04-16 Thu>
 #+AUTHOR: Bas Chatel
 #+EMAIL: bastiaan.chatel@gmail.com
+#+OPTIONS: html-style:nil
 #+OPTIONS: ':t *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t c:nil
 #+OPTIONS: creator:comment d:(not LOGBOOK) date:t e:t email:nil f:t inline:t
 #+OPTIONS: num:t p:nil pri:nil stat:t tags:t tasks:t tex:t timestamp:t toc:t
@@ -12,7 +13,8 @@
 #+KEYWORDS:
 #+LANGUAGE: en
 #+SELECT_TAGS: export
-#+org-export-html-style: "<link rel=\"stylesheet\" type=\"text/css\" href=\"css/stylesheet.css\" />"
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+#+OPTIONS: html-postamble:nil
 
 * Bas Chatel Homepage
 [[file:remember.org][remember]]
