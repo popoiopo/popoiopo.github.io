@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-05-02 Sat 22:01 -->
+<!-- 2020-05-02 Sat 21:54 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>homepage Sitemap</title>
@@ -105,15 +105,10 @@ for the JavaScript code in this tag.
 <h2 id="orgc592724">Sitemap</h2>
 <div class="outline-text-2" id="text-orgc592724">
 <ul class="org-ul">
+<li><a href="blog1.html">First blog</a></li>
 <li><a href="index.html">homepage</a></li>
-<li>blogposts
-<ul class="org-ul">
-<li><a href="blogposts/blog1.html">First blog</a></li>
-</ul></li>
-<li>personal
-<ul class="org-ul">
-<li><a href="personal/remember.html">remember</a></li>
-</ul></li>
+<li><a href="level-0.html">level-0</a></li>
+<li><a href="remember.html">remember</a></li>
 </ul>
 </div>
 </div>
@@ -122,7 +117,7 @@ for the JavaScript code in this tag.
 <h2 id="org5a7213a">Bas Chatel Homepage</h2>
 <div class="outline-text-2" id="text-org5a7213a">
 <p>
-<a href="personal/remember.html">remember</a>
+<a href="remember.html">remember</a>
 </p>
 
 

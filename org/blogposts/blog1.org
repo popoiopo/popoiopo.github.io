@@ -1,0 +1,23 @@
+#+TITLE: First blog
+#+DATE: <2020-04-16 Thu>
+#+AUTHOR: Bas Chatel
+#+EMAIL: bastiaan.chatel@gmail.com
+#+CREATOR: Bas Chatel 
+
+#+OPTIONS: html-style:nil
+#+OPTIONS: num:nil
+#+OPTIONS: html-postamble:nil
+
+#+DESCRIPTION: Blog for my projects and random thoughts
+#+LANGUAGE: en
+#+EXCLUDE_TAGS: noexport
+#+SELECT_TAGS: export
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+#+LINK_UP: index.html
+#+LINK_HOME: index.html
+
+* Sitemap
+
+#+INCLUDE: sitemap.org
+
+* Test uno

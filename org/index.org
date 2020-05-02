@@ -2,22 +2,96 @@
 #+DATE: <2020-04-16 Thu>
 #+AUTHOR: Bas Chatel
 #+EMAIL: bastiaan.chatel@gmail.com
+#+CREATOR: Bas Chatel 
+
 #+OPTIONS: html-style:nil
-#+OPTIONS: ':t *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t c:nil
-#+OPTIONS: creator:comment d:(not LOGBOOK) date:t e:t email:nil f:t inline:t
-#+OPTIONS: num:t p:nil pri:nil stat:t tags:t tasks:t tex:t timestamp:t toc:t
-#+OPTIONS: todo:t |:t
-#+CREATOR: Emacs 
-#+DESCRIPTION:
-#+EXCLUDE_TAGS: noexport
-#+KEYWORDS:
-#+LANGUAGE: en
-#+SELECT_TAGS: export
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+#+OPTIONS: num:nil
 #+OPTIONS: html-postamble:nil
 
+#+DESCRIPTION: Blog for my projects and random thoughts
+#+LANGUAGE: en
+#+EXCLUDE_TAGS: noexport
+#+SELECT_TAGS: export
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+
+* Sitemap
+
+#+INCLUDE: sitemap.org
+
 * Bas Chatel Homepage
-[[file:remember.org][remember]]
+[[file:personal/remember.org][remember]]
 
 [[file:img/test.jpg]]
+
+* Table test
+
+| hallo | all   | this    |
+|-------+-------+---------|
+| is    | a     | table   |
+| where | all   | types   |
+| of    | stuff | can     |
+| be    | found | yaaaahs |
+
+* Code test
+
+#+BEGIN_SRC emacs-lisp
+  (setq scroll-conservatively 100)    ;; Keep from making huge jumps
+  (setq ring-bell-function 'ignore)   ;; Unable annoying sounds
+  (setq visible-bell 1)               ;; disable annoying windows sound
+  (setq inhibit-startup-message t)    ;; Hide the startup message
+  (global-set-key (kbd "<f5>") 'revert-buffer)
+  (setq-default display-line-numbers 'relative)
+  (global-auto-revert-mode t)
+  (delete-selection-mode 1)
+  (use-package try
+    :ensure t)
+  (use-package page-break-lines
+    :ensure t
+    :init
+    (turn-on-page-break-lines-mode))
+  (setq electric-pair-pairs '(
+                              (?\( . ?\))
+                              (?\[ . ?\])
+                              (?\" . ?\")
+                              (?\{ . ?\})
+                              ))
+  (electric-pair-mode t)
+#+END_SRC
+
+** Or python
+
+#+BEGIN_SRC python :results output
+  text = "This is a small test"
+  for i, letter in enumerate(text):
+      print(i, letter)
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+(0, 'T')
+(1, 'h')
+(2, 'i')
+(3, 's')
+(4, ' ')
+(5, 'i')
+(6, 's')
+(7, ' ')
+(8, 'a')
+(9, ' ')
+(10, 's')
+(11, 'm')
+(12, 'a')
+(13, 'l')
+(14, 'l')
+(15, ' ')
+(16, 't')
+(17, 'e')
+(18, 's')
+(19, 't')
+#+end_example
+
+
+* Latex also works
+$$\lambda = \sum^n_{k=1}$$
+
 

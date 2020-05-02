@@ -1,0 +1,7 @@
+#+TITLE: Sitemap
+
+- [[file:index.org][homepage]]
+- blogposts
+  - [[file:blogposts/blog1.org][First blog]]
+- personal
+  - [[file:personal/remember.org][remember]]
