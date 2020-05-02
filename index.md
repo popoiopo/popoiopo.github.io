@@ -1,3 +1,0 @@
-# hallo
-
-[[docs/index.html]]
