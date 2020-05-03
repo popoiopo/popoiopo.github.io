@@ -1,0 +1,4 @@
+#+SETUPFILE: ~/.emacs.d/org-templates/level-2.org
+#+TITLE: Celullar Automata
+* Celullar automata
+It's a thing

@@ -1,18 +1,9 @@
+#+SETUPFILE: ~/.emacs.d/org-templates/level-0.org
 #+TITLE: homepage
-#+DATE: <2020-04-16 Thu>
-#+AUTHOR: Bas Chatel
-#+EMAIL: bastiaan.chatel@gmail.com
-#+CREATOR: Bas Chatel 
-
-#+OPTIONS: html-style:nil
-#+OPTIONS: num:nil
-#+OPTIONS: html-postamble:nil
-
 #+DESCRIPTION: Blog for my projects and random thoughts
-#+LANGUAGE: en
-#+EXCLUDE_TAGS: noexport
-#+SELECT_TAGS: export
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/mainstyle.css" />
+#+HTML_HEAD_EXTRA: <link rel="alternate stylesheet" type="text/css" href="style_homepage.css" />
+
 
 * Sitemap
 
@@ -21,7 +12,7 @@
 * Bas Chatel Homepage
 [[file:personal/remember.org][remember]]
 
-[[file:img/test.jpg]]
+[[file:img/pretty.jpg]]
 
 * Table test
 

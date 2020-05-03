@@ -1,2 +1,4 @@
+#+SETUPFILE: ~/.emacs.d/org-templates/level-1.org
+#+TITLE: Remember
 * Remember remember
 The fifth of November. The gunpowder treason and plot. Remember remember, the fifth of November should never, be ever, forgot.

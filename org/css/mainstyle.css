@@ -1,0 +1,32 @@
+body {
+    background:#222222l;
+    padding:20px;
+    font-size:24px;
+    margin:40px;
+}
+
+h1 {
+    color:#b100c9;
+    font-size:48px;
+    font-weight:bold;
+    display:inline-block;
+}
+
+h2 {
+    font-size:36px;
+    font-weight:bold;
+}
+
+h3 {
+    color:#b100c9;
+}
+
+ol {
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+
+li {
+    padding-left:15px;
+}

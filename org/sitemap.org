@@ -1,7 +1,10 @@
 #+TITLE: Sitemap
 
 - [[file:index.org][homepage]]
-- blogposts
-  - [[file:blogposts/blog1.org][First blog]]
+- BlogPosts
+  - [[file:BlogPosts/BlogIntro.org][Homepage for Blogs]]
+  - ComplexityScience
+    - [[file:BlogPosts/ComplexityScience/CellularAutomata.org][Celullar Automata]]
 - personal
+  - [[file:personal/about.org][About me]]
   - [[file:personal/remember.org][remember]]
