@@ -1,5 +1,7 @@
 body {
     padding-top: 60px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 h1 {
