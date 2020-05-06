@@ -20,14 +20,11 @@ $(function() {
 });
 
 function dropdownPopulator(current, categories) {
-    console.log(categories);
     for (property in categories) {
 	var category = categories[property]
-	console.log(category);
 	if (current.text().includes(category)) {
 	var category = "." + category
 	current.children().children().each(function(index) {
-	    console.log($(this), index)
 	    var current = $(this);
 	    current.addClass("dropdown-item");
 	    $(category).append($(this));

@@ -18,7 +18,7 @@
 (puthash "Xa7e331386fe6fcde36a00cb549a9553512747b59" 1588693897 org-publish-cache)
 (puthash "Xa5dbba2af45ffa33294d40552b05723da1b01821" 1588693489 org-publish-cache)
 (puthash "/Users/chatel/github/popoiopo.github.io/org/sitemap.org" '(:crossrefs nil :index nil) org-publish-cache)
-(puthash "X4c83521abb2a7ab4edec65df0a15f17431ab7339" '(24242 46178 746242 671000) org-publish-cache)
+(puthash "X4c83521abb2a7ab4edec65df0a15f17431ab7339" '(24242 46392 515563 95000) org-publish-cache)
 (puthash "X1300c1ef0dcd109c2ec0595805608897e27ad261" 1588491311 org-publish-cache)
 (puthash "Xeb66d79cfb99ec0cf09cae7f6f7b269f14c251a7" 1588491241 org-publish-cache)
 (puthash "X6f2ba79e631c1ad32976e37c369c334243c409bf" 1588703449 org-publish-cache)

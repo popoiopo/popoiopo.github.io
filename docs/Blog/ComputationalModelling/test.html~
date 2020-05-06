@@ -1,12 +1,38 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Homepage for tutorials</title>
-<!-- 2020-05-06 Wed 15:01 -->
+<title>Computational mumbo jumbo</title>
+<!-- 2020-05-06 Wed 14:58 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="generator" content="Org-mode">
 <meta name="author" content="Bas Chatel">
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  displayAlign: "center",
+  displayIndent: "2em",
+  messageStyle: "none",
+  "HTML-CSS": {
+    scale: 100,
+    styles: {
+      ".MathJax_Display": {
+        "font-size": "100%"
+      }
+    }
+  },
+  "SVG": {
+    scale: 100,
+    styles: {
+      ".MathJax_SVG_Display": {
+        "font-size": "100%",
+        "margin-left": "-2.281em"
+      }
+    }
+  }
+});
+</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_SVG"></script>
 </head>
 <body>
 <div id="org-div-home-and-up">
@@ -127,25 +153,12 @@
 </nav>
 </div>
 <div id="content" class="container">
-<div class="row"><div class="col-md-12"><h1 class="title">Homepage for tutorials</h1>
+<div class="row"><div class="col-md-12"><h1 class="title">Computational mumbo jumbo</h1>
 <div id="outline-container-sec-" class="outline-2">
-<h2 id="sec-">dit is een test</h2>
+<h2 id="sec-">khskd</h2>
 <div class="outline-text-2" id="text-">
-<div class="more">
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum enim nec tortor fermentum malesuada. Donec lacus neque, consectetur at massa at, ornare tempus orci. Integer vitae ante vel diam ultrices porta. Ut et vestibulum diam, sit amet euismod eros. Integer eget consequat odio, a suscipit enim. Quisque ac tortor vel orci bibendum egestas. Nulla at neque tortor. Quisque commodo blandit nulla vel facilisis. Nulla vulputate, nunc nec mattis ultricies, nisi ipsum varius ligula, id cursus massa purus vel nisl. Aliquam vehicula sed enim ac semper. Sed eget sodales neque, ac ullamcorper nisi.
-</p>
-
-</div>
-
-
-
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum enim nec tortor fermentum malesuada. Donec lacus neque, consectetur at massa at, ornare tempus orci. Integer vitae ante vel diam ultrices porta. Ut et vestibulum diam, sit amet euismod eros. Integer eget consequat odio, a suscipit enim. Quisque ac tortor vel orci bibendum egestas. Nulla at neque tortor. Quisque commodo blandit nulla vel facilisis. Nulla vulputate, nunc nec mattis ultricies, nisi ipsum varius ligula, id cursus massa purus vel nisl. Aliquam vehicula sed enim ac semper. Sed eget sodales neque, ac ullamcorper nisi.
-</p>
-
-<p>
-Ut consectetur sem eu augue ullamcorper, ut elementum libero rutrum. Nulla iaculis quis turpis et pulvinar. Nunc in velit id urna aliquet imperdiet luctus ac enim. Praesent fringilla neque ac fermentum bibendum. Donec ut metus consequat justo vehicula aliquam at non felis. In posuere suscipit elit quis elementum. Suspendisse quis elit ut odio dictum aliquam. Aliquam erat volutpat. Ut luctus, lectus non interdum pulvinar, orci dui hendrerit ipsum, eu elementum massa mauris id neque. Fusce nec porttitor lectus, non dictum ipsum. Nulla sit amet cursus lectus, ut aliquet odio. Quisque gravida ipsum vel arcu porttitor porta.
+\(1+1=\lambda\)
 </p>
 </div>
 </div>
