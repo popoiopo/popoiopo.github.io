@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Homepage Sitemap for project bc-pages</title>
+<title>Stuff None</title>
 <!-- 2020-05-06 Wed 14:54 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -143,51 +143,7 @@ MathJax.Hub.Config({
 </nav>
 </div>
 <div id="content" class="container">
-<div class="row"><div class="col-md-12"><h1 class="title">Homepage Sitemap for project bc-pages</h1>
-<ul class="org-ul">
-<li><a href="index.html">Homepage</a>
-</li>
-<li>Personal
-<ul class="org-ul">
-<li><a href="Personal/about.html">Post One</a>
-</li>
-<li><a href="Personal/remember.html">Remember</a>
-</li>
-</ul>
-</li>
-<li>Blog
-<ul class="org-ul">
-<li><a href="Blog/Blog_Home.html">Homepage for Blogs</a>
-</li>
-<li>Emacs
-<ul class="org-ul">
-<li><a href="Blog/Emacs/sitemap.html">Sitemap for project bc-pages</a>
-</li>
-<li><a href="Blog/Emacs/emacsyes.html">Homepage</a>
-</li>
-</ul>
-</li>
-<li>ComplexityScience
-<ul class="org-ul">
-<li><a href="Blog/ComplexityScience/CellularAutomata.html">Celullar Automata</a>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Tutorials
-<ul class="org-ul">
-<li><a href="Tutorials/Tutorials_Home.html">Intro</a>
-</li>
-<li>Python
-<ul class="org-ul">
-<li><a href="Tutorials/Python/beginner.html">Index file</a>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+<div class="row"><div class="col-md-12"><h1 class="title">Stuff None</h1>
 
 <div id="outline-container-sec-" class="outline-2">
 <h2 id="sec-">dropdown test</h2>

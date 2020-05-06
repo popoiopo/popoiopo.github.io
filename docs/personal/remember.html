@@ -1,80 +1,132 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!doctype html>
+<html lang="en">
 <head>
-<!-- 2020-05-03 Sun 09:35 -->
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Remember</title>
-<meta name="generator" content="Org mode" />
-<meta name="author" content="Bas Chatel" />
-<script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2019 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
-<!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
-</script>
+<!-- 2020-05-06 Wed 14:52 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="Org-mode">
+<meta name="author" content="Bas Chatel">
+<style>body { margin-bottom: 0px; }</style>
 </head>
 <body>
-<div id="content">
-<h1 class="title">Remember</h1>
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#orgd30a94a">Remember remember</a></li>
-</ul>
+<div id="org-div-home-and-up">
+ <a accesskey="h" href=""> UP </a>
+ |
+ <a accesskey="H" href="/"> HOME </a>
+</div><div id="preamble" class="">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet"  type="text/css" href="./res/css/mainstyle.css">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/e2995b90ea.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <div class="container">
+	<a class="navbar-brand" href="/">
+	    <img src="/res/img/BC_blog.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+	    Bas Chatel
+	</a>
+	<button type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+	<div id="navbarContent" class="collapse navbar-collapse">
+	    <ul class="navbar-nav mr-auto">
+		<li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+
+		<!-- ######################### BLOG ########################### -->
+		
+		<!-- Level one dropdown -->
+		<li class="nav-item dropdown">
+		    <a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Blog</a>
+		    <ul aria-labelledby="dropdownMenu1" class="dropdown-menu border-0">
+			<li><a href="#" class="dropdown-item">Homepage for the blog</a></li>
+
+			<li class="dropdown-divider"></li>
+
+			<!-- Level two dropdown-->
+			<li class="dropdown-submenu">
+			    <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">Complexity Science</a>
+			    <ul aria-labelledby="dropdownMenu2" class="dropdown-menu border-0 ComplexityScience">
+				<!-- <li>
+				     <a tabindex="-1" href="#" class="dropdown-item">level 2</a>
+				     </li> -->
+				
+
+				<!-- <li class="dropdown-submenu">
+				     <a id="dropdownMenu3" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">level 2</a>
+				     <ul aria-labelledby="dropdownMenu3" class="dropdown-menu border-0 shadow">
+				     <li><a href="#" class="dropdown-item">3rd level</a></li>
+				     <li><a href="#" class="dropdown-item">3rd level</a></li>
+				     </ul>
+				     </li> -->
+			    </ul>
+			</li>
+			<!-- End Level two -->
+
+			<!-- Level two dropdown-->
+			<li class="dropdown-submenu">
+			    <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">Emacs</a>
+			    <ul aria-labelledby="dropdownMenu2" class="dropdown-menu border-0 Emacs">
+				
+			    </ul>
+			</li>
+			<!-- End Level two -->
+		    </ul>
+		</li>
+		<!-- End Level one -->
+
+		<!-- ######################### TUTORIALS ########################### -->
+		
+		<!-- Level one dropdown -->
+		<li class="nav-item dropdown">
+		    <a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Tutorials</a>
+		    <ul aria-labelledby="dropdownMenu1" class="dropdown-menu border-0">
+			<li><a href="#" class="dropdown-item">Homepage for Tutorials</a></li>
+
+			<li class="dropdown-divider"></li>
+
+			<!-- Level two dropdown-->
+			<li class="dropdown-submenu">
+			    <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">Python</a>
+			    <ul aria-labelledby="dropdownMenu2" class="dropdown-menu border-0 Python">
+				
+			    </ul>
+			</li>
+			<!-- End Level two -->
+		    </ul>
+		</li>
+		<!-- End Level one -->
+
+		<!-- ######################### Personal ########################### -->
+		
+		<!-- Level one dropdown -->
+		<li class="nav-item dropdown">
+		    <a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Personal</a>
+		    <ul aria-labelledby="dropdownMenu1" class="dropdown-menu border-0 shadow Personal">
+		    </ul>
+		</li>
+		<!-- End Level one -->
+
+
+	    </ul>
+	</div>
+    </div>
+</nav>
 </div>
-</div>
-<div id="outline-container-orgd30a94a" class="outline-2">
-<h2 id="orgd30a94a">Remember remember</h2>
-<div class="outline-text-2" id="text-orgd30a94a">
+<div id="content" class="container">
+<div class="row"><div class="col-md-12"><h1 class="title">Remember</h1>
+<div id="outline-container-sec-" class="outline-2">
+<h2 id="sec-">Remember remember</h2>
+<div class="outline-text-2" id="text-">
 <p>
 The fifth of November. The gunpowder treason and plot. Remember remember, the fifth of November should never, be ever, forgot.
 </p>
 </div>
 </div>
-</div>
+</div></div></div>
 </body>
 </html>

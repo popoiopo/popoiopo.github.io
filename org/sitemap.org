@@ -1,10 +1,19 @@
-#+TITLE: Sitemap
+#+TITLE: Sitemap for project bc-pages
 
-- [[file:index.org][homepage]]
-- BlogPosts
-  - [[file:BlogPosts/BlogIntro.org][Homepage for Blogs]]
+- [[file:index.org][Homepage]]
+- Personal
+  - [[file:Personal/about.org][Post One]]
+  - [[file:Personal/remember.org][Remember]]
+- Blog
+  - [[file:Blog/Blog_Home.org][Homepage for Blogs]]
+  - ComputationalModelling
+    - [[file:Blog/ComputationalModelling/test.org][Computational mumbo jumbo]]
+  - Emacs
+    - [[file:Blog/Emacs/sitemap.org][Sitemap for project bc-pages]]
+    - [[file:Blog/Emacs/emacsyes.org][Homepage]]
   - ComplexityScience
-    - [[file:BlogPosts/ComplexityScience/CellularAutomata.org][Celullar Automata]]
-- personal
-  - [[file:personal/about.org][About me]]
-  - [[file:personal/remember.org][remember]]
+    - [[file:Blog/ComplexityScience/CellularAutomata.org][Celullar Automata]]
+- Tutorials
+  - [[file:Tutorials/Tutorials_Home.org][Intro]]
+  - Python
+    - [[file:Tutorials/Python/beginner.org][Index file]]

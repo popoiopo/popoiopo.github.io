@@ -1,4 +1,4 @@
-#+TITLE: Homepage
+#+TITLE: Stuff
 # #+INCLUDE: ~/.emacs.d/org-templates/level-0.org
 # #+SETUPFILE: ~/.emacs.d/org-templates/level-0.org
 # #+DESCRIPTION: Blog for my projects and random thoughts
