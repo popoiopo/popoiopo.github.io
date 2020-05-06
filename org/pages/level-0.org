@@ -1,0 +1,5 @@
+#+EMAIL: bastiaan.chatel@gmail.com
+#+DATE: today
+#+CREATOR: Emacs org-mode
+
+#+INCLUDE: ../sitemap.org
