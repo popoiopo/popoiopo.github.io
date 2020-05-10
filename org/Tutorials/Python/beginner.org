@@ -1,4 +1,8 @@
-#+TITLE: Index file
+#+TITLE: Python beginners
+#+DESCRIPTION: Blog for my projects and random thoughts
+#+SETUPFILE:  ../../pages/level-2.org
+#+INCLUDE: ../../sitemap.org
+
 * Wat doen we hier?
 
 #+BEGIN_PREVIEW

@@ -1,0 +1,9 @@
+#+TITLE: Stuff
+#+DESCRIPTION: Blog for my projects and random thoughts
+#+INCLUDE: ../../sitemap.org
+
+* Who would have thought that a thought thought is thought not thought for nought
+think about it
+
+#+SETUPFILE:  ../../pages/level-2.org
+#+INCLUDE: ../../pages/level-2.org

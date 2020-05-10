@@ -1,4 +1,7 @@
 #+TITLE: Homepage for tutorials
+#+DESCRIPTION: Blog for my projects and random thoughts
+#+SETUPFILE:  ../pages/level-1.org
+#+INCLUDE: ../sitemap.org
 * dit is een test
 
 #+BEGIN_more

@@ -1,0 +1,8 @@
+#+SETUPFILE: ~/.emacs.d/org-templates/level-1.org
+#+title: Post One
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+#+BEGIN_more
+Hallo dit is een voorbeel yaalllll
+#+END_more

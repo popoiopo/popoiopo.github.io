@@ -1,5 +1,7 @@
-#+SETUPFILE: ~/.emacs.d/org-templates/level-1.org
 #+TITLE: Homepage for Blogs
+#+SETUPFILE: ../pages/level-1.org
+#+INCLUDE: ../sitemap.org
+
 * Hallo
 
 | a | b | c |
@@ -9,3 +11,8 @@
 | 7 | 8 | 9 |
 
 $AA^Tx=b$
+* yahs
+** toch
+kjsd
+
+

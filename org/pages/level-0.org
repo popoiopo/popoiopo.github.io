@@ -1,5 +1,7 @@
 #+EMAIL: bastiaan.chatel@gmail.com
 #+DATE: today
 #+CREATOR: Emacs org-mode
+#+OPTIONS: html-style:nil
+#+HTML_HEAD: <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+#+HTML_HEAD_EXTRA: <link rel="stylesheet"  type="text/css" href="../res/css/mainstyle.css">
 
-#+INCLUDE: ../sitemap.org

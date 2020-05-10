@@ -1,9 +1,6 @@
 #+TITLE: Homepage
-# #+INCLUDE: ~/.emacs.d/org-templates/level-0.org
-# #+SETUPFILE: ~/.emacs.d/org-templates/level-0.org
-# #+DESCRIPTION: Blog for my projects and random thoughts
-# #+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="css/mainstyle.css" />
-
+#+DESCRIPTION: Blog for my projects and random thoughts
+#+SETUPFILE:  pages/level-0.org
 #+INCLUDE: sitemap.org
 
 * Let us also provide some text
@@ -40,6 +37,7 @@ Nulla efficitur imperdiet erat non rutrum. Nam sit amet ipsum leo. Class aptent 
 :END:
 [[file:personal/remember.org][remember]] [fn:1]
 
+#+ATTR_HTML: :style display:block; margin-left:auto; margin-right:auto;
 [[file:res/img/pretty.jpg]]
 
 ** Hallo nr2
@@ -144,3 +142,4 @@ $$\lambda = \sum^n_{k=1}$$
 ...
 [fn:1] This is a first footnote
 [fn:2] Second one!
+

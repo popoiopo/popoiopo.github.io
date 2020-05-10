@@ -1,6 +1,10 @@
 #+TITLE: Sitemap for project bc-pages
 
 - [[file:index.org][Homepage]]
+- pages
+  - [[file:pages/level-2.org][level-2]]
+  - [[file:pages/level-1.org][level-1]]
+  - [[file:pages/level-0.org][level-0]]
 - Personal
   - [[file:Personal/about.org][Post One]]
   - [[file:Personal/remember.org][Remember]]
@@ -9,7 +13,13 @@
   - ComputationalModelling
     - [[file:Blog/ComputationalModelling/test.org][Computational mumbo jumbo]]
   - Emacs
-    - [[file:Blog/Emacs/sitemap.org][Sitemap for project bc-pages]]
+    - [[file:Blog/Emacs/testMontse.org][Montse <3]]
+    - [[file:Blog/Emacs/t5.org][Stuff5]]
+    - [[file:Blog/Emacs/t4.org][Stuff4]]
+    - [[file:Blog/Emacs/t3.org][Stuff3]]
+    - [[file:Blog/Emacs/t2.org][Stuff2]]
+    - [[file:Blog/Emacs/t1.org][Stuff1]]
+    - [[file:Blog/Emacs/testnew.org][Stuff]]
     - [[file:Blog/Emacs/emacsyes.org][Homepage]]
   - ComplexityScience
     - [[file:Blog/ComplexityScience/CellularAutomata.org][Celullar Automata]]

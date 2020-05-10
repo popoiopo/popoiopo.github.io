@@ -1,5 +1,7 @@
-#+SETUPFILE: ~/.emacs.d/org-templates/level-1.org
-#+title: Post One
+#+TITLE: About me
+#+DESCRIPTION: Blog for my projects and random thoughts
+#+SETUPFILE:  ../pages/level-1.org
+#+INCLUDE: ../sitemap.org
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 

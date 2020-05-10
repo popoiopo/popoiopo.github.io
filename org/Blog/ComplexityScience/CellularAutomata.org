@@ -1,4 +1,10 @@
-#+SETUPFILE: ~/.emacs.d/org-templates/level-2.org
 #+TITLE: Celullar Automata
+#+DESCRIPTION: Blog for my projects and random thoughts
+#+SETUPFILE:  ../../pages/level-2.org
+#+INCLUDE: ../../sitemap.org
+
 * Celullar automata
 It's a thing
+
+
+

@@ -63,3 +63,4 @@ function sitemapParser(sitemap_id) {
 sitemapParser(".org-ul");
 d3.select(".org-ul").remove();
 d3.select(".title").remove();
+d3.select("#org-div-home-and-up").remove();

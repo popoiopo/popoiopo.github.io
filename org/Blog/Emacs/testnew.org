@@ -1,0 +1,8 @@
+#+TITLE: whaddup
+#+DESCRIPTION: Blog for my projects and random thoughts
+#+SETUPFILE:  ../../pages/level-2.org
+#+INCLUDE: ../../sitemap.org
+
+* Who would have thought that a thought that is thought is a thought not thought for nought
+think about it
+
