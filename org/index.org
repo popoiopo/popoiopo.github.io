@@ -3,15 +3,17 @@
 #+SETUPFILE:  pages/level-0.org
 #+INCLUDE: sitemap.org
 
-* Let us also provide some text
+* Welcome to my personal website
+:PROPERTIES:
+:ID:       C367DE2B-9976-4232-AE5E-46645B44B657
+:END:
+
+My name is Bas Châtel, and you must be here to check out my personal site/blog. This site is made mainly to tell you about my exploits in science, the wonderful world of emacs, and some cool knick-knacks that I pick up along the way. Also there will be some tutorials in python, JavaScript, etc!
 
 
+** Let us also provide some text
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus pellentesque diam, vel euismod massa sodales id. Cras euismod ligula id ultricies lacinia. Mauris eu ipsum viverra, laoreet augue et, dictum velit. Etiam eget magna nec ligula commodo elementum. Nam et diam eget mauris venenatis luctus at ut ante. Curabitur eros magna, commodo ac rutrum eu, pharetra condimentum quam. Suspendisse rhoncus purus sed velit blandit cursus. Mauris efficitur pretium ipsum, nec auctor nunc scelerisque a. Integer sed aliquam nulla.
-
-Praesent euismod magna vel eros ultrices, rhoncus blandit orci tincidunt. Donec euismod nulla non nulla aliquam scelerisque. Morbi ac nulla nec magna iaculis porta. Fusce pretium mauris neque, sit amet mollis est pellentesque ac. Nam fringilla massa eleifend felis consectetur, in congue enim placerat. Mauris sed augue in purus dapibus mollis nec vitae elit. Pellentesque lorem risus, vestibulum scelerisque volutpat at, pulvinar id sapien. Suspendisse ex lacus, venenatis ut dictum condimentum, pretium quis massa.
-
-Sed placerat mauris a felis fringilla ultrices. Pellentesque eget hendrerit sapien. Sed elit lectus, pretium in arcu vel, pretium consectetur lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse placerat diam condimentum ultricies ultrices. Donec imperdiet sagittis risus non semper. Sed lobortis neque sem. Morbi diam eros, varius vitae quam ut, interdum scelerisque magna. Integer vitae magna cursus, gravida purus eu, porta orci. Pellentesque volutpat risus ut arcu vulputate, ut pellentesque dolor gravida. Proin tempor, libero in pretium feugiat, leo felis ullamcorper mauris, non auctor ligula purus nec leo. Nunc tincidunt in turpis vitae eleifend. Maecenas gravida commodo libero, vel interdum dolor gravida non. Curabitur consectetur nulla vitae sem condimentum facilisis.
+#+INCLUDE: "pages/indextaggs.html" export html
 
 Suspendisse nunc arcu, varius non nunc ac, ornare fermentum lectus. Donec sed augue vel nisl bibendum sodales. Suspendisse vitae diam elementum libero mollis volutpat. In ultrices a massa vitae pellentesque. Suspendisse accumsan nibh eget rutrum euismod. Etiam dignissim felis sed libero bibendum aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis nec enim quis quam dictum molestie a ut felis. Fusce non pretium mi. Nulla lacinia in felis ac convallis. Vivamus in metus elit. Morbi faucibus tellus porta nulla sollicitudin, in eleifend enim mattis. Curabitur semper mi eget risus tristique malesuada. Etiam faucibus non nisi vitae pellentesque. Donec vestibulum metus ac nisi fermentum aliquet. Proin rutrum commodo dui, sit amet vestibulum felis sagittis vel.
 

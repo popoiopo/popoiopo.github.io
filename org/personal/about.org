@@ -3,8 +3,6 @@
 #+SETUPFILE:  ../pages/level-1.org
 #+INCLUDE: ../sitemap.org
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+* About me
 
-#+BEGIN_more
-Hallo dit is een voorbeel yaalllll
-#+END_more
+Currently I am doing a PhD at the Radboud university of Nijmegen to apply the notions of Complexity Science to optimize gamified treatment of loneliness in the elderly. My bachelor was in [[https://www.uva.nl/programmas/bachelors/psychobiologie/psychobiologie.html][Psychobiology]] and I minored in [[https://www.proglab.nl/][Programming]] at the University of Amsterdam. Quite a big change to go from studying the brain (from a molecular to psychological level) to begin learning how to program stuff. But this resonated with me on such a deep level that I decided to change my course and do the [[https://uva.computationalscience.nl/][Computational Science Master]]. If you want to know more about these educational programs, just click on the links and it will take you to everything you need to know.

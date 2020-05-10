@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Stuff1 Sitemap for project bc-pages</title>
-<!-- 2020-05-10 Sun 19:06 -->
+<title>Celullar Automata Sitemap for project bc-pages</title>
+<!-- 2020-05-10 Sun 19:04 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="generator" content="Org-mode">
@@ -126,7 +126,7 @@
 </nav>
 </div>
 <div id="content" class="container">
-<div class="row"><div class="col-md-12"><h1 class="title">Stuff1 Sitemap for project bc-pages</h1>
+<div class="row"><div class="col-md-12"><h1 class="title">Celullar Automata Sitemap for project bc-pages</h1>
 <ul class="org-ul">
 <li><a href="../../index.html">Homepage</a>
 </li>
@@ -160,27 +160,27 @@
 </li>
 <li>Emacs
 <ul class="org-ul">
-<li><a href="testMontse.html">Montse &lt;3</a>
+<li><a href="../Emacs/testMontse.html">Montse &lt;3</a>
 </li>
-<li><a href="t5.html">Stuff5</a>
+<li><a href="../Emacs/t5.html">Stuff5</a>
 </li>
-<li><a href="t4.html">Stuff4</a>
+<li><a href="../Emacs/t4.html">Stuff4</a>
 </li>
-<li><a href="t3.html">Stuff3</a>
+<li><a href="../Emacs/t3.html">Stuff3</a>
 </li>
-<li><a href="t2.html">Stuff2</a>
+<li><a href="../Emacs/t2.html">Stuff2</a>
 </li>
-<li><a href="t1.html">Stuff1</a>
+<li><a href="../Emacs/t1.html">Stuff1</a>
 </li>
-<li><a href="testnew.html">Stuff</a>
+<li><a href="../Emacs/testnew.html">Stuff</a>
 </li>
-<li><a href="emacsyes.html">Homepage</a>
+<li><a href="../Emacs/emacsyes.html">Homepage</a>
 </li>
 </ul>
 </li>
 <li>ComplexityScience
 <ul class="org-ul">
-<li><a href="../ComplexityScience/CellularAutomata.html">Celullar Automata</a>
+<li><a href="CellularAutomata.html">Celullar Automata</a>
 </li>
 </ul>
 </li>
@@ -199,8 +199,14 @@
 </ul>
 </li>
 </ul>
+
 <div id="outline-container-sec-" class="outline-2">
-<h2 id="sec-">hallo1</h2>
+<h2 id="sec-">Celullar automata</h2>
+<div class="outline-text-2" id="text-">
+<p>
+It's a thing
+</p>
+</div>
 </div>
 </div></div></div>
 <footer id="postamble" class="">

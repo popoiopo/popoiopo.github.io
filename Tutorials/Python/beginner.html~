@@ -1,14 +1,40 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Stuff1 Sitemap for project bc-pages</title>
-<!-- 2020-05-10 Sun 19:06 -->
+<title>Python beginners Sitemap for project bc-pages</title>
+<!-- 2020-05-10 Sun 19:04 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="generator" content="Org-mode">
 <meta name="author" content="Bas Chatel">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet"  type="text/css" href="../../res/css/mainstyle.css">
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  displayAlign: "center",
+  displayIndent: "2em",
+  messageStyle: "none",
+  "HTML-CSS": {
+    scale: 100,
+    styles: {
+      ".MathJax_Display": {
+        "font-size": "100%"
+      }
+    }
+  },
+  "SVG": {
+    scale: 100,
+    styles: {
+      ".MathJax_SVG_Display": {
+        "font-size": "100%",
+        "margin-left": "-2.281em"
+      }
+    }
+  }
+});
+</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_SVG"></script>
 </head>
 <body>
 <div id="org-div-home-and-up">
@@ -126,7 +152,7 @@
 </nav>
 </div>
 <div id="content" class="container">
-<div class="row"><div class="col-md-12"><h1 class="title">Stuff1 Sitemap for project bc-pages</h1>
+<div class="row"><div class="col-md-12"><h1 class="title">Python beginners Sitemap for project bc-pages</h1>
 <ul class="org-ul">
 <li><a href="../../index.html">Homepage</a>
 </li>
@@ -150,37 +176,37 @@
 </li>
 <li>Blog
 <ul class="org-ul">
-<li><a href="../Blog_Home.html">Homepage for Blogs</a>
+<li><a href="../../Blog/Blog_Home.html">Homepage for Blogs</a>
 </li>
 <li>ComputationalModelling
 <ul class="org-ul">
-<li><a href="../ComputationalModelling/test.html">Computational mumbo jumbo</a>
+<li><a href="../../Blog/ComputationalModelling/test.html">Computational mumbo jumbo</a>
 </li>
 </ul>
 </li>
 <li>Emacs
 <ul class="org-ul">
-<li><a href="testMontse.html">Montse &lt;3</a>
+<li><a href="../../Blog/Emacs/testMontse.html">Montse &lt;3</a>
 </li>
-<li><a href="t5.html">Stuff5</a>
+<li><a href="../../Blog/Emacs/t5.html">Stuff5</a>
 </li>
-<li><a href="t4.html">Stuff4</a>
+<li><a href="../../Blog/Emacs/t4.html">Stuff4</a>
 </li>
-<li><a href="t3.html">Stuff3</a>
+<li><a href="../../Blog/Emacs/t3.html">Stuff3</a>
 </li>
-<li><a href="t2.html">Stuff2</a>
+<li><a href="../../Blog/Emacs/t2.html">Stuff2</a>
 </li>
-<li><a href="t1.html">Stuff1</a>
+<li><a href="../../Blog/Emacs/t1.html">Stuff1</a>
 </li>
-<li><a href="testnew.html">Stuff</a>
+<li><a href="../../Blog/Emacs/testnew.html">Stuff</a>
 </li>
-<li><a href="emacsyes.html">Homepage</a>
+<li><a href="../../Blog/Emacs/emacsyes.html">Homepage</a>
 </li>
 </ul>
 </li>
 <li>ComplexityScience
 <ul class="org-ul">
-<li><a href="../ComplexityScience/CellularAutomata.html">Celullar Automata</a>
+<li><a href="../../Blog/ComplexityScience/CellularAutomata.html">Celullar Automata</a>
 </li>
 </ul>
 </li>
@@ -188,19 +214,53 @@
 </li>
 <li>Tutorials
 <ul class="org-ul">
-<li><a href="../../Tutorials/Tutorials_Home.html">Intro</a>
+<li><a href="../Tutorials_Home.html">Intro</a>
 </li>
 <li>Python
 <ul class="org-ul">
-<li><a href="../../Tutorials/Python/beginner.html">Index file</a>
+<li><a href="beginner.html">Index file</a>
 </li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
+
 <div id="outline-container-sec-" class="outline-2">
-<h2 id="sec-">hallo1</h2>
+<h2 id="sec-">Wat doen we hier?</h2>
+<div class="outline-text-2" id="text-">
+<div class="preview">
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum enim nec tortor fermentum malesuada. Donec lacus neque, consectetur at massa at, ornare tempus orci. Integer vitae ante vel diam ultrices porta. Ut et vestibulum diam, sit amet euismod eros. Integer eget consequat odio, a suscipit enim. Quisque ac tortor vel orci bibendum egestas. Nulla at neque tortor. Quisque commodo blandit nulla vel facilisis. Nulla vulputate, nunc nec mattis ultricies, nisi ipsum varius ligula, id cursus massa purus vel nisl. Aliquam vehicula sed enim ac semper. Sed eget sodales neque, ac ullamcorper nisi.
+</p>
+
+</div>
+
+
+
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum enim nec tortor fermentum malesuada. Donec lacus neque, consectetur at massa at, ornare tempus orci. Integer vitae ante vel diam ultrices porta. Ut et vestibulum diam, sit amet euismod eros. Integer eget consequat odio, a suscipit enim. Quisque ac tortor vel orci bibendum egestas. Nulla at neque tortor. Quisque commodo blandit nulla vel facilisis. Nulla vulputate, nunc nec mattis ultricies, nisi ipsum varius ligula, id cursus massa purus vel nisl. Aliquam vehicula sed enim ac semper. Sed eget sodales neque, ac ullamcorper nisi.
+</p>
+
+<p>
+Ut consectetur sem eu augue ullamcorper, ut elementum libero rutrum. Nulla iaculis quis turpis et pulvinar. Nunc in velit id urna aliquet imperdiet luctus ac enim. Praesent fringilla neque ac fermentum bibendum. Donec ut metus consequat justo vehicula aliquam at non felis. In posuere suscipit elit quis elementum. Suspendisse quis elit ut odio dictum aliquam. Aliquam erat volutpat. Ut luctus, lectus non interdum pulvinar, orci dui hendrerit ipsum, eu elementum massa mauris id neque. Fusce nec porttitor lectus, non dictum ipsum. Nulla sit amet cursus lectus, ut aliquet odio. Quisque gravida ipsum vel arcu porttitor porta.
+</p>
+</div>
+</div>
+<div id="outline-container-sec-" class="outline-2">
+<h2 id="sec-">Soms is het beter om een extra kopje te maken</h2>
+<div class="outline-text-2" id="text-">
+<p>
+\[AA^Tx=b\]
+\[\begin{bmatrix}1&2&3\\4&5&6 \end{bmatrix}\]
+</p>
+
+
+<figure>
+<p><img src="../res/img/BC_blog.svg" class="img-responsive" alt="BC_blog.svg">
+</p>
+</figure>
+</div>
 </div>
 </div></div></div>
 <footer id="postamble" class="">
