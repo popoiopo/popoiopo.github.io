@@ -49,3 +49,23 @@ h3 {
     max-height: 200px;
     overflow-x: hidden;
 }
+
+ /* unvisited link */
+a:link {
+  color:#4D4D4D;
+}
+
+/* visited link */
+a:visited {
+  color:#4D4D4D;
+}
+
+/* mouse over link */
+a:hover {
+  color: #8C0000;
+}
+
+/* selected link */
+a:active {
+  color: #8C0000;
+} 
