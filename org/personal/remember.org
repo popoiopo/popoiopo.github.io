@@ -1,7 +1,0 @@
-#+TITLE: Remember
-#+DESCRIPTION: Blog for my projects and random thoughts
-#+SETUPFILE:  ../pages/level-1.org
-#+INCLUDE: ../sitemap.org
-
-* Remember remember
-The fifth of November. The gunpowder treason and plot. Remember remember, the fifth of November should never, be ever, forgot.

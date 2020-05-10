@@ -1,40 +1,14 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Computational mumbo jumbo Sitemap for project bc-pages</title>
-<!-- 2020-05-10 Sun 20:30 -->
+<title></title>
+<!-- 2020-05-10 Sun 21:37 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="generator" content="Org-mode">
 <meta name="author" content="Bas Chatel">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet"  type="text/css" href="../../res/css/mainstyle.css">
-
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  displayAlign: "center",
-  displayIndent: "2em",
-  messageStyle: "none",
-  "HTML-CSS": {
-    scale: 100,
-    styles: {
-      ".MathJax_Display": {
-        "font-size": "100%"
-      }
-    }
-  },
-  "SVG": {
-    scale: 100,
-    styles: {
-      ".MathJax_SVG_Display": {
-        "font-size": "100%",
-        "margin-left": "-2.281em"
-      }
-    }
-  }
-});
-</script>
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_SVG"></script>
 </head>
 <body>
 <div id="org-div-home-and-up">
@@ -152,88 +126,8 @@ MathJax.Hub.Config({
 </nav>
 </div>
 <div id="content" class="container">
-<div class="row"><div class="col-md-12"><h1 class="title">Computational mumbo jumbo Sitemap for project bc-pages</h1>
-<ul class="org-ul">
-<li><a href="../../index.html">Homepage</a>
-</li>
-<li>pages
-<ul class="org-ul">
-<li><a href="../../pages/level-2.html">level-2</a>
-</li>
-<li><a href="../../pages/level-1.html">level-1</a>
-</li>
-<li><a href="../../pages/level-0.html">level-0</a>
-</li>
-</ul>
-</li>
-<li>Personal
-<ul class="org-ul">
-<li><a href="../../Personal/about.html">Post One</a>
-</li>
-<li><a href="../../Personal/remember.html">Remember</a>
-</li>
-</ul>
-</li>
-<li>Blog
-<ul class="org-ul">
-<li><a href="../Blog_Home.html">Homepage for Blogs</a>
-</li>
-<li>ComputationalModelling
-<ul class="org-ul">
-<li><a href="test.html">Computational mumbo jumbo</a>
-</li>
-</ul>
-</li>
-<li>Emacs
-<ul class="org-ul">
-<li><a href="../Emacs/testMontse.html">Montse &lt;3</a>
-</li>
-<li><a href="../Emacs/t5.html">Stuff5</a>
-</li>
-<li><a href="../Emacs/t4.html">Stuff4</a>
-</li>
-<li><a href="../Emacs/t3.html">Stuff3</a>
-</li>
-<li><a href="../Emacs/t2.html">Stuff2</a>
-</li>
-<li><a href="../Emacs/t1.html">Stuff1</a>
-</li>
-<li><a href="../Emacs/testnew.html">Stuff</a>
-</li>
-<li><a href="../Emacs/emacsyes.html">Homepage</a>
-</li>
-</ul>
-</li>
-<li>ComplexityScience
-<ul class="org-ul">
-<li><a href="../ComplexityScience/CellularAutomata.html">Celullar Automata</a>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Tutorials
-<ul class="org-ul">
-<li><a href="../../Tutorials/Tutorials_Home.html">Intro</a>
-</li>
-<li>Python
-<ul class="org-ul">
-<li><a href="../../Tutorials/Python/beginner.html">Index file</a>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+<div class="row"><div class="col-md-12"><h1 class="title"></h1>
 
-<div id="outline-container-sec-" class="outline-2">
-<h2 id="sec-">khskd</h2>
-<div class="outline-text-2" id="text-">
-<p>
-\(1+1=\lambda\)
-</p>
-</div>
-</div>
 </div></div></div>
 <footer id="postamble" class="">
 <!-- Footer -->

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>About me Sitemap for project bc-pages</title>
-<!-- 2020-05-10 Sun 20:30 -->
+<!-- 2020-05-10 Sun 21:39 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="generator" content="Org-mode">
@@ -144,8 +144,6 @@
 <ul class="org-ul">
 <li><a href="about.html">Post One</a>
 </li>
-<li><a href="remember.html">Remember</a>
-</li>
 </ul>
 </li>
 <li>Blog
@@ -154,26 +152,12 @@
 </li>
 <li>ComputationalModelling
 <ul class="org-ul">
-<li><a href="../Blog/ComputationalModelling/test.html">Computational mumbo jumbo</a>
+<li><a href="../Blog/ComputationalModelling/networks.html">Computational mumbo jumbo</a>
 </li>
 </ul>
 </li>
 <li>Emacs
 <ul class="org-ul">
-<li><a href="../Blog/Emacs/testMontse.html">Montse &lt;3</a>
-</li>
-<li><a href="../Blog/Emacs/t5.html">Stuff5</a>
-</li>
-<li><a href="../Blog/Emacs/t4.html">Stuff4</a>
-</li>
-<li><a href="../Blog/Emacs/t3.html">Stuff3</a>
-</li>
-<li><a href="../Blog/Emacs/t2.html">Stuff2</a>
-</li>
-<li><a href="../Blog/Emacs/t1.html">Stuff1</a>
-</li>
-<li><a href="../Blog/Emacs/testnew.html">Stuff</a>
-</li>
 <li><a href="../Blog/Emacs/emacsyes.html">Homepage</a>
 </li>
 </ul>
@@ -200,12 +184,43 @@
 </li>
 </ul>
 
+<figure>
+<p><img src="../res/img/haarlem-banner.jpg" class="img-responsive" alt="haarlem-banner.jpg" width="100%">
+</p>
+</figure>
 <div id="outline-container-sec-" class="outline-2">
 <h2 id="sec-">About me</h2>
 <div class="outline-text-2" id="text-">
 <p>
+My name is Bas Châtel, I grew up in Haarlem and am currently living in Amsterdam. This website is where I share my thoughts and things that excite me.
+</p>
+</div>
+
+<div id="outline-container-sec-" class="outline-3">
+<h3 id="sec-">Currently</h3>
+<div class="outline-text-3" id="text-">
+<p>
 Currently I am doing a PhD at the Radboud university of Nijmegen to apply the notions of Complexity Science to optimize gamified treatment of loneliness in the elderly. My bachelor was in <a href="https://www.uva.nl/programmas/bachelors/psychobiologie/psychobiologie.html">Psychobiology</a> and I minored in <a href="https://www.proglab.nl/">Programming</a> at the University of Amsterdam. Quite a big change to go from studying the brain (from a molecular to psychological level) to begin learning how to program stuff. But this resonated with me on such a deep level that I decided to change my course and do the <a href="https://uva.computationalscience.nl/">Computational Science Master</a>. If you want to know more about these educational programs, just click on the links and it will take you to everything you need to know.
 </p>
+</div>
+</div>
+
+<div id="outline-container-sec-" class="outline-3">
+<h3 id="sec-">Why a blog?</h3>
+<div class="outline-text-3" id="text-">
+<p>
+As I strongly believe that teaching leads to deeper understanding the purpose of this website is to give me an excuse to dive deeper into the material while simultaniously, hopefully, informing the reader. Furthermore, it provides me with an opportunity to practice my writing skills, and digg deeper into the world of org-mode as all these pages are writtin in it.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-" class="outline-3">
+<h3 id="sec-">What will it be about?</h3>
+<div class="outline-text-3" id="text-">
+<p>
+As a PhD candidate my occupation involves science, and in particular regarding subjects surrounding Complexity Science. This entails computational simulations, complex system modelling amongst other things. It is a way to view the world more holistically as oposed to the usual reductionistic methods of science. We try to put all the pieces of research back to each other, and try to examine the systems higher level characteristics. Characteristics such as emergent properties which can be seen as properties that are more that the sum of its parts. 
+</p>
+</div>
 </div>
 </div>
 </div></div></div>

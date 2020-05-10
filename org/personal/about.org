@@ -1,8 +1,24 @@
 #+TITLE: About me
-#+DESCRIPTION: Blog for my projects and random thoughts
 #+SETUPFILE:  ../pages/level-1.org
 #+INCLUDE: ../sitemap.org
 
+#+ATTR_HTML: :width 100%
+[[file:../res/img/haarlem-banner.jpg]]
+
 * About me
 
+My name is Bas Châtel, I grew up in Haarlem and am currently living in Amsterdam. This website is where I share my thoughts and things that excite me.
+
+** Currently
+
 Currently I am doing a PhD at the Radboud university of Nijmegen to apply the notions of Complexity Science to optimize gamified treatment of loneliness in the elderly. My bachelor was in [[https://www.uva.nl/programmas/bachelors/psychobiologie/psychobiologie.html][Psychobiology]] and I minored in [[https://www.proglab.nl/][Programming]] at the University of Amsterdam. Quite a big change to go from studying the brain (from a molecular to psychological level) to begin learning how to program stuff. But this resonated with me on such a deep level that I decided to change my course and do the [[https://uva.computationalscience.nl/][Computational Science Master]]. If you want to know more about these educational programs, just click on the links and it will take you to everything you need to know.
+
+** Why a blog?
+
+As I strongly believe that teaching leads to deeper understanding the purpose of this website is to give me an excuse to dive deeper into the material while simultaniously, hopefully, informing the reader. Furthermore, it provides me with an opportunity to practice my writing skills, and digg deeper into the world of org-mode as all these pages are writtin in it.
+
+** What will it be about?
+
+As a PhD candidate my occupation involves science, and in particular regarding subjects surrounding Complexity Science. This entails computational simulations, complex system modelling amongst other things. It is a way to view the world more holistically as oposed to the usual reductionistic methods of science. We try to put all the pieces of research back to each other, and try to examine the systems higher level characteristics. Characteristics such as emergent properties which can be seen as properties that are more that the sum of its parts. 
+
+
