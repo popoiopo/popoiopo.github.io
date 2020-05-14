@@ -1,12 +1,14 @@
-#+TITLE: -- BC Blog
+#+TITLE: BC Blog
 
 - [[file:index.org][Homepage]]
+- Projects
+  - [[file:Projects/projects.org][Projects]]
 - pages
   - [[file:pages/level-2.org][level-2]]
   - [[file:pages/level-1.org][level-1]]
   - [[file:pages/level-0.org][level-0]]
 - Personal
-  - [[file:Personal/about.org][Post One]]
+  - [[file:Personal/about.org][About Me]]
 - Blog
   - [[file:Blog/Blog_Home.org][Homepage for Blogs]]
   - ComputationalModelling

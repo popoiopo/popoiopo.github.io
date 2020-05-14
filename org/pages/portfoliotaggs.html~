@@ -1,0 +1,49 @@
+<div class="card-columns">
+    <div class="card">
+	<img class="card-img-top" src="../res/img/storm.jpg" alt="Card image cap">
+	<a href="http://simulations.psychosystems.org/" target="_blank">
+	    <div class="card-body">
+		<h5 class="card-title">Major Depression Simulation</h5>
+		<p class="card-text">A complex system simulation characterized by depression symptoms.</p>
+	    </div>
+	</a>
+    </div>
+    
+    <div class="card">
+	<img class="card-img-top" src="../res/img/protein_explain.PNG" alt="Card image cap">
+	<a href="../res/pdf/BiomolecularSimulationProject.pdf" target="_blank">
+	    <div class="card-body">
+		<h5 class="card-title">Biomolecular Simulations<</h5>
+		<p class="card-text">This article is about a biomolecular simulations project for the polyglutamine protein (PolyQ14) with 14 repeats. Its dynamics are described extensively.</p>
+	    </div>
+	</a>
+    </div>
+    <div class="card">
+	<img class="card-img-top" src="../res/img/building.jpg" alt="Card image cap">
+	<a href="../res/pdf/warriors.pdf" target="_blank">
+	    <div class="card-body">
+		<h5 class="card-title">Programming Minor Project Article</h5>
+		<p class="card-text">As my programming project during the course "dataprocessing" I've collaborated with two fellow students to participate in the VAST challenge (Visual Analytics Community). Here you take on a big database and try to visualize everything to filter out unusual patterns. Here is the article written, based on those visualisations. Supervisor: Gosia Migut.</p>
+	    </div>
+	</a>
+    </div>
+    <div class="card">
+	<img class="card-img-top" src="../res/img/building.jpg" alt="Card image cap">
+	<a href="../pages/VAST_challenge/index2.html" target="_blank">
+	    <div class="card-body">
+		<h5 class="card-title">Programming Minor Project Result</h5>
+		<p class="card-text">VAST challenge product.</p>
+	    </div>
+	</a>
+    </div>
+    <div class="card">
+	<img class="card-img-top" src="../res/img/cutie_0.png" alt="Card image cap">
+	<a href="https://baschatel.socsci.uva.nl/aframe/aframe.html/index.html" target="_blank">
+	    <div class="card-body">
+		<h5 class="card-title">Aframe Augmented Reality Frog Dissection</h5>
+		<p class="card-text">Augmented Reality dissected frog. An icon is needed to actually see the frog, to get this icon click on link underneath.</p>
+	    </div>
+	</a>
+	<a target="_blank" href="https://jeromeetienne.github.io/AR.js/data/images/HIRO.jpg">click here for icon.</a>
+    </div>
+</div>

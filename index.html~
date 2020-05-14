@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Homepage &#x2013; BC Blog</title>
-<!-- 2020-05-10 Sun 21:57 -->
+<title>Homepage BC Blog</title>
+<!-- 2020-05-14 Thu 11:17 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="generator" content="Org-mode">
@@ -105,6 +105,14 @@
 			    </ul>
 			</li>
 			<!-- End Level two -->
+			<!-- Level two dropdown-->
+			<li class="dropdown-submenu">
+			    <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">JavaScript</a>
+			    <ul aria-labelledby="dropdownMenu2" class="dropdown-menu border-0 scrollable-menu Python">
+				<li><a href="https://popoiopo.github.io/D3-tutorial_montessori/index.html" class="dropdown-item" target="_blank">D3.js (NL)</a></li>
+			    </ul>
+			</li>
+			<!-- End Level two -->
 		    </ul>
 		</li>
 		<!-- End Level one -->
@@ -119,6 +127,10 @@
 		</li>
 		<!-- End Level one -->
 
+		<!-- Level one dropdown -->
+		<li class="nav-item"><a href="/Projects/projects.html" class="nav-link">Projects</a></li>
+		<!-- End Level one -->
+
 
 	    </ul>
 	</div>
@@ -126,9 +138,15 @@
 </nav>
 </div>
 <div id="content" class="container">
-<div class="row"><div class="col-md-12"><h1 class="title">Homepage &#x2013; BC Blog</h1>
+<div class="row"><div class="col-md-12"><h1 class="title">Homepage BC Blog</h1>
 <ul class="org-ul">
 <li><a href="index.html">Homepage</a>
+</li>
+<li>Projects
+<ul class="org-ul">
+<li><a href="Projects/projects.html">Projects</a>
+</li>
+</ul>
 </li>
 <li>pages
 <ul class="org-ul">
@@ -142,7 +160,7 @@
 </li>
 <li>Personal
 <ul class="org-ul">
-<li><a href="Personal/about.html">Post One</a>
+<li><a href="Personal/about.html">About Me</a>
 </li>
 </ul>
 </li>
