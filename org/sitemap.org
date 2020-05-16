@@ -1,23 +1,23 @@
 #+TITLE: BC Blog
 
 - [[file:index.org][Homepage]]
-- Projects
-  - [[file:Projects/projects.org][Projects]]
 - pages
   - [[file:pages/level-2.org][level-2]]
-  - [[file:pages/level-1.org][level-1]]
   - [[file:pages/level-0.org][level-0]]
+  - [[file:pages/level-1.org][level-1]]
 - Personal
-  - [[file:Personal/about.org][About Me]]
+  - [[file:Personal/about.org][About me]]
+- Projects
+  - [[file:Projects/projects.org][Projects]]
 - Blog
   - [[file:Blog/Blog_Home.org][Homepage for Blogs]]
   - ComputationalModelling
     - [[file:Blog/ComputationalModelling/networks.org][Computational mumbo jumbo]]
   - Emacs
-    - [[file:Blog/Emacs/emacsyes.org][Homepage]]
+    - [[file:Blog/Emacs/emacsyes.org][Stuff]]
   - ComplexityScience
     - [[file:Blog/ComplexityScience/CellularAutomata.org][Celullar Automata]]
 - Tutorials
-  - [[file:Tutorials/Tutorials_Home.org][Intro]]
+  - [[file:Tutorials/Tutorials_Home.org][Homepage for tutorials]]
   - Python
-    - [[file:Tutorials/Python/beginner.org][Index file]]
+    - [[file:Tutorials/Python/beginner.org][Python beginners]]

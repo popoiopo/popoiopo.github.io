@@ -1,5 +1,4 @@
 #+TITLE: Python beginners
-#+DESCRIPTION: Blog for my projects and random thoughts
 #+SETUPFILE:  ../../pages/level-2.org
 #+INCLUDE: ../../sitemap.org
 
