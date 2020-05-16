@@ -3,7 +3,7 @@
 #+INCLUDE: ../sitemap.org
 
 #+ATTR_HTML: :width 100%
-[[file:../res/img/haarlembanner.jpg]]
+[[file:../res/img/Haarlembanner.jpg]]
 
 * About me
 
