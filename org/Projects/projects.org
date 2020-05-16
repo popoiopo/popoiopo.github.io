@@ -3,7 +3,7 @@
 #+INCLUDE: ../sitemap.org
 
 * Welcome to my project page
-My name is Bas Châtel, and you must be here to check out my personal site/blog. This site is made mainly to tell you about my exploits in science, the wonderful world of emacs, and some cool knick-knacks that I pick up along the way. For example, this website is made by a combination of org-mode packages, javascript and some bootstrap HTML. Each page that you see is mainly just org-mode markup! Also there will be some tutorials in python, JavaScript, etc. So take a look around, and enjoy!
+These are some of the projects that I have done in the past years. From biomolecular science to analysis of large datasets regarding a big office building. Have a look around, I would especially recommend the augmented reality frog dissection! It's fun AND educational, what else would you want?!
 
 
 #+INCLUDE: "../pages/portfoliotaggs.html" export html
