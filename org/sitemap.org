@@ -6,6 +6,7 @@
   - [[file:pages/level-0.org][level-0]]
   - [[file:pages/level-1.org][level-1]]
 - Personal
+  - [[file:Personal/resume.org][My resume]]
   - [[file:Personal/about.org][About me]]
 - Projects
   - [[file:Projects/projects.org][Projects]]

@@ -1,40 +1,14 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Computational mumbo jumbo BC Blog</title>
-<!-- 2020-05-17 Sun 10:18 -->
+<title>Celullar Automata BC Blog</title>
+<!-- 2020-05-17 Sun 10:17 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="generator" content="Org-mode">
 <meta name="author" content="Bas Chatel">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet"  type="text/css" href="../../res/css/mainstyle.css">
-
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  displayAlign: "center",
-  displayIndent: "2em",
-  messageStyle: "none",
-  "HTML-CSS": {
-    scale: 100,
-    styles: {
-      ".MathJax_Display": {
-        "font-size": "100%"
-      }
-    }
-  },
-  "SVG": {
-    scale: 100,
-    styles: {
-      ".MathJax_SVG_Display": {
-        "font-size": "100%",
-        "margin-left": "-2.281em"
-      }
-    }
-  }
-});
-</script>
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_SVG"></script>
 </head>
 <body>
 <div id="org-div-home-and-up">
@@ -163,7 +137,7 @@ MathJax.Hub.Config({
 </nav>
 </div>
 <div id="content" class="container">
-<div class="row"><div class="col-md-12"><h1 class="title">Computational mumbo jumbo BC Blog</h1>
+<div class="row"><div class="col-md-12"><h1 class="title">Celullar Automata BC Blog</h1>
 <ul class="org-ul">
 <li><a href="../../index.html">Homepage</a>
 </li>
@@ -197,7 +171,7 @@ MathJax.Hub.Config({
 </li>
 <li>ComputationalModelling
 <ul class="org-ul">
-<li><a href="networks.html">Computational mumbo jumbo</a>
+<li><a href="../ComputationalModelling/networks.html">Computational mumbo jumbo</a>
 </li>
 </ul>
 </li>
@@ -209,7 +183,7 @@ MathJax.Hub.Config({
 </li>
 <li>ComplexityScience
 <ul class="org-ul">
-<li><a href="../ComplexityScience/CellularAutomata.html">Celullar Automata</a>
+<li><a href="CellularAutomata.html">Celullar Automata</a>
 </li>
 </ul>
 </li>
@@ -230,10 +204,10 @@ MathJax.Hub.Config({
 </ul>
 
 <div id="outline-container-sec-" class="outline-2">
-<h2 id="sec-">khskd</h2>
+<h2 id="sec-">Celullar automata</h2>
 <div class="outline-text-2" id="text-">
 <p>
-\(1+1=\lambda\)
+It's a thing
 </p>
 </div>
 </div>

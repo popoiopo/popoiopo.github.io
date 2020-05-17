@@ -68,4 +68,12 @@ a:hover {
 /* selected link */
 a:active {
   color: #8C0000;
-} 
+}
+
+iframe {
+    display: block;       /* iframes are inline by default */
+    background: #ffffff;
+    border: none;         /* Reset default border */
+    height:85vh;        /* Viewport-relative units */
+    width: 70vw;
+}
