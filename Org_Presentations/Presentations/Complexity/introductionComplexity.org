@@ -1,0 +1,194 @@
+#+OPTIONS: reveal_title_slide:"<h3>%t</h3><h4>%s</h4><div><small>%d</small><br><small><small>%a&nbsp;:&nbsp;%e</small></small></div>"
+#+OPTIONS: reveal_math:t
+
+#+OPTIONS: center:t, progress:t, history:nil, control:t
+#+OPTIONS: rolling_links:t, keyboard:t, overview:t num:nil
+#+OPTIONS: toc:0  slide_number:c/t
+#+OPTIONS: width:1900, height:960
+
+#+MACRO: color @@html:<font color="$1">$2</font>@@
+
+#+REVEAL_HEAD_PREAMBLE: <meta name="description" content="Course slides">
+#+REVEAL_POSTAMBLE: <p> Created by Bas Chatel</p>
+#+REVEAL_PLUGINS: (markdown notes highlight)
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_MARGIN: 0.2
+#+EXCLUDE_TAGS: noexport
+#+REVEAL_EXTRA_CSS: ../../res/css/orgCSS.css
+# #+REVEAL_HLEVEL: 1
+
+#+Title: Complexiteit en eenzaamheid bij ouderen
+#+Subtitle: Een netwerk benadering
+
+# default, cube, page, concave, zoom, linear, fade, none
+#+REVEAL_TRANS: concave
+# beige, sky, night, serif, simple, moon, white
+#+REVEAL_THEME: moon
+
+#+Author: Bas Chatel
+#+Email: bastiaan.chatel@gmail.com
+#+DATE: 17-02-20
+
+# Templating
+#
+# ### FRAGMENT CHANGE ###
+#
+# #+ATTR_REVEAL: :frag grow/shrink/roll-in/fade-out/highlight-red
+#
+# ### BIG PICTURE ###
+#
+# #:PROPERTIES:
+# :reveal_background: img/test.jpg
+# :reveal_background_size: 600px
+# :reveal_background_trans: slide
+# :END:
+# #+BEGIN_NOTES
+# Your note
+# #+END_NOTES
+#
+# ### CHANGE BACKGROUND ###
+# 
+# :PROPERTIES:
+# :reveal_background: #123456
+# :END:
+#
+# ### 2-COLUMN SLIDE ###
+#
+# #+REVEAL_HTML: <div style="width:50%;float:left">
+# #+REVEAL_HTML: 
+# #+REVEAL_HTML: <img src="../../res/img/corp.jpg" style="width: 100%">
+# #+REVEAL_HTML: </div>
+# #+REVEAL_HTML: <div style="width:50%;float: left">
+# #+REVEAL_HTML: <br><br>
+# #+REVEAL_HTML: <h2>&nbsp;&nbsp;Corporation</h2>
+# #+REVEAL_HTML: </div>
+#
+# ### CHANGE COLOR OF PIECE OF TEXT
+# 
+# {{{color(red,This is a sample sentence in red text color.)}}}
+
+
+* Complexiteit
+
+** Wat is een Complex Systeem?
+#+ATTR_REVEAL: :frag (fade-in)
+- Bestaande uit meerdere componenten
+- Interactie tussen componenten
+- Moeilijk te modelleren
+  + Afhankelijkheden
+  + Feedback loops
+  + Contact met omgeving
+
+** Eigenschappen van complexiteit
+#+ATTR_REVEAL: :frag (fade-in)
+- Self-organization
+- Nonlinearity
+- Stabiliteit
+- Emergentie
+- Adaptatie
+
+#+BEGIN_NOTES
+- Self-organization
+  - complex  systems  exhibitstructure and order that arises out of the interactions among their parts.
+- Nonlinearity
+  - Nonlineaire afhankelijkheden op parameters of externe drivers
+- Stabiliteit 
+  - Veranderingen in parameters kunnen opgevangen worden door het systeem
+- Emergentie
+  - Geheel groter dan de som der delen
+- Adaptatie
+  - Zijn vaak in staat om hun gedrag aan te passen aan omgeving en de voorspellingen die ze er over maken
+#+END_NOTES
+
+** Een intuitie
+#+ATTR_REVEAL: :frag (none none roll-in)
++ Hoe nat is een molecuul water?
++ Hoe veel gedachte is er in een enkele neuron?
++ Het geheel is meer, en ook anders, dan de som der delen ({{{color(#ffa200,&rarr; emergentie)}}})
+
+** Voorbeelden van Complexe systemen
+#+REVEAL_HTML: <div style="width:50%;float:left">
+#+REVEAL_HTML: Flock of Birds
+#+REVEAL_HTML: <div style="width:500px;padding-bottom:500px;position:relative;"><iframe src="https://giphy.com/embed/zaoGsjqOnVgqc" width="400px" height="400px" style="position:relative" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+#+REVEAL_HTML: </div>
+#+REVEAL_HTML: <div style="width:50%;float: left">
+#+REVEAL_HTML: Immune System
+#+REVEAL_HTML: <div style="width:500px;height:500px;position:relative;"><iframe src="https://giphy.com/embed/B9SXJmOabvcwo" width="400px" height="400px" style="position:relative" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+#+REVEAL_HTML: </div>
+
+** Waarom Complexiteit?
++ _Bij depressie_ {{{color(#ffa200,93%)}}} van de studies bekijkt maar {{{color(#ffa200,1)}}} variabele
++ {{{color(#ffa200,7%)}}} van de studies kijkt naar {{{color(#ffa200,2)}}} of meer variabele
+
+** Waarom nu?
+#+REVEAL_HTML: <div style="width:50%;float:left">
+#+REVEAL_HTML: <img src="../../res/img/cartesius.jpg" style="width: 100%">
+#+REVEAL_HTML: </div>
+#+REVEAL_HTML: <div style="width:50%;float: left">
+#+REVEAL_HTML: <br>
+#+REVEAL_HTML: <ol><li>Data</li><li>Computing power</li><li>Advancements in other sciences</li></ol>
+#+REVEAL_HTML: </div>
+
+* Modelleren
+** Netwerk benadering
+#+REVEAL_HTML: <div style="width:50%;float:left">
+#+REVEAL_HTML: <img src="../../res/img/factorNetwork.jpg" style="width: 100%">
+#+REVEAL_HTML: </div>
+#+REVEAL_HTML: <div style="width:50%;float: left">
+#+REVEAL_HTML: <img src="../../res/img/socialNetwork.jpg" style="width: 100%">
+#+REVEAL_HTML: </div>
+
+** Hoe ziet dat er dan uit?
+#+REVEAL_HTML: <div style="width:50%;float:left">
+#+REVEAL_HTML: <img src="../../res/img/n3e5.png" style="width: 100%">
+#+REVEAL_HTML: </div>
+#+REVEAL_HTML: <div style="width:50%;float:left;">
+$$ \begin{align*}
+     \frac{\delta V_1}{dt} &= .90V_2 - .03V_3 \\ 
+     \frac{\delta V_2}{dt} &= -.11V_1 - .59V_3 \\ 
+     \frac{\delta V_3}{dt} &= .23V_2 
+   \end{align*}
+$$
+#+REVEAL_HTML: </div>
+
+** Agent-Based Modeling
+#+REVEAL_HTML:<div style="width:600px;height:600px;position:relative;margin-left:auto;margin-right:auto;margin-top:-50px;"><iframe src="https://giphy.com/embed/fdS2iMcllTx7aQmQ2Z" width="600px" height="600px" style="position:relative" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+** Validatie van een model
+#+ATTR_REVEAL: :frag (fade-in roll-in slide-in fade-in)
++ {{{color(#fc8d59,Data)}}}
++ {{{color(#ffffbf,Data)}}}
++ {{{color(#91bfdb,Data)}}}
++ Paar andere opties: 
+  - {{{color(#91bfdb,&rarr; Truth Axioms)}}}
+  - {{{color(#ffffbf,&rarr; Sensitivity Analysis)}}}
+  - {{{color(#fc8d59,&rarr; Face Value)}}}
+
+* Scenarios van Eenzaamheid en Complexity
+** 1. Compleet Multi-scale model
+- Volledige mapping van variabelen van eenzaamheid
+- Op welke spatio-temporele schalen werken ze?
+- Hoe hangen interacteren deze variabelen?
+** Voordelen / Nadelen
+- Brede overview van wat er gebeurt
+- Uitgebreid model {{{color(#ffa200,&rarr;)}}} veel interventie aanknopingspunten
+-----
+- Heel veel data nodig
+- Veel domein kennis nodig
+- Niet alles kan gemeten worden {{{color(#ffa200,&rarr;)}}} proxies/schattingen?
+- Uitgebreid model {{{color(#ffa200,&rarr;)}}} veel onbekende
+
+** 2. Verspreiding van Social Capital
+- Paar relevante variabele
+- Kijk vooral naar structuur van het netwerk
+- Zoeken naar tipping points/phase transitions
+[[../../res/img/networkStruct.png]]
+
+** Voordelen / Nadelen
+- Minder variabele nodig om te meten
+- Sneller kunnen beginnen met modelleren
+- Meer theoretisch {{{color(#ffa200,&rarr;)}}} Complexity en informatie theory analyses/concepten
+-----
+- Levert minder causale kennis op
+- Meer abstractie (kan ook een voordeel zijn {{{color(#ffa200,&rarr;)}}} mogelijk toepasbaar op meerdere paradigms)

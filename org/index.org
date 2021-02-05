@@ -1,0 +1,15 @@
+#+TITLE: Homepage
+#+DESCRIPTION: Blog for my projects and random thoughts
+#+SETUPFILE:  pages/level-0.org
+#+INCLUDE: sitemap.org
+
+* Welcome to my personal website
+:PROPERTIES:
+:ID:       C367DE2B-9976-4232-AE5E-46645B44B657
+:END:
+
+My name is Bas Châtel, and you must be here to check out my personal site/blog. This site is made mainly to tell you about my exploits in science, the wonderful world of emacs, and some cool knick-knacks that I pick up along the way. For example, this website is made by a combination of org-mode packages, javascript and some bootstrap HTML. Each page that you see is mainly just org-mode markup! Also there will be some tutorials in python, JavaScript, etc. So take a look around, and enjoy!
+
+
+#+INCLUDE: "pages/indextaggs.html" export html
+

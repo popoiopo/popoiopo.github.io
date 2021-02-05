@@ -1,0 +1,6 @@
+#+TITLE: Homepage for Blogs
+#+SETUPFILE: ../pages/level-1.org
+#+INCLUDE: ../sitemap.org
+* 
+I believe that pursuing knowledge, while very valuable in itself, is not enough to achieve true satisfaction. Sharing insights by, for example, actively teaching or, as here, writing a blog can both greatly increase your own understanding as well as helping someone who is on a similar path as yourself.
+
