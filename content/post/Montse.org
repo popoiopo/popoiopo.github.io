@@ -1,0 +1,22 @@
++++
+categories = ["Monste"]
+tags = ["also_montse"]
+title = "Montse"
+date = "2021-02-03T21:36:17+01:00"
+draft = false
++++
+
+Hallo montse!
+
+$$\delta + \sigma = p^{p^{p^{p}}}$$
+
+Hallo montse this is something i just wrote
+
+|------+----+---+-------|
+| This | is | a | table |
+|------+----+---+-------|
+|    1 |  7 | 8 |    16 |
+|    5 |  8 | 9 |    22 |
+|    4 |  5 | 6 |    15 |
+|------+----+---+-------|
+#+TBLFM: $4=vsum($1..$3)

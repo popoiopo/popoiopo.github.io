@@ -1,0 +1,25 @@
++++
+categories = ["emacs"]
+tags = ["org"]
+title = "Plopalopa"
+date = "2021-02-03T17:31:23+01:00"
+draft = false
++++
+* Checkcheck
+
+hallo smatjes
+
+This seems to at least do something. Lets see what happens
+
+| This | is | a | table | popo |
+|------+----+---+-------+------|
+|    1 |  6 | 7 |   0.5 | 14.5 |
+|    9 |  8 | 6 |   4.5 | 27.5 |
+|    5 |  8 | 8 |   2.5 | 23.5 |
+|------+----+---+-------+------|
+#+TBLFM: $4=($1/2)
+#+TBLFM: $5=vsum($1..$4)
+
+$$A^T=a^{a^{a^{a}}}$$
+
+zien we inderdaad realtime dingen gebeuren?

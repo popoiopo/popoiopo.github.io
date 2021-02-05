@@ -1,9 +1,0 @@
-#+TITLE: Projects
-#+SETUPFILE: ../pages/level-1.org
-#+INCLUDE: ../sitemap.org
-
-* Welcome to my project page
-These are some of the projects that I have done in the past years. From biomolecular science to analysis of large datasets regarding a big office building. Have a look around, I would especially recommend the augmented reality frog dissection! It's fun AND educational, what else would you want?!
-
-
-#+INCLUDE: "../pages/portfoliotaggs.html" export html
