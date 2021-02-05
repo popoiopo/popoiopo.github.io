@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title type="text">Bas Châtel Blog</title>
+    <subtitle type="html">This is my personal blog.</subtitle>
+    <updated>2021-02-05T22:53:07&#43;01:00</updated>
+    <id>https://example.com/</id>
+    <link rel="alternate" type="text/html" href="https://example.com/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
+    <author>
+            <name>Bas Châtel</name>
+            <uri>https://example.com/</uri>
+            
+                <email>bastiaan.chatel@gmail.com</email>
+            </author>
+    <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
+    <generator uri="https://gohugo.io/" version="0.80.0">Hugo</generator>
+        <entry>
+            <title type="text">Writing a Hugo blog posts</title>
+            <link rel="alternate" type="text/html" href="https://example.com/post/writing-hugo/" />
+            <id>https://example.com/post/writing-hugo/</id>
+            <updated>2021-01-31T23:35:45&#43;01:00</updated>
+            <published>2021-01-30T00:00:00&#43;01:00</published>
+            <author>
+                    <name>Bas Châtel</name>
+                    <uri>https://www.baschatel.nl/</uri>
+                    <email>bastiaan.chatel@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">This is a post! A real post!
+ with a list  In a list   yahs  </summary>
+            
+                <content type="html">&lt;h2 id=&#34;this-is-a-post&#34;&gt;This is a post!&lt;/h2&gt;
+&lt;p&gt;A real post!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;with a list
+&lt;ul&gt;
+&lt;li&gt;In a list&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;yahs&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/categories/emacs/" term="emacs" label="emacs" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/tags/org/" term="org" label="org" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/tags/hugo/" term="Hugo" label="Hugo" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Writing a testig posts</title>
+            <link rel="alternate" type="text/html" href="https://example.com/post/testingszzz/" />
+            <id>https://example.com/post/testingszzz/</id>
+            <updated>2021-01-31T23:35:07&#43;01:00</updated>
+            <published>2021-01-30T00:00:00&#43;01:00</published>
+            <author>
+                    <name>Bas Châtel</name>
+                    <uri>https://www.baschatel.nl/</uri>
+                    <email>bastiaan.chatel@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">This is a post! A real post!
+ with a list  In a list   yahs  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec hendrerit tempor tellus. Donec pretium posuere tellus. Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus.</summary>
+            
+                <content type="html">&lt;h2 id=&#34;this-is-a-post&#34;&gt;This is a post!&lt;/h2&gt;
+&lt;p&gt;A real post!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;with a list
+&lt;ul&gt;
+&lt;li&gt;In a list&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;yahs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec hendrerit tempor tellus.  Donec pretium posuere tellus.  Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  Nulla posuere.  Donec vitae dolor.  Nullam tristique diam non turpis.  Cras placerat accumsan nulla.  Nullam rutrum.  Nam vestibulum accumsan nisl.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec hendrerit tempor tellus.  Donec pretium posuere tellus.  Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  Nulla posuere.  Donec vitae dolor.  Nullam tristique diam non turpis.  Cras placerat accumsan nulla.  Nullam rutrum.  Nam vestibulum accumsan nisl.&lt;/p&gt;
+&lt;p&gt;Pellentesque dapibus suscipit ligula.  Donec posuere augue in quam.  Etiam vel tortor sodales tellus ultricies commodo.  Suspendisse potenti.  Aenean in sem ac leo mollis blandit.  Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.  Phasellus lacus.  Etiam laoreet quam sed arcu.  Phasellus at dui in ligula mollis ultricies.  Integer placerat tristique nisl.  Praesent augue.  Fusce commodo.  Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.  Nullam libero mauris, consequat quis, varius et, dictum id, arcu.  Mauris mollis tincidunt felis.  Aliquam feugiat tellus ut neque.  Nulla facilisis, risus a rhoncus fermentum, tellus tellus lacinia purus, et dictum nunc justo sit amet elit.&lt;/p&gt;
+&lt;p&gt;Nullam eu ante vel est convallis dignissim.  Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio.  Nunc porta vulputate tellus.  Nunc rutrum turpis sed pede.  Sed bibendum.  Aliquam posuere.  Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.  Pellentesque condimentum, magna ut suscipit hendrerit, ipsum augue ornare nulla, non luctus diam neque sit amet urna.  Curabitur vulputate vestibulum lorem.  Fusce sagittis, libero non molestie mollis, magna orci ultrices dolor, at vulputate neque nulla lacinia eros.  Sed id ligula quis est convallis tempor.  Curabitur lacinia pulvinar nibh.  Nam a sapien.&lt;/p&gt;
+&lt;p&gt;Pellentesque dapibus suscipit ligula.  Donec posuere augue in quam.  Etiam vel tortor sodales tellus ultricies commodo.  Suspendisse potenti.  Aenean in sem ac leo mollis blandit.  Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.  Phasellus lacus.  Etiam laoreet quam sed arcu.  Phasellus at dui in ligula mollis ultricies.  Integer placerat tristique nisl.  Praesent augue.  Fusce commodo.  Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.  Nullam libero mauris, consequat quis, varius et, dictum id, arcu.  Mauris mollis tincidunt felis.  Aliquam feugiat tellus ut neque.  Nulla facilisis, risus a rhoncus fermentum, tellus tellus lacinia purus, et dictum nunc justo sit amet elit.&lt;/p&gt;
+&lt;p&gt;Aliquam erat volutpat.  Nunc eleifend leo vitae magna.  In id erat non orci commodo lobortis.  Proin neque massa, cursus ut, gravida ut, lobortis eget, lacus.  Sed diam.  Praesent fermentum tempor tellus.  Nullam tempus.  Mauris ac felis vel velit tristique imperdiet.  Donec at pede.  Etiam vel neque nec dui dignissim bibendum.  Vivamus id enim.  Phasellus neque orci, porta a, aliquet quis, semper a, massa.  Phasellus purus.  Pellentesque tristique imperdiet tortor.  Nam euismod tellus id erat.&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/categories/tests/" term="tests" label="tests" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/tags/org/" term="org" label="org" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/tags/lorem/" term="Lorem" label="Lorem" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">The second post</title>
+            <link rel="alternate" type="text/html" href="https://example.com/post/second-post/" />
+            <id>https://example.com/post/second-post/</id>
+            <updated>2021-01-31T23:35:45&#43;01:00</updated>
+            <published>2021-01-31T00:00:00&#43;01:00</published>
+            <author>
+                    <name>Bas Châtel</name>
+                    <uri>https://www.baschatel.nl/</uri>
+                    <email>bastiaan.chatel@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Introduction Life is like a box of chocolates, you never know what you gonna get (\(9\cdot9\)).
+   Hallo dit is een tabel     8 7 9 100 124   6 5 7 8 26   6 8 9 9 32    \[A^TA = A^{plop} \cdot 45\]</summary>
+            
+                <content type="html">&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Life is like a box of chocolates, you never know what you gonna get (\(9\cdot9\)).&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Hallo&lt;/th&gt;
+&lt;th&gt;dit&lt;/th&gt;
+&lt;th&gt;is&lt;/th&gt;
+&lt;th&gt;een&lt;/th&gt;
+&lt;th&gt;tabel&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;100&lt;/td&gt;
+&lt;td&gt;124&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;32&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;\[A^TA = A^{plop} \cdot 45\]&lt;/p&gt;
+&lt;p&gt;\[1^{2^{3^{4}}}\]&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/categories/emacs/" term="emacs" label="emacs" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/tags/org/" term="org" label="org" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/tags/testing/" term="testing" label="testing" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Montse</title>
+            <link rel="alternate" type="text/html" href="https://example.com/post/montse/" />
+            <id>https://example.com/post/montse/</id>
+            <updated>2021-02-03T21:55:20&#43;01:00</updated>
+            <published>2021-02-03T21:36:17&#43;01:00</published>
+            <author>
+                    <name>Bas Châtel</name>
+                    <uri>https://www.baschatel.nl/</uri>
+                    <email>bastiaan.chatel@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html"> Hallo montse!
+ $$\delta + \sigma = p^{p^{p^{p}}}$$
+ Hallo montse this is something i just wrote
+   This is a table     1 7 8 16   5 8 9 22   4 5 6 15    </summary>
+            
+                <content type="html">&lt;p&gt;
+Hallo montse!&lt;/p&gt;
+&lt;p&gt;
+$$\delta + \sigma = p^{p^{p^{p}}}$$&lt;/p&gt;
+&lt;p&gt;
+Hallo montse this is something i just wrote&lt;/p&gt;
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&#34;align-right&#34;&gt;This&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;is&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;a&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;table&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&#34;align-right&#34;&gt;1&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;7&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;8&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;16&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;align-right&#34;&gt;5&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;8&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;9&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;22&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;align-right&#34;&gt;4&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;5&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;6&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/categories/monste/" term="Monste" label="Monste" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/tags/also_montse/" term="also_montse" label="also_montse" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Plopalopa</title>
+            <link rel="alternate" type="text/html" href="https://example.com/post/test-easy-hugo/" />
+            <id>https://example.com/post/test-easy-hugo/</id>
+            <updated>2021-02-03T17:52:46&#43;01:00</updated>
+            <published>2021-02-03T17:31:23&#43;01:00</published>
+            <author>
+                    <name>Bas Châtel</name>
+                    <uri>https://www.baschatel.nl/</uri>
+                    <email>bastiaan.chatel@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Checkcheck   hallo smatjes
+ This seems to at least do something. Lets see what happens
+   This is a table popo     1 6 7 0.5 14.5   9 8 6 4.5 27.5   5 8 8 2.</summary>
+            
+                <content type="html">
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Checkcheck
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+hallo smatjes&lt;/p&gt;
+&lt;p&gt;
+This seems to at least do something. Lets see what happens&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th class=&#34;align-right&#34;&gt;This&lt;/th&gt;
+&lt;th class=&#34;align-right&#34;&gt;is&lt;/th&gt;
+&lt;th class=&#34;align-right&#34;&gt;a&lt;/th&gt;
+&lt;th class=&#34;align-right&#34;&gt;table&lt;/th&gt;
+&lt;th class=&#34;align-right&#34;&gt;popo&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&#34;align-right&#34;&gt;1&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;6&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;7&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;0.5&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;14.5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;align-right&#34;&gt;9&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;8&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;6&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;4.5&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;27.5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;align-right&#34;&gt;5&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;8&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;8&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;2.5&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;23.5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+$$A^T=a^{a^{a^{a}}}$$&lt;/p&gt;
+&lt;p&gt;
+zien we inderdaad realtime dingen gebeuren?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/categories/emacs/" term="emacs" label="emacs" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/tags/org/" term="org" label="org" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Ploplop</title>
+            <link rel="alternate" type="text/html" href="https://example.com/post/ploplop/" />
+            <id>https://example.com/post/ploplop/</id>
+            <updated>2021-02-03T17:49:14&#43;01:00</updated>
+            <published>2021-02-03T17:31:23&#43;01:00</published>
+            <author>
+                    <name>Bas Châtel</name>
+                    <uri>https://www.baschatel.nl/</uri>
+                    <email>bastiaan.chatel@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html"> Checkcheck   hallo
+  </summary>
+            
+                <content type="html">
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Checkcheck
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+hallo&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/categories/emacs/" term="emacs" label="emacs" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/tags/org/" term="org" label="org" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Ising</title>
+            <link rel="alternate" type="text/html" href="https://example.com/post/ising/" />
+            <id>https://example.com/post/ising/</id>
+            <updated>2021-01-30T06:23:51&#43;01:00</updated>
+            <published>2021-01-30T06:22:07&#43;01:00</published>
+            <author>
+                    <name>Bas Châtel</name>
+                    <uri>https://www.baschatel.nl/</uri>
+                    <email>bastiaan.chatel@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Ising</summary>
+            
+                <content type="html">&lt;p&gt;Ising&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Potts</title>
+            <link rel="alternate" type="text/html" href="https://example.com/post/potts/" />
+            <id>https://example.com/post/potts/</id>
+            <updated>2021-01-30T06:24:27&#43;01:00</updated>
+            <published>2021-01-30T06:22:07&#43;01:00</published>
+            <author>
+                    <name>Bas Châtel</name>
+                    <uri>https://www.baschatel.nl/</uri>
+                    <email>bastiaan.chatel@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">potts!</summary>
+            
+                <content type="html">&lt;p&gt;potts!&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+</feed>

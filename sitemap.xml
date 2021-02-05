@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://example.com/post/writing-hugo/</loc>
+    <lastmod>2021-01-31T23:35:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/testingszzz/</loc>
+    <lastmod>2021-01-31T23:35:07+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/second-post/</loc>
+    <lastmod>2021-01-31T23:35:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/also_montse/</loc>
+    <lastmod>2021-02-03T21:55:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/</loc>
+    <lastmod>2021-02-03T21:55:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/monste/</loc>
+    <lastmod>2021-02-03T21:55:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/montse/</loc>
+    <lastmod>2021-02-03T21:55:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/</loc>
+    <lastmod>2021-02-03T21:55:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2021-02-03T21:55:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2021-02-03T21:55:35+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/about/</loc>
+    <lastmod>2021-02-03T20:53:34+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/emacs/</loc>
+    <lastmod>2021-02-03T17:52:46+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/org/</loc>
+    <lastmod>2021-02-03T17:52:46+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/test-easy-hugo/</loc>
+    <lastmod>2021-02-03T17:52:46+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/ploplop/</loc>
+    <lastmod>2021-02-03T17:49:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/testing/</loc>
+    <lastmod>2021-01-31T23:35:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/presentations/shg/agent-based/</loc>
+    <lastmod>2021-01-30T06:33:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/presentations/</loc>
+    <lastmod>2021-01-30T06:33:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/ising/</loc>
+    <lastmod>2021-01-30T06:23:51+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/potts/</loc>
+    <lastmod>2021-01-30T06:24:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/hugo/</loc>
+    <lastmod>2021-01-31T23:35:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/lorem/</loc>
+    <lastmod>2021-01-31T23:35:07+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/tests/</loc>
+    <lastmod>2021-01-31T23:35:07+01:00</lastmod>
+  </url>
+  
+</urlset>
