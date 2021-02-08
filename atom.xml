@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Bas Châtel Blog</title>
     <subtitle type="html">This is my personal blog.</subtitle>
-    <updated>2021-02-05T23:30:55&#43;01:00</updated>
+    <updated>2021-02-08T15:29:04&#43;01:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -17,241 +17,32 @@
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.80.0">Hugo</generator>
         <entry>
-            <title type="text">Writing a Hugo blog posts</title>
-            <link rel="alternate" type="text/html" href="https://example.com/post/writing-hugo/" />
-            <id>https://example.com/post/writing-hugo/</id>
-            <updated>2021-01-31T23:35:45&#43;01:00</updated>
-            <published>2021-01-30T00:00:00&#43;01:00</published>
+            <title type="text">Testing hugo and org</title>
+            <link rel="alternate" type="text/html" href="https://example.com/post/test-easy-hugo/" />
+            <id>https://example.com/post/test-easy-hugo/</id>
+            <updated>2021-02-08T15:28:51&#43;01:00</updated>
+            <published>2021-02-03T17:31:23&#43;01:00</published>
             <author>
                     <name>Bas Châtel</name>
                     <uri>https://www.baschatel.nl/</uri>
                     <email>bastiaan.chatel@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">This is a post! A real post!
- with a list  In a list   yahs  </summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Testing different things in hugo from org   This blogpost is mainly used to show, and template, most usefull components in a regular blog. This is mostly for myself to reuse bits and pieces, but maybe other people can learn from it too.</summary>
             
-                <content type="html">&lt;h2 id=&#34;this-is-a-post&#34;&gt;This is a post!&lt;/h2&gt;
-&lt;p&gt;A real post!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;with a list
-&lt;ul&gt;
-&lt;li&gt;In a list&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;yahs&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-            
-            
-            
-            
-            
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://example.com/categories/emacs/" term="emacs" label="emacs" />
-                            
-                        
-                    
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://example.com/tags/org/" term="org" label="org" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://example.com/tags/hugo/" term="Hugo" label="Hugo" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        <entry>
-            <title type="text">Writing a testig posts</title>
-            <link rel="alternate" type="text/html" href="https://example.com/post/testingszzz/" />
-            <id>https://example.com/post/testingszzz/</id>
-            <updated>2021-01-31T23:35:07&#43;01:00</updated>
-            <published>2021-01-30T00:00:00&#43;01:00</published>
-            <author>
-                    <name>Bas Châtel</name>
-                    <uri>https://www.baschatel.nl/</uri>
-                    <email>bastiaan.chatel@gmail.com</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">This is a post! A real post!
- with a list  In a list   yahs  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec hendrerit tempor tellus. Donec pretium posuere tellus. Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus.</summary>
-            
-                <content type="html">&lt;h2 id=&#34;this-is-a-post&#34;&gt;This is a post!&lt;/h2&gt;
-&lt;p&gt;A real post!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;with a list
-&lt;ul&gt;
-&lt;li&gt;In a list&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;yahs&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec hendrerit tempor tellus.  Donec pretium posuere tellus.  Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  Nulla posuere.  Donec vitae dolor.  Nullam tristique diam non turpis.  Cras placerat accumsan nulla.  Nullam rutrum.  Nam vestibulum accumsan nisl.&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec hendrerit tempor tellus.  Donec pretium posuere tellus.  Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  Nulla posuere.  Donec vitae dolor.  Nullam tristique diam non turpis.  Cras placerat accumsan nulla.  Nullam rutrum.  Nam vestibulum accumsan nisl.&lt;/p&gt;
-&lt;p&gt;Pellentesque dapibus suscipit ligula.  Donec posuere augue in quam.  Etiam vel tortor sodales tellus ultricies commodo.  Suspendisse potenti.  Aenean in sem ac leo mollis blandit.  Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.  Phasellus lacus.  Etiam laoreet quam sed arcu.  Phasellus at dui in ligula mollis ultricies.  Integer placerat tristique nisl.  Praesent augue.  Fusce commodo.  Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.  Nullam libero mauris, consequat quis, varius et, dictum id, arcu.  Mauris mollis tincidunt felis.  Aliquam feugiat tellus ut neque.  Nulla facilisis, risus a rhoncus fermentum, tellus tellus lacinia purus, et dictum nunc justo sit amet elit.&lt;/p&gt;
-&lt;p&gt;Nullam eu ante vel est convallis dignissim.  Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio.  Nunc porta vulputate tellus.  Nunc rutrum turpis sed pede.  Sed bibendum.  Aliquam posuere.  Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.  Pellentesque condimentum, magna ut suscipit hendrerit, ipsum augue ornare nulla, non luctus diam neque sit amet urna.  Curabitur vulputate vestibulum lorem.  Fusce sagittis, libero non molestie mollis, magna orci ultrices dolor, at vulputate neque nulla lacinia eros.  Sed id ligula quis est convallis tempor.  Curabitur lacinia pulvinar nibh.  Nam a sapien.&lt;/p&gt;
-&lt;p&gt;Pellentesque dapibus suscipit ligula.  Donec posuere augue in quam.  Etiam vel tortor sodales tellus ultricies commodo.  Suspendisse potenti.  Aenean in sem ac leo mollis blandit.  Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.  Phasellus lacus.  Etiam laoreet quam sed arcu.  Phasellus at dui in ligula mollis ultricies.  Integer placerat tristique nisl.  Praesent augue.  Fusce commodo.  Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.  Nullam libero mauris, consequat quis, varius et, dictum id, arcu.  Mauris mollis tincidunt felis.  Aliquam feugiat tellus ut neque.  Nulla facilisis, risus a rhoncus fermentum, tellus tellus lacinia purus, et dictum nunc justo sit amet elit.&lt;/p&gt;
-&lt;p&gt;Aliquam erat volutpat.  Nunc eleifend leo vitae magna.  In id erat non orci commodo lobortis.  Proin neque massa, cursus ut, gravida ut, lobortis eget, lacus.  Sed diam.  Praesent fermentum tempor tellus.  Nullam tempus.  Mauris ac felis vel velit tristique imperdiet.  Donec at pede.  Etiam vel neque nec dui dignissim bibendum.  Vivamus id enim.  Phasellus neque orci, porta a, aliquet quis, semper a, massa.  Phasellus purus.  Pellentesque tristique imperdiet tortor.  Nam euismod tellus id erat.&lt;/p&gt;
-</content>
-            
-            
-            
-            
-            
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://example.com/categories/tests/" term="tests" label="tests" />
-                            
-                        
-                    
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://example.com/tags/org/" term="org" label="org" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://example.com/tags/lorem/" term="Lorem" label="Lorem" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        <entry>
-            <title type="text">The second post</title>
-            <link rel="alternate" type="text/html" href="https://example.com/post/second-post/" />
-            <id>https://example.com/post/second-post/</id>
-            <updated>2021-01-31T23:35:45&#43;01:00</updated>
-            <published>2021-01-31T00:00:00&#43;01:00</published>
-            <author>
-                    <name>Bas Châtel</name>
-                    <uri>https://www.baschatel.nl/</uri>
-                    <email>bastiaan.chatel@gmail.com</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Introduction Life is like a box of chocolates, you never know what you gonna get (\(9\cdot9\)).
-   Hallo dit is een tabel     8 7 9 100 124   6 5 7 8 26   6 8 9 9 32    \[A^TA = A^{plop} \cdot 45\]</summary>
-            
-                <content type="html">&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Life is like a box of chocolates, you never know what you gonna get (\(9\cdot9\)).&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Hallo&lt;/th&gt;
-&lt;th&gt;dit&lt;/th&gt;
-&lt;th&gt;is&lt;/th&gt;
-&lt;th&gt;een&lt;/th&gt;
-&lt;th&gt;tabel&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;8&lt;/td&gt;
-&lt;td&gt;7&lt;/td&gt;
-&lt;td&gt;9&lt;/td&gt;
-&lt;td&gt;100&lt;/td&gt;
-&lt;td&gt;124&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;td&gt;5&lt;/td&gt;
-&lt;td&gt;7&lt;/td&gt;
-&lt;td&gt;8&lt;/td&gt;
-&lt;td&gt;26&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;td&gt;8&lt;/td&gt;
-&lt;td&gt;9&lt;/td&gt;
-&lt;td&gt;9&lt;/td&gt;
-&lt;td&gt;32&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;\[A^TA = A^{plop} \cdot 45\]&lt;/p&gt;
-&lt;p&gt;\[1^{2^{3^{4}}}\]&lt;/p&gt;
-</content>
-            
-            
-            
-            
-            
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://example.com/categories/emacs/" term="emacs" label="emacs" />
-                            
-                        
-                    
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://example.com/tags/org/" term="org" label="org" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://example.com/tags/testing/" term="testing" label="testing" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        <entry>
-            <title type="text">Montse</title>
-            <link rel="alternate" type="text/html" href="https://example.com/post/montse/" />
-            <id>https://example.com/post/montse/</id>
-            <updated>2021-02-03T21:55:20&#43;01:00</updated>
-            <published>2021-02-03T21:36:17&#43;01:00</published>
-            <author>
-                    <name>Bas Châtel</name>
-                    <uri>https://www.baschatel.nl/</uri>
-                    <email>bastiaan.chatel@gmail.com</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html"> Hallo montse!
- $$\delta + \sigma = p^{p^{p^{p}}}$$
- Hallo montse this is something i just wrote
-   This is a table     1 7 8 16   5 8 9 22   4 5 6 15    </summary>
-            
-                <content type="html">&lt;p&gt;
-Hallo montse!&lt;/p&gt;
+                <content type="html">
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Testing different things in hugo from org
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;p&gt;
-$$\delta + \sigma = p^{p^{p^{p}}}$$&lt;/p&gt;
-&lt;p&gt;
-Hallo montse this is something i just wrote&lt;/p&gt;
+This blogpost is mainly used to show, and template, most usefull components in a regular blog. This is mostly for myself to reuse bits and pieces, but maybe other people can learn from it too. To view the raw .org file, please go &lt;a href=&#34;https://raw.githubusercontent.com/popoiopo/blog/main/content/post/test-easy-hugo.org&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-2&#34;&gt;
+Making tables
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;figure&gt;
 &lt;table&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
@@ -259,94 +50,9 @@ Hallo montse this is something i just wrote&lt;/p&gt;
 &lt;td class=&#34;align-right&#34;&gt;is&lt;/td&gt;
 &lt;td class=&#34;align-right&#34;&gt;a&lt;/td&gt;
 &lt;td class=&#34;align-right&#34;&gt;table&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;popo&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td class=&#34;align-right&#34;&gt;1&lt;/td&gt;
-&lt;td class=&#34;align-right&#34;&gt;7&lt;/td&gt;
-&lt;td class=&#34;align-right&#34;&gt;8&lt;/td&gt;
-&lt;td class=&#34;align-right&#34;&gt;16&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;align-right&#34;&gt;5&lt;/td&gt;
-&lt;td class=&#34;align-right&#34;&gt;8&lt;/td&gt;
-&lt;td class=&#34;align-right&#34;&gt;9&lt;/td&gt;
-&lt;td class=&#34;align-right&#34;&gt;22&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&#34;align-right&#34;&gt;4&lt;/td&gt;
-&lt;td class=&#34;align-right&#34;&gt;5&lt;/td&gt;
-&lt;td class=&#34;align-right&#34;&gt;6&lt;/td&gt;
-&lt;td class=&#34;align-right&#34;&gt;15&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</content>
-            
-            
-            
-            
-            
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://example.com/categories/monste/" term="Monste" label="Monste" />
-                            
-                        
-                    
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://example.com/tags/also_montse/" term="also_montse" label="also_montse" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        <entry>
-            <title type="text">Plopalopa</title>
-            <link rel="alternate" type="text/html" href="https://example.com/post/test-easy-hugo/" />
-            <id>https://example.com/post/test-easy-hugo/</id>
-            <updated>2021-02-03T17:52:46&#43;01:00</updated>
-            <published>2021-02-03T17:31:23&#43;01:00</published>
-            <author>
-                    <name>Bas Châtel</name>
-                    <uri>https://www.baschatel.nl/</uri>
-                    <email>bastiaan.chatel@gmail.com</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Checkcheck   hallo smatjes
- This seems to at least do something. Lets see what happens
-   This is a table popo     1 6 7 0.5 14.5   9 8 6 4.5 27.5   5 8 8 2.</summary>
-            
-                <content type="html">
-&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
-&lt;h2 id=&#34;headline-1&#34;&gt;
-Checkcheck
-&lt;/h2&gt;
-&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;p&gt;
-hallo smatjes&lt;/p&gt;
-&lt;p&gt;
-This seems to at least do something. Lets see what happens&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th class=&#34;align-right&#34;&gt;This&lt;/th&gt;
-&lt;th class=&#34;align-right&#34;&gt;is&lt;/th&gt;
-&lt;th class=&#34;align-right&#34;&gt;a&lt;/th&gt;
-&lt;th class=&#34;align-right&#34;&gt;table&lt;/th&gt;
-&lt;th class=&#34;align-right&#34;&gt;popo&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td class=&#34;align-right&#34;&gt;1&lt;/td&gt;
@@ -371,10 +77,144 @@ This seems to at least do something. Lets see what happens&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;figcaption&gt;
+Caption for a table.
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-3&#34;&gt;
+Math check
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;We can have inline math $\sigma \cdot \Delta = \sum_{i=0}^{\inf}$ so we can explain small things within texts.&lt;/p&gt;
 &lt;p&gt;
 $$A^T=a^{a^{a^{a}}}$$&lt;/p&gt;
+&lt;div class=&#34;src src-latex&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;k&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;bmatrix&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
+1 &lt;span class=&#34;nb&#34;&gt;&amp;amp;&lt;/span&gt; 2 &lt;span class=&#34;nb&#34;&gt;&amp;amp;&lt;/span&gt; 3&lt;span class=&#34;k&#34;&gt;\\&lt;/span&gt;
+a &lt;span class=&#34;nb&#34;&gt;&amp;amp;&lt;/span&gt; b &lt;span class=&#34;nb&#34;&gt;&amp;amp;&lt;/span&gt; c
+&lt;span class=&#34;k&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;bmatrix&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;
-zien we inderdaad realtime dingen gebeuren?&lt;/p&gt;
+\begin{bmatrix}
+1 &amp;amp; 2 &amp;amp; 3\\
+a &amp;amp; b &amp;amp; c
+\end{bmatrix}&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-4&#34;&gt;
+Figures testing
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://popoiopo.github.io/images/Screenshot_20210112-215010_Autodesk%20SketchBook.jpg&#34; width=&#34;50%&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;div class=&#34;mx-auto&#34; style=&#34;width: 100%; margin-bottom:100px;&#34;&gt;
+  &lt;div style=&#34;width:50%;float: left&#34;&gt;
+    Side by side image and text. Nullam eu ante vel est convallis dignissim.  Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio.  Nunc porta vulputate tellus.  Nunc rutrum turpis sed pede.  Sed bibendum.  Aliquam posuere.  Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.
+  &lt;/div&gt;
+  &lt;div style=&#34;width:50%;float:left&#34;&gt;
+    &lt;figure&gt;
+    &lt;img src=&#34;https://popoiopo.github.io/images/Screenshot_20210112-215010_Autodesk%20SketchBook.jpg&#34; width=&#34;100%&#34;/&gt; 
+&lt;/figure&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-5&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-5&#34;&gt;
+Code export
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;  &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;plt&lt;/span&gt;
+  &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;numpy&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;np&lt;/span&gt;
+
+  &lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;sigmoid&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;height&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;base&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;shift&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;slope&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+      &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&amp;#34;Sigmoidal function that, using default values is bounded between [0,1] for both axes.
+&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;      Args:
+&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;	  x (float): Input to function
+&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;	  height (float, optional): Sets the maximum of the sigmoid. Defaults to 1.
+&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;	  base (float, optional): Sets minimum of sigmoid. Defaults to 0.
+&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;	  shift (float, optional): Sets halfway-point of sigmoid. Defaults to 0.5.
+&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;	  slope (float, optional): Float parameter to set the slope. Defaults to 20.
+&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;      Returns:
+&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;	  (float): Returns the Y value associated with inputs
+&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;      &amp;#34;&amp;#34;&amp;#34;&lt;/span&gt;
+      &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;base&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;height&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;exp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;shift&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;slope&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
+
+  &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;linspace&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sigmoid&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+
+  &lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;plot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;src src-jupyter&#34;&gt;
+&lt;pre&gt;&lt;code class=&#34;language-jupyter&#34; data-lang=&#34;jupyter&#34;&gt;  a = 5
+  b = 100
+  a * b&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;pre class=&#34;example&#34;&gt;
+500
+&lt;/pre&gt;
+&lt;div id=&#34;outline-container-headline-6&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-6&#34;&gt;
+&lt;span class=&#34;todo&#34;&gt;TODO&lt;/span&gt;
+Need to fix syntax highlighting and figure export
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-7&#34; class=&#34;outline-5&#34;&gt;
+&lt;h5 id=&#34;headline-7&#34;&gt;
+&lt;span class=&#34;todo&#34;&gt;TODO&lt;/span&gt;
+Need to fix TODO keyword coloring
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </content>
@@ -392,58 +232,10 @@ zien we inderdaad realtime dingen gebeuren?&lt;/p&gt;
                                 <category scheme="https://example.com/categories/emacs/" term="emacs" label="emacs" />
                             
                         
-                    
-                
-                    
-                        
                             
                             
                             
-                                <category scheme="https://example.com/tags/org/" term="org" label="org" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        <entry>
-            <title type="text">Ploplop</title>
-            <link rel="alternate" type="text/html" href="https://example.com/post/ploplop/" />
-            <id>https://example.com/post/ploplop/</id>
-            <updated>2021-02-03T17:49:14&#43;01:00</updated>
-            <published>2021-02-03T17:31:23&#43;01:00</published>
-            <author>
-                    <name>Bas Châtel</name>
-                    <uri>https://www.baschatel.nl/</uri>
-                    <email>bastiaan.chatel@gmail.com</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html"> Checkcheck   hallo
-  </summary>
-            
-                <content type="html">
-&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
-&lt;h2 id=&#34;headline-1&#34;&gt;
-Checkcheck
-&lt;/h2&gt;
-&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;p&gt;
-hallo&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
-            
-            
-            
-            
-            
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://example.com/categories/emacs/" term="emacs" label="emacs" />
+                                <category scheme="https://example.com/categories/blogging/" term="blogging" label="blogging" />
                             
                         
                     
@@ -456,62 +248,18 @@ hallo&lt;/p&gt;
                                 <category scheme="https://example.com/tags/org/" term="org" label="org" />
                             
                         
-                    
-                
-            
-        </entry>
-    
-        <entry>
-            <title type="text">Ising</title>
-            <link rel="alternate" type="text/html" href="https://example.com/post/ising/" />
-            <id>https://example.com/post/ising/</id>
-            <updated>2021-01-30T06:23:51&#43;01:00</updated>
-            <published>2021-01-30T06:22:07&#43;01:00</published>
-            <author>
-                    <name>Bas Châtel</name>
-                    <uri>https://www.baschatel.nl/</uri>
-                    <email>bastiaan.chatel@gmail.com</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Ising</summary>
-            
-                <content type="html">&lt;p&gt;Ising&lt;/p&gt;
-</content>
-            
-            
-            
-            
-            
-                
-                    
-                
-                    
-                
-            
-        </entry>
-    
-        <entry>
-            <title type="text">Potts</title>
-            <link rel="alternate" type="text/html" href="https://example.com/post/potts/" />
-            <id>https://example.com/post/potts/</id>
-            <updated>2021-01-30T06:24:27&#43;01:00</updated>
-            <published>2021-01-30T06:22:07&#43;01:00</published>
-            <author>
-                    <name>Bas Châtel</name>
-                    <uri>https://www.baschatel.nl/</uri>
-                    <email>bastiaan.chatel@gmail.com</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">potts!</summary>
-            
-                <content type="html">&lt;p&gt;potts!&lt;/p&gt;
-</content>
-            
-            
-            
-            
-            
-                
-                    
-                
+                            
+                            
+                            
+                                <category scheme="https://example.com/tags/hugo/" term="hugo" label="hugo" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/tags/testing/" term="testing" label="testing" />
+                            
+                        
                     
                 
             
