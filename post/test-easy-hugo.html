@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-02-08 Mon 21:40 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Bas Chatel" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org86a31c9">1. Testing different things in hugo from org</a>
+<ul>
+<li><a href="#orgaa8b672">1.1. Making tables</a></li>
+<li><a href="#org3bf05bf">1.2. Math check</a></li>
+<li><a href="#org8596385">1.3. Figures testing</a></li>
+<li><a href="#orgf390bc6">1.4. Code export</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<p>
+<del>+</del>
+categories = ["emacs", "blogging"]
+tags = ["org", "hugo", "testing"]
+title = "Testing hugo and org"
+date = "2021-02-03T17:31:23+01:00"
+draft = false
+<del>+</del>
+</p>
+<div id="outline-container-org86a31c9" class="outline-2">
+<h2 id="org86a31c9"><span class="section-number-2">1</span> Testing different things in hugo from org</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+This blogpost is mainly used to show, and template, most usefull components in a regular blog. This is mostly for myself to reuse bits and pieces, but maybe other people can learn from it too. To view the raw .org file, please go <a href="https://raw.githubusercontent.com/popoiopo/blog/main/content/post/test-easy-hugo.org">here</a>.
+</p>
+</div>
+
+<div id="outline-container-orgaa8b672" class="outline-3">
+<h3 id="orgaa8b672"><span class="section-number-3">1.1</span> Making tables</h3>
+<div class="outline-text-3" id="text-1-1">
+<table id="org3f55003" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 1:</span> Caption for a table.</caption>
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">This</th>
+<th scope="col" class="org-right">is</th>
+<th scope="col" class="org-right">a</th>
+<th scope="col" class="org-right">table</th>
+<th scope="col" class="org-right">sum</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">1</td>
+<td class="org-right">6</td>
+<td class="org-right">7</td>
+<td class="org-right">0.5</td>
+<td class="org-right">14.5</td>
+</tr>
+
+<tr>
+<td class="org-right">9</td>
+<td class="org-right">8</td>
+<td class="org-right">6</td>
+<td class="org-right">4.5</td>
+<td class="org-right">27.5</td>
+</tr>
+
+<tr>
+<td class="org-right">5</td>
+<td class="org-right">8</td>
+<td class="org-right">8</td>
+<td class="org-right">2.5</td>
+<td class="org-right">23.5</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org3bf05bf" class="outline-3">
+<h3 id="org3bf05bf"><span class="section-number-3">1.2</span> Math check</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+We can have inline math \(\sigma \cdot \Delta = \sum_{i=0}^{\inf}\) so we can explain small things within texts.
+</p>
+
+<p>
+\[A^T=a^{a^{a^{a}}}\]
+</p>
+
+<div class="org-src-container">
+<pre class="src src-latex"><span style="color: #51afef;">\begin</span>{<span style="color: #c678dd;">bmatrix</span>}
+1 &amp; 2 &amp; 3<span style="color: #ECBE7B;">\\</span>
+a &amp; b &amp; c
+<span style="color: #51afef;">\end</span>{<span style="color: #c678dd;">bmatrix</span>}
+</pre>
+</div>
+
+\begin{bmatrix}
+1 & 2 & 3\\
+a & b & c
+\end{bmatrix}
+</div>
+</div>
+
+<div id="outline-container-org8596385" class="outline-3">
+<h3 id="org8596385"><span class="section-number-3">1.3</span> Figures testing</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+{{&lt; figure src="<a href="https://popoiopo.github.io/images/Screenshot_20210112-215010_Autodesk">https://popoiopo.github.io/images/Screenshot_20210112-215010_Autodesk</a> SketchBook.jpg" width="50%" alt="" &gt;}}
+</p>
+
+<div class="mx-auto" style="width: 100%; margin-bottom:100px;">
+  <div style="width:50%;float: left">
+    Side by side image and text. Nullam eu ante vel est convallis dignissim.  Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio.  Nunc porta vulputate tellus.  Nunc rutrum turpis sed pede.  Sed bibendum.  Aliquam posuere.  Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.
+  </div>
+  <div style="width:50%;float:left">
+    {{< figure src="https://popoiopo.github.io/images/Screenshot_20210112-215010_Autodesk SketchBook.jpg" width="100%" alt="" >}}
+  </div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf390bc6" class="outline-3">
+<h3 id="orgf390bc6"><span class="section-number-3">1.4</span> Code export</h3>
+<div class="outline-text-3" id="text-1-4">
+<div class="org-src-container">
+<pre class="src src-python"><span style="color: #51afef;">import</span> matplotlib.pyplot <span style="color: #51afef;">as</span> plt
+matplotlib.use<span style="color: #51afef;">(</span><span style="color: #98be65;">'Agg'</span><span style="color: #51afef;">)</span>
+<span style="color: #51afef;">import</span> numpy <span style="color: #51afef;">as</span> np
+
+<span style="color: #51afef;">def</span> <span style="color: #c678dd;">sigmoid</span><span style="color: #51afef;">(</span>x, height=1, base=0, shift=0.5, slope=20<span style="color: #51afef;">)</span>:
+<span style="background-color: #21242b;"> </span>   <span style="color: #83898d;">"""Sigmoidal function that, using default values is bounded between [0,1] for both axes.</span>
+
+<span style="color: #83898d; background-color: #21242b;"> </span><span style="color: #83898d;">   Args:</span>
+<span style="color: #83898d;">        x (float): Input to function</span>
+<span style="color: #83898d;">        height (float, optional): Sets the maximum of the sigmoid. Defaults to 1.</span>
+<span style="color: #83898d;">        base (float, optional): Sets minimum of sigmoid. Defaults to 0.</span>
+<span style="color: #83898d;">        shift (float, optional): Sets halfway-point of sigmoid. Defaults to 0.5.</span>
+<span style="color: #83898d;">        slope (float, optional): Float parameter to set the slope. Defaults to 20.</span>
+
+<span style="color: #83898d; background-color: #21242b;"> </span><span style="color: #83898d;">   Returns:</span>
+<span style="color: #83898d;">        (float): Returns the Y value associated with inputs</span>
+<span style="color: #83898d; background-color: #21242b;"> </span><span style="color: #83898d;">   """</span>
+<span style="background-color: #21242b;"> </span>   <span style="color: #51afef;">return</span> base + <span style="color: #51afef;">(</span>height*<span style="color: #c678dd;">(</span>1/<span style="color: #98be65;">(</span>1+np.exp<span style="color: #da8548;">(</span><span style="color: #a9a1e1;">(</span>-x + shift<span style="color: #a9a1e1;">)</span>*slope<span style="color: #da8548;">)</span><span style="color: #98be65;">)</span><span style="color: #c678dd;">)</span><span style="color: #51afef;">)</span>
+
+<span style="color: #dcaeea;">x</span> = np.linspace<span style="color: #51afef;">(</span>0,1,100<span style="color: #51afef;">)</span>
+<span style="color: #dcaeea;">y</span> = <span style="color: #51afef;">[</span>sigmoid<span style="color: #c678dd;">(</span>i<span style="color: #c678dd;">)</span> <span style="color: #51afef;">for</span> i <span style="color: #51afef;">in</span> x<span style="color: #51afef;">]</span>
+
+plt.plot<span style="color: #51afef;">(</span>x,y<span style="color: #51afef;">)</span>
+plt.savefig<span style="color: #51afef;">(</span><span style="color: #98be65;">"../../static/images/test-easy-hugo-sigmoid.png"</span><span style="color: #51afef;">)</span>
+<span style="color: #51afef;">return</span> <span style="color: #98be65;">"../../static/images/test-easy-hugo-sigmoid.png"</span>
+</pre>
+</div>
+
+<p>
+<a href=""></a>
+</p>
+
+<div class="org-src-container">
+<pre class="src src-python" id="orgf641195">
+
+<span style="color: #51afef;">def</span> <span style="color: #c678dd;">sigmoid</span><span style="color: #51afef;">(</span>x, height=1, base=0, shift=0.5, slope=20<span style="color: #51afef;">)</span>:
+<span style="background-color: #21242b;"> </span>   <span style="color: #83898d;">"""Sigmoidal function that, using default values is bounded between [0,1] for both axes.</span>
+
+<span style="color: #83898d; background-color: #21242b;"> </span><span style="color: #83898d;">   </span><span style="color: #83898d; background-color: #21242b;"> </span><span style="color: #83898d;"> Args:</span>
+<span style="color: #83898d;">          x (float): Input to function</span>
+<span style="color: #83898d;">          height (float, optional): Sets the maximum of the sigmoid. Defaults to 1.</span>
+<span style="color: #83898d;">          base (float, optional): Sets minimum of sigmoid. Defaults to 0.</span>
+<span style="color: #83898d;">          shift (float, optional): Sets halfway-point of sigmoid. Defaults to 0.5.</span>
+<span style="color: #83898d;">          slope (float, optional): Float parameter to set the slope. Defaults to 20.</span>
+
+<span style="color: #83898d; background-color: #21242b;"> </span><span style="color: #83898d;">   </span><span style="color: #83898d; background-color: #21242b;"> </span><span style="color: #83898d;"> Returns:</span>
+<span style="color: #83898d;">          (float): Returns the Y value associated with inputs</span>
+<span style="color: #83898d; background-color: #21242b;"> </span><span style="color: #83898d;">   </span><span style="color: #83898d; background-color: #21242b;"> </span><span style="color: #83898d;"> """</span>
+<span style="background-color: #21242b;"> </span>   <span style="color: #51afef;">return</span> base + <span style="color: #51afef;">(</span>height*<span style="color: #c678dd;">(</span>1/<span style="color: #98be65;">(</span>1+np.exp<span style="color: #da8548;">(</span><span style="color: #a9a1e1;">(</span>-x + shift<span style="color: #a9a1e1;">)</span>*slope<span style="color: #da8548;">)</span><span style="color: #98be65;">)</span><span style="color: #c678dd;">)</span><span style="color: #51afef;">)</span>
+
+<span style="color: #dcaeea;">x</span> = np.linspace<span style="color: #51afef;">(</span>0,1,100<span style="color: #51afef;">)</span>
+<span style="color: #dcaeea;">y</span> = <span style="color: #51afef;">[</span>sigmoid<span style="color: #c678dd;">(</span>i<span style="color: #c678dd;">)</span> <span style="color: #51afef;">for</span> i <span style="color: #51afef;">in</span> x<span style="color: #51afef;">]</span>
+
+plt.plot<span style="color: #51afef;">(</span>x,y<span style="color: #51afef;">)</span>
+
+
+</pre>
+</div>
+
+
+<div id="orgb844f39" class="figure">
+<p><img src="../../static/images/test-easy-hugo-sigmoid.png" alt="test-easy-hugo-sigmoid.png" />
+</p>
+</div>
+
+<div class="org-src-container">
+<pre class="src src-jupyter"><span style="color: #dcaeea;">a</span> = 5
+<span style="color: #dcaeea;">b</span> = 100
+a * b
+</pre>
+</div>
+
+<pre class="example">
+500
+</pre>
+</div>
+<ol class="org-ol">
+<li><a id="orgdbdbf1a"></a><span class="todo TODO">TODO</span> Need to fix syntax highlighting and figure export<br /></li>
+<li><a id="orgde98186"></a><span class="todo TODO">TODO</span> Need to fix TODO keyword coloring<br /></li>
+</ol>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Bas Chatel</p>
+<p class="date">Created: 2021-02-08 Mon 21:40</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
