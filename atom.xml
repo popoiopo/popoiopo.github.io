@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Bas Châtel Blog</title>
     <subtitle type="html">This is my personal blog.</subtitle>
-    <updated>2021-02-20T13:47:47&#43;01:00</updated>
+    <updated>2021-02-20T22:18:17&#43;01:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -20,14 +20,14 @@
             <title type="text">Lets talk about git</title>
             <link rel="alternate" type="text/html" href="https://example.com/post/lets_talk_about_git/" />
             <id>https://example.com/post/lets_talk_about_git/</id>
-            <updated>2021-02-20T13:46:19&#43;01:00</updated>
+            <updated>2021-02-20T22:18:02&#43;01:00</updated>
             <published>2021-02-20T10:07:03&#43;01:00</published>
             <author>
                     <name>Bas Châtel</name>
                     <uri>https://www.baschatel.nl/</uri>
                     <email>bastiaan.chatel@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Why am I writing this?  As I am reading this book I want to create a place where I can place my notes in a way that makes sense and that is easily used for reference later on. After several years of doing projects and using the superficial git commands it is time to delve a little deeper and actually understand what I&amp;#39;m doing.</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Why am I writing this?  As I am reading this book I want to create a place where I can place my notes in a way that makes sense, and that is easily used for reference later on. After several years of doing projects and using the superficial Git commands, it is time to delve a little deeper and actually understand what I&amp;#39;m doing.</summary>
             
                 <content type="html">
 &lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
@@ -35,29 +35,31 @@
 Why am I writing this?
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;p&gt;As I am reading &lt;a href=&#34;https://git-scm.com/book/en/v2&#34;&gt;this book&lt;/a&gt; I want to create a place where I can place my notes in a way that makes sense and that is easily used for reference later on. After several years of doing projects and using the superficial git commands it is time to delve a little deeper and actually understand what I&amp;#39;m doing. Instead of merely repeating git commands I find on stack overflow whenever there is something that needs to be fixed. As I do see the value of using branches, merging files etc, they have always scared me somehow. So let&amp;#39;s try to overcome this by reading the book and making a nice post in the meantime!&lt;/p&gt;
+&lt;p&gt;As I am reading &lt;a href=&#34;https://git-scm.com/book/en/v2&#34;&gt;this book&lt;/a&gt; I want to create a place where I can place my notes in a way that makes sense, and that is easily used for reference later on. After several years of doing projects and using the superficial Git commands, it is time to delve a little deeper and actually understand what I&amp;#39;m doing. Instead of merely repeating git commands, I find on stack overflow whenever something needs to be fixed. As I do see the value of using branches, merging files, etc., they have always scared me somehow. So let&amp;#39;s try to overcome this by reading the book and making a nice post in the meantime!&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-2&#34;&gt;
-What is version Control?
+What is Version Control?
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-3&#34;&gt;
 &lt;h3 id=&#34;headline-3&#34;&gt;
-Controling them versions
+Controlling them versions
 &lt;/h3&gt;
 &lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-3&#34;&gt;
-&lt;p&gt;We&amp;#39;ve all been there in the good old days. Writing a report in word, saving it with a name like &lt;code class=&#34;verbatim&#34;&gt;final report.docx&lt;/code&gt;. But after some feedback from the teacher, you need to make some changes. However, just working in your old file just makes you feel antsy, you&amp;#39;ve worked really hard on those things you wrote! So you make the suggested changes and call the new file &lt;code class=&#34;verbatim&#34;&gt;final final report.docx&lt;/code&gt;. But, then you ask a friend to look at your work and give some feedback which then culminates in a third &lt;code class=&#34;verbatim&#34;&gt;final report3.docx&lt;/code&gt;. This is the moment that you look at your folder and realize the hell that you&amp;#39;re creating for yourself! &lt;strong&gt;And that, my friends, is where version control comes in&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;We&amp;#39;ve all been there in the good old days. Writing a report in word, saving it with a name like &lt;code class=&#34;verbatim&#34;&gt;final report.docx&lt;/code&gt;. But after some feedback from the teacher, you need to make some changes. However, just working in your old file just makes you feel antsy; you&amp;#39;ve worked really hard on those things you wrote! So you make the suggested changes and call the new file &lt;code class=&#34;verbatim&#34;&gt;final final report.docx&lt;/code&gt;. Then you ask a friend to look at your work and give some feedback which then culminates in a third &lt;code class=&#34;verbatim&#34;&gt;final report3.docx&lt;/code&gt;. This is when you look at your folder and realize the hell you&amp;#39;re creating for yourself! &lt;strong&gt;And that, my friends, is where version control comes in&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;
 &lt;figure&gt;
     &lt;img src=&#34;https://popoiopo.github.io/images/file_hell.png&#34;/&gt; 
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;
-Version control is a way to keep track of your changes in a project (usually a folder that has all the important files relating to a project). These changes can entail anything in any file within that project, from changing images if you are a graphic designer to changes in code files if you are building an application. The reason you&amp;#39;d want this, is because it gives you the ability to revert to earlier states in your project (you know, before you made that horrible mistake that messed everything up).&lt;/p&gt;
+Version control is a way to keep track of your project changes (usually a folder that has all the important files relating to a project). These changes can entail anything in any file within that project, from changing images if you are a graphic designer to code file changes if you are building an application. The reason you&amp;#39;d want this is that it gives you the ability to revert to earlier states in your project. You know, before you made that horrible mistake that messed everything up.&lt;/p&gt;
 &lt;p&gt;
-So the way version control handles keeping track of these ghosts of the past, is by utilizing a database that keeps track of all changes. So each file is essentially linked to its former versions in said database. More specifically, it keeps track of the differences between files (so not neccessarily each whole file). So re-creating a file becomes just a function of adding up all changes up to the version you&amp;#39;re interested in.&lt;/p&gt;
+So one way that version control can handle keeping track of these ghosts of the past is by utilizing a database that keeps track of all changes. So each file is essentially linked to its former versions in said database. More specifically, it keeps track of only the differences between files (not necessarily each whole file). Recreating a file becomes just a function of adding up all changes up to the version you&amp;#39;re interested in. This method is called delta-based version control. Delta is usually used to indicate differences, so the name makes sense.&lt;/p&gt;
+&lt;p&gt;
+Another way, the way that is used by Git, is using a stream of snapshots. A snapshot can be seen as a picture you take of what your file looks like at that moment. When you say to Git that you want to save your current state, it saves a snapshot of every file with reference to that snapshot. To not take too much space, when a file is unchanged between the current and last commit, Git will just save that reference to the snapshot of the last time that the file was changed. It is like a string of beads onto which a new bead is added on the string on every text change. If text remains unchanged during a commit, there will be an empty space until the next bead is added.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-3&#34;&gt;
@@ -65,22 +67,22 @@ So the way version control handles keeping track of these ghosts of the past, is
 Collaboration
 &lt;/h3&gt;
 &lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-3&#34;&gt;
-&lt;p&gt;Collaborating in a project with multiple people brings about it&amp;#39;s own special set of problems. First of all, the projects needs to be accessible to all collaborators. This can be done by one centralized server to which people can log in, have all versioned files in one place, and make changes. However, having a single place to which you store your files is never a good idea. What is the server, which is just some computer elsewhere that you can log in to, crashes? What if there is a power outage in the server location? You&amp;#39;d be unable to work for that time.&lt;/p&gt;
+&lt;p&gt;Collaborating in a project with multiple people brings about its own special set of problems. First of all, the projects need to be accessible to all collaborators. This can be done by one centralized server to log in, have all versioned files in one place, and make changes. However, having a single place to which you store your files is never a good idea. What is the server, which is just some computer elsewhere that you can log in to, crashes? What if there is a power outage in the server location? You&amp;#39;d be unable to work for that time.&lt;/p&gt;
 &lt;p&gt;
-That is why distributed version control systems such as Git exist. Things are not being kept on a single location, but rather on all locations that work in the project. With this I mean that every collaborator keeps its own mirror of the project, including its full history of all files. So when a new person wants to join the collaboration, they just have to pull the latest version from the server and off they go! Therefore, if any of the machines blow up (to be a bit dramatic) the other computers will still have their version of the entire project.&lt;/p&gt;
+That is why distributed version control systems such as Git exist. Things are not being kept in a single location but rather on all locations that work in the project. With this, I mean that every collaborator keeps their own mirror of the project, including its full history of all files. So when a new person wants to join the collaboration, they just have to pull the latest version from the server, and off they go! Therefore, if any of the machines blow up (to be a bit dramatic), the other computers will still have their version of the entire project.&lt;/p&gt;
 &lt;figure&gt;
 &lt;figure&gt;
     &lt;img src=&#34;https://popoiopo.github.io/images/stolen_image_git.png&#34;/&gt; 
 &lt;/figure&gt;
 
 &lt;figcaption&gt;
-Figure of a distributed version control system (figure is adopted from the book$^1$).
+Figure of a distributed version control system (the figure is adopted from the book$^1$).
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;
-If one person makes changes to their own version of the project, they can push that version to the server, making it accessible to all collaborators. Those other people can then pull the newest version, and work with that while still keeping track of who made what changes at which spot.&lt;/p&gt;
+Suppose one person makes changes to their own version of the project. In that case, they can push that version to the server, making it accessible to all collaborators. Those other people can then pull the most recent version and work with that while still keeping track of who made what changes at which spot.&lt;/p&gt;
 &lt;p&gt;
-The way this all works exactly is a ofcourse a bit more intricate than I described here, but we got the basic intuition here. There are more problems that need to be adressed, and we&amp;#39;ll get to those in another post. But the foundation of understanding version control has been laid here.&lt;/p&gt;
+This all works exactly is a bit more intricate than I described here, but we got the basic intuition here. More problems need to be addressed, and we&amp;#39;ll get to those in another post. But the foundation of understanding version control has been laid here.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
