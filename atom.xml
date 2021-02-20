@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Bas Châtel Blog</title>
     <subtitle type="html">This is my personal blog.</subtitle>
-    <updated>2021-02-20T13:22:34&#43;01:00</updated>
+    <updated>2021-02-20T13:44:28&#43;01:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Lets talk about git</title>
             <link rel="alternate" type="text/html" href="https://example.com/post/lets_talk_about_git/" />
             <id>https://example.com/post/lets_talk_about_git/</id>
-            <updated>2021-02-20T13:21:32&#43;01:00</updated>
+            <updated>2021-02-20T13:44:17&#43;01:00</updated>
             <published>2021-02-20T10:07:03&#43;01:00</published>
             <author>
                     <name>Bas Châtel</name>
@@ -74,7 +74,7 @@ That is why distributed version control systems such as Git exist. Things are no
 &lt;/figure&gt;
 
 &lt;figcaption&gt;
-Figure of a distributed version control system (figure is from cite:chacon2014pro)
+Figure of a distributed version control system (figure is adopted from the book).
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;
@@ -83,6 +83,14 @@ If one person makes changes to their own version of the project, they can push t
 The way this all works exactly is a ofcourse a bit more intricate than I described here, but we got the basic intuition here. There are more problems that need to be adressed, and we&amp;#39;ll get to those in another post. But the foundation of understanding version control has been laid here.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-5&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-5&#34;&gt;
+References
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Chacon, S., &amp;amp; Straub, B., Pro git (2014): Springer Nature.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </content>
