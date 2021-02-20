@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Bas Châtel Blog</title>
     <subtitle type="html">This is my personal blog.</subtitle>
-    <updated>2021-02-17T15:19:25&#43;01:00</updated>
+    <updated>2021-02-20T10:54:43&#43;01:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -17,26 +17,40 @@
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.80.0">Hugo</generator>
         <entry>
-            <title type="text">Kuromoto_oscillators</title>
-            <link rel="alternate" type="text/html" href="https://example.com/post/kuromoto_oscillators/" />
-            <id>https://example.com/post/kuromoto_oscillators/</id>
-            <updated>2021-02-17T15:19:19&#43;01:00</updated>
-            <published>2021-02-17T15:18:31&#43;01:00</published>
+            <title type="text">Lets talk about git</title>
+            <link rel="alternate" type="text/html" href="https://example.com/post/lets_talk_about_git/" />
+            <id>https://example.com/post/lets_talk_about_git/</id>
+            <updated>2021-02-20T10:54:26&#43;01:00</updated>
+            <published>2021-02-20T10:07:03&#43;01:00</published>
             <author>
                     <name>Bas Châtel</name>
                     <uri>https://www.baschatel.nl/</uri>
                     <email>bastiaan.chatel@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html"> Hallo kuromoto!  hashfiaushfi
-  </summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Why am I writing this?  As I am reading this book I want to create a place where I can place my notes in a way that makes sense and that is easily used for reference later on. After several years of doing projects and using the superficial git commands it is time to delve a little deeper and actually understand what I&amp;#39;m doing.</summary>
             
                 <content type="html">
 &lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-1&#34;&gt;
-Hallo kuromoto!
+Why am I writing this?
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;p&gt;hashfiaushfi&lt;/p&gt;
+&lt;p&gt;As I am reading &lt;a href=&#34;https://git-scm.com/book/en/v2&#34;&gt;this book&lt;/a&gt; I want to create a place where I can place my notes in a way that makes sense and that is easily used for reference later on. After several years of doing projects and using the superficial git commands it is time to delve a little deeper and actually understand what I&amp;#39;m doing. Instead of merely repeating git commands I find on stack overflow whenever there is something that needs to be fixed. As I do see the value of using branches, merging files etc, they have always scared me somehow. So let&amp;#39;s try to overcome this by reading the book and making a nice post in the meantime!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+What is version Control?
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Version control is a way to keep track of your changes in a project (usually a folder that has all the important files relating to a project). These changes can entail anything in any file within that project, from changing images if you are a graphic designer to changes in code files if you are building an application. The reason you&amp;#39;d want this, is because it gives you the ability to revert to earlier states in your project (you know, before you made that horrible mistake that messed everything up).&lt;/p&gt;
+&lt;p&gt;
+We&amp;#39;ve all been there in the good old days. Writing a report in word, saving it with a name like &lt;code class=&#34;verbatim&#34;&gt;final report.docx&lt;/code&gt;. But after some feedback from the teacher, you need to make some changes. However, just working in your old file just makes you feel antsy, you&amp;#39;ve worked really hard on those things you wrote! So you make the suggested changes and call the new file &lt;code class=&#34;verbatim&#34;&gt;final final report.docx&lt;/code&gt;. But, then you ask a friend to look at your work and give some feedback which then culminates in a third &lt;code class=&#34;verbatim&#34;&gt;final report3.docx&lt;/code&gt;. This is the moment that you look at your folder and realize the hell that you&amp;#39;re creating for yourself! &lt;strong&gt;And that, my friends, is where version control comes in&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://popoiopo.github.io/images/file_hell.png&#34;/&gt; 
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </content>
@@ -51,7 +65,7 @@ Hallo kuromoto!
                             
                             
                             
-                                <category scheme="https://example.com/categories/modelling/" term="modelling" label="modelling" />
+                                <category scheme="https://example.com/categories/computerscience/" term="ComputerScience" label="ComputerScience" />
                             
                         
                     
@@ -61,13 +75,13 @@ Hallo kuromoto!
                             
                             
                             
-                                <category scheme="https://example.com/tags/complexity/" term="complexity" label="complexity" />
+                                <category scheme="https://example.com/tags/git/" term="Git" label="Git" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/sociophysics/" term="sociophysics" label="sociophysics" />
+                                <category scheme="https://example.com/tags/versioncontrol/" term="VersionControl" label="VersionControl" />
                             
                         
                     

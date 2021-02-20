@@ -23,16 +23,16 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Wed, 17 Feb 2021 15:19:25 &#43;0100</lastBuildDate>
+        <lastBuildDate>Sat, 20 Feb 2021 10:54:43 &#43;0100</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
         
             <item>
-                <title>Kuromoto_oscillators</title>
-                <link>https://example.com/post/kuromoto_oscillators/</link>
-                <guid isPermaLink="true">https://example.com/post/kuromoto_oscillators/</guid>
-                <pubDate>Wed, 17 Feb 2021 15:18:31 &#43;0100</pubDate>
+                <title>Lets talk about git</title>
+                <link>https://example.com/post/lets_talk_about_git/</link>
+                <guid isPermaLink="true">https://example.com/post/lets_talk_about_git/</guid>
+                <pubDate>Sat, 20 Feb 2021 10:07:03 &#43;0100</pubDate>
                 
                     <author>bastiaan.chatel@gmail.com (Bas Châtel)</author>
                 
@@ -41,10 +41,25 @@
                     <description>
 &lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-1&#34;&gt;
-Hallo kuromoto!
+Why am I writing this?
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;p&gt;hashfiaushfi&lt;/p&gt;
+&lt;p&gt;As I am reading &lt;a href=&#34;https://git-scm.com/book/en/v2&#34;&gt;this book&lt;/a&gt; I want to create a place where I can place my notes in a way that makes sense and that is easily used for reference later on. After several years of doing projects and using the superficial git commands it is time to delve a little deeper and actually understand what I&amp;#39;m doing. Instead of merely repeating git commands I find on stack overflow whenever there is something that needs to be fixed. As I do see the value of using branches, merging files etc, they have always scared me somehow. So let&amp;#39;s try to overcome this by reading the book and making a nice post in the meantime!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+What is version Control?
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Version control is a way to keep track of your changes in a project (usually a folder that has all the important files relating to a project). These changes can entail anything in any file within that project, from changing images if you are a graphic designer to changes in code files if you are building an application. The reason you&amp;#39;d want this, is because it gives you the ability to revert to earlier states in your project (you know, before you made that horrible mistake that messed everything up).&lt;/p&gt;
+&lt;p&gt;
+We&amp;#39;ve all been there in the good old days. Writing a report in word, saving it with a name like &lt;code class=&#34;verbatim&#34;&gt;final report.docx&lt;/code&gt;. But after some feedback from the teacher, you need to make some changes. However, just working in your old file just makes you feel antsy, you&amp;#39;ve worked really hard on those things you wrote! So you make the suggested changes and call the new file &lt;code class=&#34;verbatim&#34;&gt;final final report.docx&lt;/code&gt;. But, then you ask a friend to look at your work and give some feedback which then culminates in a third &lt;code class=&#34;verbatim&#34;&gt;final report3.docx&lt;/code&gt;. This is the moment that you look at your folder and realize the hell that you&amp;#39;re creating for yourself! &lt;strong&gt;And that, my friends, is where version control comes in&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://popoiopo.github.io/images/file_hell.png&#34;/&gt; 
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </description>
@@ -59,7 +74,7 @@ Hallo kuromoto!
                                 
                                 
                                 
-                                    <category domain="https://example.com/categories/modelling/">modelling</category>
+                                    <category domain="https://example.com/categories/computerscience/">ComputerScience</category>
                                 
                             
                         
@@ -69,13 +84,13 @@ Hallo kuromoto!
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/complexity/">complexity</category>
+                                    <category domain="https://example.com/tags/git/">Git</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/sociophysics/">sociophysics</category>
+                                    <category domain="https://example.com/tags/versioncontrol/">VersionControl</category>
                                 
                             
                         
