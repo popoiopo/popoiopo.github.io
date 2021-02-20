@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Bas Châtel Blog</title>
     <subtitle type="html">This is my personal blog.</subtitle>
-    <updated>2021-02-20T10:54:43&#43;01:00</updated>
+    <updated>2021-02-20T13:22:34&#43;01:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Lets talk about git</title>
             <link rel="alternate" type="text/html" href="https://example.com/post/lets_talk_about_git/" />
             <id>https://example.com/post/lets_talk_about_git/</id>
-            <updated>2021-02-20T10:54:26&#43;01:00</updated>
+            <updated>2021-02-20T13:21:32&#43;01:00</updated>
             <published>2021-02-20T10:07:03&#43;01:00</published>
             <author>
                     <name>Bas Châtel</name>
@@ -43,14 +43,46 @@ Why am I writing this?
 What is version Control?
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;p&gt;Version control is a way to keep track of your changes in a project (usually a folder that has all the important files relating to a project). These changes can entail anything in any file within that project, from changing images if you are a graphic designer to changes in code files if you are building an application. The reason you&amp;#39;d want this, is because it gives you the ability to revert to earlier states in your project (you know, before you made that horrible mistake that messed everything up).&lt;/p&gt;
-&lt;p&gt;
-We&amp;#39;ve all been there in the good old days. Writing a report in word, saving it with a name like &lt;code class=&#34;verbatim&#34;&gt;final report.docx&lt;/code&gt;. But after some feedback from the teacher, you need to make some changes. However, just working in your old file just makes you feel antsy, you&amp;#39;ve worked really hard on those things you wrote! So you make the suggested changes and call the new file &lt;code class=&#34;verbatim&#34;&gt;final final report.docx&lt;/code&gt;. But, then you ask a friend to look at your work and give some feedback which then culminates in a third &lt;code class=&#34;verbatim&#34;&gt;final report3.docx&lt;/code&gt;. This is the moment that you look at your folder and realize the hell that you&amp;#39;re creating for yourself! &lt;strong&gt;And that, my friends, is where version control comes in&lt;/strong&gt;.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-3&#34;&gt;
+Controling them versions
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;We&amp;#39;ve all been there in the good old days. Writing a report in word, saving it with a name like &lt;code class=&#34;verbatim&#34;&gt;final report.docx&lt;/code&gt;. But after some feedback from the teacher, you need to make some changes. However, just working in your old file just makes you feel antsy, you&amp;#39;ve worked really hard on those things you wrote! So you make the suggested changes and call the new file &lt;code class=&#34;verbatim&#34;&gt;final final report.docx&lt;/code&gt;. But, then you ask a friend to look at your work and give some feedback which then culminates in a third &lt;code class=&#34;verbatim&#34;&gt;final report3.docx&lt;/code&gt;. This is the moment that you look at your folder and realize the hell that you&amp;#39;re creating for yourself! &lt;strong&gt;And that, my friends, is where version control comes in&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;
 &lt;figure&gt;
     &lt;img src=&#34;https://popoiopo.github.io/images/file_hell.png&#34;/&gt; 
 &lt;/figure&gt;
 &lt;/p&gt;
+&lt;p&gt;
+Version control is a way to keep track of your changes in a project (usually a folder that has all the important files relating to a project). These changes can entail anything in any file within that project, from changing images if you are a graphic designer to changes in code files if you are building an application. The reason you&amp;#39;d want this, is because it gives you the ability to revert to earlier states in your project (you know, before you made that horrible mistake that messed everything up).&lt;/p&gt;
+&lt;p&gt;
+So the way version control handles keeping track of these ghosts of the past, is by utilizing a database that keeps track of all changes. So each file is essentially linked to its former versions in said database. More specifically, it keeps track of the differences between files (so not neccessarily each whole file). So re-creating a file becomes just a function of adding up all changes up to the version you&amp;#39;re interested in.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-4&#34;&gt;
+Collaboration
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;Collaborating in a project with multiple people brings about it&amp;#39;s own special set of problems. First of all, the projects needs to be accessible to all collaborators. This can be done by one centralized server to which people can log in, have all versioned files in one place, and make changes. However, having a single place to which you store your files is never a good idea. What is the server, which is just some computer elsewhere that you can log in to, crashes? What if there is a power outage in the server location? You&amp;#39;d be unable to work for that time.&lt;/p&gt;
+&lt;p&gt;
+That is why distributed version control systems such as Git exist. Things are not being kept on a single location, but rather on all locations that work in the project. With this I mean that every collaborator keeps its own mirror of the project, including its full history of all files. So when a new person wants to join the collaboration, they just have to pull the latest version from the server and off they go! Therefore, if any of the machines blow up (to be a bit dramatic) the other computers will still have their version of the entire project.&lt;/p&gt;
+&lt;figure&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://popoiopo.github.io/images/stolen_image_git.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;figcaption&gt;
+Figure of a distributed version control system (figure is from cite:chacon2014pro)
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+If one person makes changes to their own version of the project, they can push that version to the server, making it accessible to all collaborators. Those other people can then pull the newest version, and work with that while still keeping track of who made what changes at which spot.&lt;/p&gt;
+&lt;p&gt;
+The way this all works exactly is a ofcourse a bit more intricate than I described here, but we got the basic intuition here. There are more problems that need to be adressed, and we&amp;#39;ll get to those in another post. But the foundation of understanding version control has been laid here.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </content>
@@ -93,7 +125,7 @@ We&amp;#39;ve all been there in the good old days. Writing a report in word, sav
             <title type="text">The creature, the gentleman, and the king</title>
             <link rel="alternate" type="text/html" href="https://example.com/post/dobby-fairytale/" />
             <id>https://example.com/post/dobby-fairytale/</id>
-            <updated>2021-02-08T15:49:24&#43;01:00</updated>
+            <updated>2021-02-20T10:59:28&#43;01:00</updated>
             <published>2021-02-08T15:48:39&#43;01:00</published>
             <author>
                     <name>Bas Châtel</name>
@@ -144,7 +176,7 @@ And they lived happily ever after.&lt;/p&gt;
                             
                             
                             
-                                <category scheme="https://example.com/categories/writing/" term="writing" label="writing" />
+                                <category scheme="https://example.com/categories/writing/" term="Writing" label="Writing" />
                             
                         
                     
@@ -154,7 +186,7 @@ And they lived happily ever after.&lt;/p&gt;
                             
                             
                             
-                                <category scheme="https://example.com/tags/storytelling/" term="storytelling" label="storytelling" />
+                                <category scheme="https://example.com/tags/storytelling/" term="Storytelling" label="Storytelling" />
                             
                         
                     
@@ -166,7 +198,7 @@ And they lived happily ever after.&lt;/p&gt;
             <title type="text">Frederique Frog - Free for Frendetta style</title>
             <link rel="alternate" type="text/html" href="https://example.com/post/frederique-frog/" />
             <id>https://example.com/post/frederique-frog/</id>
-            <updated>2021-02-08T15:46:56&#43;01:00</updated>
+            <updated>2021-02-20T10:59:43&#43;01:00</updated>
             <published>2021-02-08T15:45:40&#43;01:00</published>
             <author>
                     <name>Bas Châtel</name>
@@ -198,7 +230,7 @@ And together, they daydreamed about the most dangerous, frightening adventures n
                             
                             
                             
-                                <category scheme="https://example.com/categories/writing/" term="writing" label="writing" />
+                                <category scheme="https://example.com/categories/writing/" term="Writing" label="Writing" />
                             
                         
                     
@@ -208,7 +240,7 @@ And together, they daydreamed about the most dangerous, frightening adventures n
                             
                             
                             
-                                <category scheme="https://example.com/tags/storytelling/" term="storytelling" label="storytelling" />
+                                <category scheme="https://example.com/tags/storytelling/" term="Storytelling" label="Storytelling" />
                             
                         
                     
@@ -220,7 +252,7 @@ And together, they daydreamed about the most dangerous, frightening adventures n
             <title type="text">Een verhaal over de olifant - Toon Telligen stijl</title>
             <link rel="alternate" type="text/html" href="https://example.com/post/toon-telligen-olifant/" />
             <id>https://example.com/post/toon-telligen-olifant/</id>
-            <updated>2021-02-08T15:44:02&#43;01:00</updated>
+            <updated>2021-02-20T11:00:33&#43;01:00</updated>
             <published>2021-02-08T15:43:01&#43;01:00</published>
             <author>
                     <name>Bas Châtel</name>
@@ -247,7 +279,7 @@ Uiteindelijk werd het donker. Uiteindelijk werd het licht. De eekhoorn en de oli
                             
                             
                             
-                                <category scheme="https://example.com/categories/writing/" term="writing" label="writing" />
+                                <category scheme="https://example.com/categories/writing/" term="Writing" label="Writing" />
                             
                         
                     
@@ -257,13 +289,13 @@ Uiteindelijk werd het donker. Uiteindelijk werd het licht. De eekhoorn en de oli
                             
                             
                             
-                                <category scheme="https://example.com/tags/storytelling/" term="storytelling" label="storytelling" />
+                                <category scheme="https://example.com/tags/storytelling/" term="Storytelling" label="Storytelling" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/dutch/" term="dutch" label="dutch" />
+                                <category scheme="https://example.com/tags/dutch/" term="Dutch" label="Dutch" />
                             
                         
                     
@@ -275,7 +307,7 @@ Uiteindelijk werd het donker. Uiteindelijk werd het licht. De eekhoorn en de oli
             <title type="text">Testing hugo and org</title>
             <link rel="alternate" type="text/html" href="https://example.com/post/test-easy-hugo/" />
             <id>https://example.com/post/test-easy-hugo/</id>
-            <updated>2021-02-08T22:39:01&#43;01:00</updated>
+            <updated>2021-02-20T11:00:18&#43;01:00</updated>
             <published>2021-02-03T17:31:23&#43;01:00</published>
             <author>
                     <name>Bas Châtel</name>
@@ -491,13 +523,13 @@ Need to fix TODO keyword coloring
                             
                             
                             
-                                <category scheme="https://example.com/categories/emacs/" term="emacs" label="emacs" />
+                                <category scheme="https://example.com/categories/emacs/" term="Emacs" label="Emacs" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/categories/blogging/" term="blogging" label="blogging" />
+                                <category scheme="https://example.com/categories/blogging/" term="Blogging" label="Blogging" />
                             
                         
                     
@@ -507,19 +539,19 @@ Need to fix TODO keyword coloring
                             
                             
                             
-                                <category scheme="https://example.com/tags/org/" term="org" label="org" />
+                                <category scheme="https://example.com/tags/org/" term="Org" label="Org" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/hugo/" term="hugo" label="hugo" />
+                                <category scheme="https://example.com/tags/hugo/" term="Hugo" label="Hugo" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/testing/" term="testing" label="testing" />
+                                <category scheme="https://example.com/tags/testing/" term="Testing" label="Testing" />
                             
                         
                     

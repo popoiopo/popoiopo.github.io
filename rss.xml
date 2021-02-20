@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Sat, 20 Feb 2021 10:54:43 &#43;0100</lastBuildDate>
+        <lastBuildDate>Sat, 20 Feb 2021 13:22:34 &#43;0100</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
@@ -52,14 +52,46 @@ Why am I writing this?
 What is version Control?
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;p&gt;Version control is a way to keep track of your changes in a project (usually a folder that has all the important files relating to a project). These changes can entail anything in any file within that project, from changing images if you are a graphic designer to changes in code files if you are building an application. The reason you&amp;#39;d want this, is because it gives you the ability to revert to earlier states in your project (you know, before you made that horrible mistake that messed everything up).&lt;/p&gt;
-&lt;p&gt;
-We&amp;#39;ve all been there in the good old days. Writing a report in word, saving it with a name like &lt;code class=&#34;verbatim&#34;&gt;final report.docx&lt;/code&gt;. But after some feedback from the teacher, you need to make some changes. However, just working in your old file just makes you feel antsy, you&amp;#39;ve worked really hard on those things you wrote! So you make the suggested changes and call the new file &lt;code class=&#34;verbatim&#34;&gt;final final report.docx&lt;/code&gt;. But, then you ask a friend to look at your work and give some feedback which then culminates in a third &lt;code class=&#34;verbatim&#34;&gt;final report3.docx&lt;/code&gt;. This is the moment that you look at your folder and realize the hell that you&amp;#39;re creating for yourself! &lt;strong&gt;And that, my friends, is where version control comes in&lt;/strong&gt;.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-3&#34;&gt;
+Controling them versions
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;We&amp;#39;ve all been there in the good old days. Writing a report in word, saving it with a name like &lt;code class=&#34;verbatim&#34;&gt;final report.docx&lt;/code&gt;. But after some feedback from the teacher, you need to make some changes. However, just working in your old file just makes you feel antsy, you&amp;#39;ve worked really hard on those things you wrote! So you make the suggested changes and call the new file &lt;code class=&#34;verbatim&#34;&gt;final final report.docx&lt;/code&gt;. But, then you ask a friend to look at your work and give some feedback which then culminates in a third &lt;code class=&#34;verbatim&#34;&gt;final report3.docx&lt;/code&gt;. This is the moment that you look at your folder and realize the hell that you&amp;#39;re creating for yourself! &lt;strong&gt;And that, my friends, is where version control comes in&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;
 &lt;figure&gt;
     &lt;img src=&#34;https://popoiopo.github.io/images/file_hell.png&#34;/&gt; 
 &lt;/figure&gt;
 &lt;/p&gt;
+&lt;p&gt;
+Version control is a way to keep track of your changes in a project (usually a folder that has all the important files relating to a project). These changes can entail anything in any file within that project, from changing images if you are a graphic designer to changes in code files if you are building an application. The reason you&amp;#39;d want this, is because it gives you the ability to revert to earlier states in your project (you know, before you made that horrible mistake that messed everything up).&lt;/p&gt;
+&lt;p&gt;
+So the way version control handles keeping track of these ghosts of the past, is by utilizing a database that keeps track of all changes. So each file is essentially linked to its former versions in said database. More specifically, it keeps track of the differences between files (so not neccessarily each whole file). So re-creating a file becomes just a function of adding up all changes up to the version you&amp;#39;re interested in.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-4&#34;&gt;
+Collaboration
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;Collaborating in a project with multiple people brings about it&amp;#39;s own special set of problems. First of all, the projects needs to be accessible to all collaborators. This can be done by one centralized server to which people can log in, have all versioned files in one place, and make changes. However, having a single place to which you store your files is never a good idea. What is the server, which is just some computer elsewhere that you can log in to, crashes? What if there is a power outage in the server location? You&amp;#39;d be unable to work for that time.&lt;/p&gt;
+&lt;p&gt;
+That is why distributed version control systems such as Git exist. Things are not being kept on a single location, but rather on all locations that work in the project. With this I mean that every collaborator keeps its own mirror of the project, including its full history of all files. So when a new person wants to join the collaboration, they just have to pull the latest version from the server and off they go! Therefore, if any of the machines blow up (to be a bit dramatic) the other computers will still have their version of the entire project.&lt;/p&gt;
+&lt;figure&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://popoiopo.github.io/images/stolen_image_git.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;figcaption&gt;
+Figure of a distributed version control system (figure is from cite:chacon2014pro)
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+If one person makes changes to their own version of the project, they can push that version to the server, making it accessible to all collaborators. Those other people can then pull the newest version, and work with that while still keeping track of who made what changes at which spot.&lt;/p&gt;
+&lt;p&gt;
+The way this all works exactly is a ofcourse a bit more intricate than I described here, but we got the basic intuition here. There are more problems that need to be adressed, and we&amp;#39;ll get to those in another post. But the foundation of understanding version control has been laid here.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </description>
@@ -150,7 +182,7 @@ And they lived happily ever after.&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://example.com/categories/writing/">writing</category>
+                                    <category domain="https://example.com/categories/writing/">Writing</category>
                                 
                             
                         
@@ -160,7 +192,7 @@ And they lived happily ever after.&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/storytelling/">storytelling</category>
+                                    <category domain="https://example.com/tags/storytelling/">Storytelling</category>
                                 
                             
                         
@@ -200,7 +232,7 @@ And together, they daydreamed about the most dangerous, frightening adventures n
                                 
                                 
                                 
-                                    <category domain="https://example.com/categories/writing/">writing</category>
+                                    <category domain="https://example.com/categories/writing/">Writing</category>
                                 
                             
                         
@@ -210,7 +242,7 @@ And together, they daydreamed about the most dangerous, frightening adventures n
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/storytelling/">storytelling</category>
+                                    <category domain="https://example.com/tags/storytelling/">Storytelling</category>
                                 
                             
                         
@@ -246,7 +278,7 @@ Uiteindelijk werd het donker. Uiteindelijk werd het licht. De eekhoorn en de oli
                                 
                                 
                                 
-                                    <category domain="https://example.com/categories/writing/">writing</category>
+                                    <category domain="https://example.com/categories/writing/">Writing</category>
                                 
                             
                         
@@ -256,13 +288,13 @@ Uiteindelijk werd het donker. Uiteindelijk werd het licht. De eekhoorn en de oli
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/storytelling/">storytelling</category>
+                                    <category domain="https://example.com/tags/storytelling/">Storytelling</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/dutch/">dutch</category>
+                                    <category domain="https://example.com/tags/dutch/">Dutch</category>
                                 
                             
                         
@@ -487,13 +519,13 @@ Need to fix TODO keyword coloring
                                 
                                 
                                 
-                                    <category domain="https://example.com/categories/emacs/">emacs</category>
+                                    <category domain="https://example.com/categories/emacs/">Emacs</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://example.com/categories/blogging/">blogging</category>
+                                    <category domain="https://example.com/categories/blogging/">Blogging</category>
                                 
                             
                         
@@ -503,19 +535,19 @@ Need to fix TODO keyword coloring
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/org/">org</category>
+                                    <category domain="https://example.com/tags/org/">Org</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/hugo/">hugo</category>
+                                    <category domain="https://example.com/tags/hugo/">Hugo</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/testing/">testing</category>
+                                    <category domain="https://example.com/tags/testing/">Testing</category>
                                 
                             
                         
