@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Bas Châtel Blog</title>
     <subtitle type="html">This is my personal blog.</subtitle>
-    <updated>2021-02-20T22:18:17&#43;01:00</updated>
+    <updated>2021-02-22T22:12:42&#43;01:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Lets talk about git</title>
             <link rel="alternate" type="text/html" href="https://example.com/post/lets_talk_about_git/" />
             <id>https://example.com/post/lets_talk_about_git/</id>
-            <updated>2021-02-20T22:18:02&#43;01:00</updated>
+            <updated>2021-02-22T22:12:36&#43;01:00</updated>
             <published>2021-02-20T10:07:03&#43;01:00</published>
             <author>
                     <name>Bas Châtel</name>
@@ -80,9 +80,9 @@ Figure of a distributed version control system (the figure is adopted from the b
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;
-Suppose one person makes changes to their own version of the project. In that case, they can push that version to the server, making it accessible to all collaborators. Those other people can then pull the most recent version and work with that while still keeping track of who made what changes at which spot.&lt;/p&gt;
+Suppose one person makes changes to their own version of the project. In that case, they can push that version to the server, making it accessible to all collaborators. Those other people can then pull the most recent version of the project as a whole and can work with that while still keeping track of who made what changes in which file.&lt;/p&gt;
 &lt;p&gt;
-This all works exactly is a bit more intricate than I described here, but we got the basic intuition here. More problems need to be addressed, and we&amp;#39;ll get to those in another post. But the foundation of understanding version control has been laid here.&lt;/p&gt;
+This all works a bit more intricate than I described here, but we got the basic intuition. More problems need to be addressed, and we&amp;#39;ll get to those in another post. But the foundation of understanding version control has been laid here.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
