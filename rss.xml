@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Mon, 22 Feb 2021 22:12:42 &#43;0100</lastBuildDate>
+        <lastBuildDate>Mon, 22 Feb 2021 22:26:06 &#43;0100</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
@@ -89,7 +89,9 @@ Figure of a distributed version control system (the figure is adopted from the b
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;
-Suppose one person makes changes to their own version of the project. In that case, they can push that version to the server, making it accessible to all collaborators. Those other people can then pull the most recent version of the project as a whole and can work with that while still keeping track of who made what changes in which file.&lt;/p&gt;
+Suppose one person makes changes to their own version of the project. In that case, they can push that version to the server, making it accessible to all collaborators. Those other people can then pull the most recent version of the project as a whole. Everyone has the entire history of the project right there on the local disk, so everyone can work with their version while still keeping track of who made what changes in which file.&lt;/p&gt;
+&lt;p&gt;
+This way of working locally allows for browsing your project&amp;#39;s history without the internet, as it can all be used locally. So if you are without internet and still want to work, you can! You can even look back at older versions of a file, make changes to a new file, commit those changes, and when you have internet again, push those changes to the server and therefore backing it up nicely.&lt;/p&gt;
 &lt;p&gt;
 This all works a bit more intricate than I described here, but we got the basic intuition. More problems need to be addressed, and we&amp;#39;ll get to those in another post. But the foundation of understanding version control has been laid here.&lt;/p&gt;
 &lt;/div&gt;
