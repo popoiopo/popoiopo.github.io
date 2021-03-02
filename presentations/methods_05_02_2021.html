@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Refining the Causal Loop Diagram</title>
+<meta name="author" content="(Loes Crielaard (latex-fragment (:value $^1$ :begin 15 :end 19 :post-blank 0 :parent #0)) , Jeroen Uleman (latex-fragment (:value $^1$ :begin 34 :end 38 :post-blank 0 :parent #0)) , Bas Chatel (latex-fragment (:value $^1$ :begin 50 :end 54 :post-blank 0 :parent #0)) , Peter Sloot, Rick Quax)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/simple.css" id="theme"/>
+
+<link rel="stylesheet" href="./local.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/lib/css/zenburn.css"/>
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<meta name="description" content="Course slides">
+</head>
+<body>
+<div style="margin-top:10px; margin-left:10px;margin-bottom:-50px;"><img src="images/methodsPaper/logos.png" alt="" style="height:50px;"></div>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h3>Refining the Causal Loop Diagram</h3><h4>A tutorial paper for maximizing the contribution of domain expertise in computational system dynamics modelling</h4><div><small>bas.chatel@radboudumc.nl</small><br><small><small>Loes Crielaard\(^1\), Jeroen Uleman\(^1\), Bas Chatel\(^1\), Peter Sloot, Rick Quax&nbsp;:&nbsp;<a href="mailto:1 Contributed equally">1 Contributed equally</a></small></small></div>
+</section>
+<section id="table-of-contents"><div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#/slide-org0368715">Complexity</a></li>
+<li><a href="#/slide-org89e189d">Modeling &amp; Simulation Cycle</a></li>
+<li><a href="#/slide-orgcccdcb6">Domain Knowledge</a></li>
+<li><a href="#/slide-org9bffda2">Conceptual Model</a></li>
+<li><a href="#/slide-org0e8472f">Computational Model</a></li>
+<li><a href="#/slide-org1b6fa05">Application</a></li>
+</ul>
+</div>
+</div>
+</section>
+
+<section>
+<section id="slide-org0368715">
+<h2 id="org0368715">Complexity</h2>
+<div class="outline-text-2" id="text-org0368715">
+</div>
+</section>
+<section id="slide-org49afe6e">
+<h3 id="org49afe6e">What is it?</h3>
+<ul>
+<li class="fragment fade-in">Studies “the way in which large groups of individual components behave collectively by adapting to each other and the environment they create themselves”</li>
+<li class="fragment fade-in">Aims to model the spatio-temporal dynamics of a system to explore its inherent patterns</li>
+<li class="fragment fade-in">Necessary in order to explore, interpret, and manipulate dynamics of a system <i>in silico</i></li>
+
+</ul>
+</section>
+<section id="slide-orgf0f6171">
+<h3 id="orgf0f6171">Fields of application</h3>
+<div style="width:50%;float:left">
+<ul>
+<li>Mental health</li>
+<li>Public health</li>
+<li>Planetary health</li>
+<li>Social dynamics</li>
+
+</ul>
+</div>
+<div style="width:50%;float: left">
+<ul>
+<li>Depression</li>
+<li>Obesity epidemic</li>
+<li>Climate change</li>
+<li>Immune system</li>
+
+</ul>
+</div>
+</section>
+<section id="slide-org52e5ecb">
+<h3 id="org52e5ecb">Problems in biopsychosocial domains</h3>
+<ul>
+<li>Infeasibility of experimental research</li>
+<li>Difficulty to obtain rich data</li>
+<li>Rapid changes in underlying system</li>
+<li>Relevant variables on many spatial and temporal scales</li>
+<li>Unclear system boundaries</li>
+
+</ul>
+</section>
+<section id="slide-orgbe865bb">
+<h3 id="orgbe865bb">The gap</h3>
+<ul>
+<li class="fragment fade-in">Need to identify methods to build computational models from conceptual models
+<ul>
+<li>Using sparse available data</li>
+
+</ul></li>
+<li class="fragment fade-in">Documented protocols lack steps to allow for conversion to a validated, executable computational model</li>
+
+</ul>
+</section>
+<section id="slide-orga88f8d8">
+<h3 id="orga88f8d8">Our approach</h3>
+<ul>
+<li class="fragment fade-in">Optimize for capturing expert knowledge</li>
+<li class="fragment fade-in">Focus on transition Causal Loop Diagrams (CLD) \(\rightarrow\) System Dynamics Model (SDM)</li>
+<li class="fragment fade-in">The Annotated Causal Loop Diagram (<i>aCLD</i>)</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org89e189d">
+<h2 id="org89e189d">Modeling &amp; Simulation Cycle</h2>
+<div class="outline-text-2" id="text-org89e189d">
+</div>
+</section>
+<section id="slide-orgb47d81d">
+<h3 id="orgb47d81d">The scientific cycle</h3>
+
+<div id="org1f6cd8d" class="figure">
+<p><img src="images/methodsPaper/image5.png" alt="image5.png" width="700px" />
+</p>
+</div>
+</section>
+<section id="slide-org0ac6fb4">
+<h3 id="org0ac6fb4">A CLD about the paper about CLDs</h3>
+
+<div id="org8361d2f" class="figure">
+<p><img src="images/methodsPaper/image15.png" alt="image15.png" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-orgcccdcb6">
+<h2 id="orgcccdcb6">Domain Knowledge</h2>
+
+<div id="org67f101c" class="figure">
+<p><img src="images/methodsPaper/DomainKnowledge.png" alt="DomainKnowledge.png" />
+</p>
+</div>
+</section>
+<section id="slide-orga895344">
+<h3 id="orga895344">Expert knowledge</h3>
+<p>
+Expert pool needs to have two things:
+</p>
+<ul>
+<li>Diversity</li>
+<li>Authorship and ownership of result</li>
+
+</ul>
+</section>
+<section id="slide-orga622b8a">
+<h3 id="orga622b8a">Research question and context validity</h3>
+<ul>
+<li class="fragment fade-in">Question needs to be well defined</li>
+<li class="fragment fade-in">It exists within a specific context
+<ul>
+<li>The extent to which the aCLD and the SDM capture the phenomenon they set out to</li>
+<li>Needs to be formulated before modeling</li>
+
+</ul></li>
+<li class="fragment fade-in">Research question and context are not set in stone \(\rightarrow\) Iterative process</li>
+
+</ul>
+</section>
+<section id="slide-orgebafbb0">
+<h3 id="orgebafbb0">Rules of the game</h3>
+<ul>
+<li class="fragment fade-in">A model should never be used outside its pre-defined context
+<ul>
+<li>Spatial scale</li>
+<li>Temporal scale</li>
+
+</ul></li>
+<li class="fragment fade-in">All steps in process needs to be relative to specified context</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org9bffda2">
+<h2 id="org9bffda2">Conceptual Model</h2>
+
+<div id="orgd89133f" class="figure">
+<p><img src="images/methodsPaper/ConceptualModel.png" alt="ConceptualModel.png" />
+</p>
+</div>
+</section>
+<section id="slide-org3885956">
+<h3 id="org3885956">Scale seperation map</h3>
+
+<div id="org22a1824" class="figure">
+<p><img src="images/methodsPaper/image11.jpg" alt="image11.jpg" width="600px" />
+</p>
+</div>
+<aside class="notes">
+<ol>
+<li>Smaller temporal scales average out</li>
+<li>Larger temporal scales are kept constant</li>
+<li>Define your variables unambiguously</li>
+<li>Define variables neutrally</li>
+
+</ol>
+
+</aside>
+</section>
+<section id="slide-org84cf7bd">
+<h3 id="org84cf7bd">Current CLD's contain</h3>
+<ul>
+<li class="fragment fade-in">Variables</li>
+<li class="fragment fade-in">Causal links (arrows)</li>
+<li class="fragment fade-in">Identified feedback loops</li>
+
+</ul>
+</section>
+<section id="slide-org4d7c313">
+<h3 id="org4d7c313">Missing ingredients</h3>
+<ul>
+<li>Uncertainty</li>
+<li>Recording consensus</li>
+<li>Known-to-be-absent causal links</li>
+<li>Intermediary variables</li>
+<li>Functional forms</li>
+<li>Interaction terms</li>
+<li>High quality literature evidence</li>
+
+</ul>
+
+</section>
+<section id="slide-orga6fb4b1">
+<h3 id="orga6fb4b1">Uncertainty</h3>
+<ul>
+<li class="fragment fade-in"><b>AKA</b>: The stuff that we're not certain about
+<ul>
+<li>Topology</li>
+<li>Equations (functional form)</li>
+<li>Measuring methods</li>
+<li>Etc.,</li>
+
+</ul></li>
+<li class="fragment fade-in"><b>If ignored</b>:
+<ul>
+<li>Creates bias</li>
+<li>Overstates predictive power</li>
+<li>Possibly leading to wrong conclusions</li>
+
+</ul></li>
+
+</ul>
+</section>
+<section id="slide-org4610db5">
+<h3 id="org4610db5">Recording Consensus</h3>
+<ul>
+<li class="fragment fade-in">Could be a voting count</li>
+<li class="fragment fade-in">Transparency about uncertainty
+<ul>
+<li>More consensus \(\rightarrow\) less structural uncertainty and vice versa</li>
+
+</ul></li>
+<li class="fragment fade-in">Uncertain causal links \(\rightarrow\) multiple possible models</li>
+
+</ul>
+</section>
+<section id="slide-org107c357">
+<h3 id="org107c357">Known-to-be-absent Causal Links</h3>
+<ul>
+<li class="fragment fade-in">Known to not be a direct cause- and- effect</li>
+<li class="fragment fade-in">Recording reduces underestimation of structural uncertainty
+<ul>
+<li>You know what there is</li>
+<li>You know what you don't know</li>
+<li><b>You know what there isn't</b></li>
+<li>You know?</li>
+
+</ul></li>
+
+</ul>
+</section>
+<section id="slide-org757315e">
+<h3 id="org757315e">Intermediary Variables</h3>
+<div style="width:50%;float:left">
+<img src="images/methodsPaper/image14.png" style="width: 100%">
+</div>
+<div style="width:50%;float: left">
+<ul>
+<li>Add only direct causal links</li>
+<li><b>If unrecorded:</b> assume intermediary variables to be independent to rest of CLD</li>
+<li>Sanity check</li>
+
+</ul>
+</div>
+</section>
+<section id="slide-orgd047e6f">
+<h3 id="orgd047e6f">Functional Forms</h3>
+<ul>
+<li class="fragment fade-in">Mathematical function that describes causal relationship</li>
+<li class="fragment fade-in">Refines initial polarity used</li>
+<li class="fragment fade-in">Can be chosen by experts from selection possible candidates</li>
+<li class="fragment fade-in">Cross-reference with literature</li>
+<li class="fragment fade-in">Any information can help
+<ul>
+<li>Monotonically increasing</li>
+<li>Eventually converging to zero</li>
+
+</ul></li>
+
+</ul>
+</section>
+<section id="slide-org2678903">
+<h3 id="org2678903">Interaction Terms</h3>
+<ul>
+<li class="fragment fade-in">Many-to-one causal link
+<ul>
+<li>Multiple variables bring about a change in another variable</li>
+
+</ul></li>
+<li class="fragment fade-in">Interaction term
+<ul>
+<li>Logical AND gate</li>
+<li>Logical OR gate</li>
+
+</ul></li>
+
+</ul>
+</section>
+<section id="slide-org63bb2ac">
+<h3 id="org63bb2ac">High Quality Literature Evidence</h3>
+<ul>
+<li class="fragment fade-in">Literature should be explicitly specified for each variable and causal link</li>
+<li class="fragment fade-in">Allows iterative development</li>
+<li class="fragment fade-in">Provides concrete basis for discussion among experts
+<ul>
+<li>Can be deciding factor according to evidence quality</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-org9c64c4a">
+<h3 id="org9c64c4a">Annotated CLD</h3>
+
+<div id="orgf8d8e07" class="figure">
+<p><img src="images/methodsPaper/image10.png" alt="image10.png" width="700px" />
+</p>
+</div>
+</section>
+<section id="slide-org3898454">
+<h3 id="org3898454">aCLD</h3>
+<ul>
+<li class="fragment fade-in">Reflection of the knowledge and assumptions held by a person or group
+<ul>
+<li>Shared mental model</li>
+
+</ul></li>
+<li class="fragment fade-in">Cross-discipline
+<ul>
+<li>Reflected in diverse expert pool</li>
+
+</ul></li>
+
+</ul>
+</section>
+<section id="slide-org0b8c479">
+<h3 id="org0b8c479">Labelled aCLD</h3>
+
+<div id="org91923cd" class="figure">
+<p><img src="images/methodsPaper/image4.png" alt="image4.png" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org0e8472f">
+<h2 id="org0e8472f">Computational Model</h2>
+
+<div id="org6a57ff9" class="figure">
+<p><img src="images/methodsPaper/ComputationalModel.png" alt="ComputationalModel.png" />
+</p>
+</div>
+</section>
+<section id="slide-org2415e9b">
+<h3 id="org2415e9b">SDM</h3>
+<ul>
+<li>Interlocking set of (difference) equations
+<ul>
+<li>Measured data</li>
+<li>Experiential data</li>
+
+</ul></li>
+<li>2-way communication between mental models &amp; simulation models</li>
+<li>Modular architecture \(\rightarrow\) incorporate other models
+<ul>
+<li>Multiscale model</li>
+
+</ul></li>
+
+</ul>
+</section>
+<section id="slide-orgf4713bb">
+<h3 id="orgf4713bb">Equations</h3>
+<p>
+<b>Potato equations</b>
+</p>
+<div>
+\begin{align}
+p_{t+1} &= (1.5p)l\ + && \text{Influence of light on potato growth} \\
+        &\ \ \ \ \ (s^{a_1})p\ + && \text{Influence of soil nutrients on potato growth} \\
+        &-(a_2 f_1(p))\ + && \text{Competition with themselves} \\
+        &-(2w)p && \text{Potato loss due to worms}
+\end{align}
+
+</div>
+</section>
+<section id="slide-org4f284a0">
+<h3 id="org4f284a0">Equations</h3>
+<p>
+<b>Soil nutrients equations</b>
+</p>
+<div>
+\begin{align}
+s_{t+1} &= (0.3w)\ + && \text{Worm contribution by feces to soil nutrients} \\
+        &-(p^{a_1})s\ && \text{Soil nutrient consumption from potatoes}
+\end{align}
+
+</div>
+</section>
+<section id="slide-orgffcea44">
+<h3 id="orgffcea44">Equations</h3>
+<p>
+<b>Worm population equations</b>
+</p>
+<div>
+\begin{align}
+w_{t+1} &= (1.2p)\ + && \text{Migration caused by potatoes} \\
+        &\ \ \ \ \ (0.1w)\ + && \text{Worm birth} \\
+        & -(0.1w)\ + && \text{Worm death} \\
+        & -(2s)(1w)\ + && \text{Toxic effect nutrients} \\
+        & (-|+)a_3f_2(w,\text{light}) && \text{Attraction to the warmth of the light}
+\end{align}
+
+</div>
+</section>
+<section id="slide-orgab301ff">
+<h3 id="orgab301ff">Joint space</h3>
+<ul>
+<li class="fragment fade-in">Model space
+<ul>
+<li>Equations themselves</li>
+
+</ul></li>
+<li class="fragment fade-in">Parameter space
+<ul>
+<li>Parameters accompanying those equations</li>
+
+</ul></li>
+<li class="fragment fade-in">Dimensions to estimate
+<ul>
+<li>Model space + Parameter space</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-org2f9d365">
+<h3 id="org2f9d365">Estimation</h3>
+<ul>
+<li class="fragment fade-in">Optimization algorithms
+<ul>
+<li>Iteratively converge towards a good solution</li>
+
+</ul></li>
+<li class="fragment fade-in">Markov chain Monte Carlo methods
+<ul>
+<li>Calculate multi-dimensional integrals</li>
+<li>Record states from a markov chain</li>
+<li>Sample from probability distribution</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-orgde9d1fe">
+<h3 id="orgde9d1fe">Maximum a Posteriori</h3>
+<ul>
+<li class="fragment fade-in">Most plausible values that parameters can take</li>
+<li class="fragment fade-in">Usually only descriptive used</li>
+<li class="fragment fade-in">Forgets about the distribution itself though..</li>
+
+</ul>
+
+</section>
+<section id="slide-orgd1b923d">
+<h3 id="orgd1b923d">Posterior distribution</h3>
+
+<div id="orgbb66fbb" class="figure">
+<p><img src="images/methodsPaper/image7.png" alt="image7.png" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org1b6fa05">
+<h2 id="org1b6fa05">Application</h2>
+
+<div id="orgd1eeff1" class="figure">
+<p><img src="images/methodsPaper/Application.png" alt="Application.png" />
+</p>
+</div>
+
+</section>
+<section id="slide-org3c15beb">
+<h3 id="org3c15beb">It's all about confidence</h3>
+<ul>
+<li>To increase confidence is to reduce uncertainty</li>
+<li>Confidence in model predictions
+<ul>
+<li>Otherwise, what are we doing?</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-org12ea4e6">
+<h3 id="org12ea4e6">Parameter Uncertainty</h3>
+
+<div id="orgf70dcb2" class="figure">
+<p><img src="images/methodsPaper/image7.png" alt="image7.png" />
+</p>
+</div>
+
+</section>
+<section id="slide-orgc7f3c7a">
+<h3 id="orgc7f3c7a">Sensitivity Analysis (SA)</h3>
+<ul>
+<li>Which uncertainties in model account for most uncertainty in model prediction</li>
+<li>Global Sensitivity Analysis
+<ul>
+<li>Prefered over local SA</li>
+<li>Interactions between parameters</li>
+<li>Can be used to reduce dimensionality</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-org013dfbb">
+<h3 id="org013dfbb">Validation of the model</h3>
+<ul>
+<li>Structure-oriented behavior models
+<ul>
+<li class="fragment fade-in">Validation statements</li>
+<li class="fragment fade-in">Check if SDM exhibits behavior encoded in these statements</li>
+<li class="fragment fade-in">Based on different dataset than used to construct <i>aCLD</i></li>
+<li class="fragment fade-in">Spanning multiple causal links</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-org3be0606">
+<h3 id="org3be0606">Validation of the model</h3>
+<ul>
+<li>Behavior pattern tests
+<ul>
+<li class="fragment fade-in">Check if SDM exhibits behavior encoded in data</li>
+<li class="fragment fade-in">Ideally longitudinal data</li>
+<li class="fragment fade-in">Validation using data not used previously</li>
+
+</ul></li>
+<li>Sadly, skipped a lot</li>
+
+</ul>
+
+</section>
+<section id="slide-orgabdc7f2">
+<h3 id="orgabdc7f2">All the confidence in the world</h3>
+<ul>
+<li class="fragment fade-in">Testing "What if" scenarios</li>
+<li class="fragment fade-in">Test effects of hypothetical interventions</li>
+<li class="fragment fade-in">Learn all the things!</li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<p> Created by Bas Chatel</p>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+
+
+</script>
+</body>
+</html>

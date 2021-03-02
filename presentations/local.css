@@ -1,0 +1,31 @@
+.reveal h1 {
+    color:#006991;
+}
+
+.reveal h2 {
+    color:#006991;
+}
+
+.reveal h3 {
+    color:#006991;
+}
+
+.reveal a {
+  color: #00AFDC;
+}
+
+.reveal ul {
+  list-style: none; /* Remove default bullets */
+}
+.reveal ul li {
+  list-style: none; /* Remove default bullets */
+}
+
+.reveal ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #00AFDC; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1.5em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
