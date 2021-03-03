@@ -37,15 +37,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="881"
-     inkscape:window-height="507"
+     inkscape:window-width="1772"
+     inkscape:window-height="1052"
      id="namedview144"
      showgrid="false"
      inkscape:zoom="1"
-     inkscape:cx="-56.490424"
-     inkscape:cy="83.968228"
-     inkscape:window-x="1935"
-     inkscape:window-y="1655"
+     inkscape:cx="5.5095759"
+     inkscape:cy="77.968228"
+     inkscape:window-x="1044"
+     inkscape:window-y="1110"
      inkscape:window-maximized="0"
      inkscape:current-layer="g132"
      inkscape:document-rotation="0" />
@@ -63,10 +63,14 @@
        stroke="none"
        pointer-events="all"
        id="rect116"
-       style="stroke-width:0.996447" />
+       style="stroke-width:0.996447"
+       inkscape:export-xdpi="179.65715"
+       inkscape:export-ydpi="179.65715" />
     <g
        transform="matrix(0.99290782,0,0,1,5.5208596,5.5)"
-       id="g122">
+       id="g122"
+       inkscape:export-xdpi="179.65715"
+       inkscape:export-ydpi="179.65715">
       <switch
          id="switch120">
         <foreignObject
@@ -103,11 +107,15 @@
        stroke="none"
        pointer-events="all"
        id="rect124"
-       style="stroke-width:0.996447" />
+       style="stroke-width:0.996447"
+       inkscape:export-xdpi="179.65715"
+       inkscape:export-ydpi="179.65715" />
     <g
        transform="matrix(1.0006372,0,0,1,5.5022306,5.5)"
        opacity="0.7"
-       id="g130">
+       id="g130"
+       inkscape:export-xdpi="179.65715"
+       inkscape:export-ydpi="179.65715">
       <switch
          id="switch128"
          style="fill:#a02c2c"
