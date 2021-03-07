@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Bas Châtel Blog</title>
     <subtitle type="html">This is my personal blog.</subtitle>
-    <updated>2021-03-07T16:07:26&#43;01:00</updated>
+    <updated>2021-03-07T16:12:35&#43;01:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Lets talk about git (Part 2)</title>
             <link rel="alternate" type="text/html" href="https://example.com/post/lets_talk_about_git2/" />
             <id>https://example.com/post/lets_talk_about_git2/</id>
-            <updated>2021-03-07T16:06:55&#43;01:00</updated>
+            <updated>2021-03-07T16:12:30&#43;01:00</updated>
             <published>2021-03-07T13:35:37&#43;01:00</published>
             <author>
                     <name>Bas Châtel</name>
@@ -43,7 +43,7 @@ Recap previous
 This post
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;p&gt;In this post, we will elaborate further on the workings of Git, and we will venture into some of the command line functions. We will &lt;span style=&#34;text-decoration: underline;&#34;&gt;not&lt;/span&gt; discuss how to install Git, nor will we discuss where the command line is in your system and how that works. So some prior knowledge is assumed.&lt;/p&gt;
+&lt;p&gt;In this post, we will elaborate further on the workings of Git, and we will venture into some of the command line functions. We will &lt;span style=&#34;text-decoration: underline;&#34;&gt;not&lt;/span&gt; discuss how to install Git, nor will we discuss where the command line is in your system and how that works. So some prior knowledge is assumed. The things discussed here are, just as the previous post, discussed in &lt;a href=&#34;https://git-scm.com/book/en/v2&#34;&gt;this book&lt;/a&gt;. So if you want more details, please refer to the book.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;
