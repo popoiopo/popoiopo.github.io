@@ -27,7 +27,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM&#43;Plex&#43;Serif:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;family=Comfortaa:wght@700&amp;display=swap" media="print" onload="this.media='all'" />
         <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM&#43;Plex&#43;Serif:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;family=Comfortaa:wght@700&amp;display=swap" /></noscript>
 
-    <meta name="author" content="Bas Châtel" /><meta name="description" content="Recap previous  In the previous post, we talked about what version control is, how it stores its versions of files and how a centralized vs distributed version control works. We mostly talked about the intuition of why we would want to use version control and how it works." />
+    <meta name="author" content="Bas Châtel" /><meta name="description" content="Recap previous  In the previous post, we talked about what version control is, how it stores its versions of files and how centralized and distributed version control works. We mostly talked about the intuition of why we would want to use version control but also had a glimpse of the problems that can arise once collaboration comes into play." />
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2a6df4" />
@@ -54,13 +54,13 @@
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2021-03-07T13:35:37+01:00",
-        "dateModified": "2021-03-07T16:12:30+01:00",
+        "dateModified": "2021-03-07T18:06:24+01:00",
         "url": "https://example.com/post/lets_talk_about_git2/",
         "headline": "Lets talk about git (Part 2)",
-        "description": "Recap previous  In the previous post, we talked about what version control is, how it stores its versions of files and how a centralized vs distributed version control works. We mostly talked about the intuition of why we would want to use version control and how it works.",
+        "description": "Recap previous  In the previous post, we talked about what version control is, how it stores its versions of files and how centralized and distributed version control works. We mostly talked about the intuition of why we would want to use version control but also had a glimpse of the problems that can arise once collaboration comes into play.",
         "inLanguage" : "en",
         "articleSection": "post",
-        "wordCount":  958 ,
+        "wordCount":  984 ,
         "image": ["https://popoiopo.github.io/images/lifecycle.jpg"],
         "author": {
             "@type": "Person",
@@ -100,13 +100,13 @@
 
 
 <meta property="og:title" content="Lets talk about git (Part 2)" />
-<meta property="og:description" content="Recap previous  In the previous post, we talked about what version control is, how it stores its versions of files and how a centralized vs distributed version control works. We mostly talked about the intuition of why we would want to use version control and how it works." />
+<meta property="og:description" content="Recap previous  In the previous post, we talked about what version control is, how it stores its versions of files and how centralized and distributed version control works. We mostly talked about the intuition of why we would want to use version control but also had a glimpse of the problems that can arise once collaboration comes into play." />
 <meta property="og:url" content="https://example.com/post/lets_talk_about_git2/" />
 <meta property="og:site_name" content="Bas Châtel Blog" />
 <meta property="og:locale" content="en" /><meta property="og:image" content="https://popoiopo.github.io/images/lifecycle.jpg" />
 <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2021-03-07T13:35:37&#43;01:00" />
-    <meta property="article:modified_time" content="2021-03-07T16:12:30&#43;01:00" />
+    <meta property="article:modified_time" content="2021-03-07T18:06:24&#43;01:00" />
     
     <meta property="article:section" content="post" />
 
@@ -238,7 +238,7 @@
     
     
         
-        <time datetime="2021-03-07T16:12:30&#43;01:00" class="post-meta-item modified dt-updated"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2021.3.7</time>
+        <time datetime="2021-03-07T18:06:24&#43;01:00" class="post-meta-item modified dt-updated"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2021.3.7</time>
     
     
     
@@ -252,7 +252,7 @@
     
     
         
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;958</span>
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;984</span>
     
     
         
@@ -271,7 +271,7 @@
 Recap previous
 </h2>
 <div id="outline-text-headline-1" class="outline-text-2">
-<p style="text-indent:0"><span class="drop-cap">I</span>n the previous post, we talked about what version control is, how it stores its versions of files and how a centralized vs distributed version control works. We mostly talked about the intuition of why we would want to use version control and how it works. Furthermore, we had a glimpse of the problems that can arise once collaboration comes into play. If you haven&#39;t read it, <a href="https://www.baschatel.nl/post/lets_talk_about_git/" target="_blank" rel="noopener">here it is.</a></p>
+<p style="text-indent:0"><span class="drop-cap">I</span>n the previous post, we talked about what version control is, how it stores its versions of files and how centralized and distributed version control works. We mostly talked about the intuition of why we would want to use version control but also had a glimpse of the problems that can arise once collaboration comes into play. If you haven&#39;t read the post, <a href="https://www.baschatel.nl/post/lets_talk_about_git/" target="_blank" rel="noopener">here it is.</a></p>
 </div>
 </div>
 <div id="outline-container-headline-2" class="outline-2">
@@ -279,7 +279,7 @@ Recap previous
 This post
 </h2>
 <div id="outline-text-headline-2" class="outline-text-2">
-<p>In this post, we will elaborate further on the workings of Git, and we will venture into some of the command line functions. We will <span style="text-decoration: underline;">not</span> discuss how to install Git, nor will we discuss where the command line is in your system and how that works. So some prior knowledge is assumed. The things discussed here are, just as the previous post, discussed in <a href="https://git-scm.com/book/en/v2" target="_blank" rel="noopener">this book</a>. So if you want more details, please refer to the book.</p>
+<p>In this post, we will talk about the three stages that a file can be in when tracked by Git. We will <span style="text-decoration: underline;">not</span> discuss how to install Git, nor will we discuss where the command line is in your system and how that works. So some prior knowledge is assumed. The things discussed here are, just as the previous post, discussed in <a href="https://git-scm.com/book/en/v2" target="_blank" rel="noopener">this book</a>. So if you want more details, please refer to the book.</p>
 </div>
 </div>
 <div id="outline-container-headline-3" class="outline-2">
@@ -315,7 +315,7 @@ Committed
 Working tree
 </dt>
 <dd>
-<p>This is a single checkout of one version of the project <sup class="footnote-reference"><a id="footnote-reference-1" href="#footnote-1">1</a></sup>. The files in these versions are pulled out of the compressed database in the Git directory and placed on disk for you to use or modify.</p>
+<p>A single checkout of one version of the project <sup class="footnote-reference"><a id="footnote-reference-1" href="#footnote-1">1</a></sup>. The files in these versions are pulled out of the compressed database in the Git directory and placed on disk for you to use or modify.</p>
 </dd>
 <dt>
 Staging area
@@ -327,7 +327,7 @@ Staging area
 Git directory
 </dt>
 <dd>
-<p>This is the place where Git stores the metadata and database for your project. Needless to say, this is the backbone of the Git experience, and it is what is copied when you <em>clone</em> a repository from another computer.</p>
+<p>The place where Git stores the metadata and database for your project. Needless to say, this is the backbone of the Git experience, and it is what is copied when you <em>clone</em> a repository from another computer.</p>
 </dd>
 </dl>
 </div>
@@ -337,7 +337,7 @@ Git directory
 Creating a git directory
 </h2>
 <div id="outline-text-headline-4" class="outline-text-2">
-<p>Say you have a project that you work on and want to have version controlled. This project lives in some folder that you have somewhere (I usually have my git directories stored in a directory called <code class="verbatim">github</code> in the root, or home, directory). But people also keep them in the well-known <code class="verbatim">Documents</code> folder. Note that I use folder and directory interchangeably<sup class="footnote-reference"><a id="footnote-reference-2" href="#footnote-2">2</a></sup>.</p>
+<p>Say you have a project that you work on and want to have version controlled. This project lives in some folder that you have somewhere (I usually have my git directories stored in a directory called <code class="verbatim">github</code> in the home directory). But people also keep them in the well-known <code class="verbatim">Documents</code> folder, or whatever makes you happy 😃 Note that I use folder and directory interchangeably<sup class="footnote-reference"><a id="footnote-reference-2" href="#footnote-2">2</a></sup>.</p>
 <p>
 Let&#39;s say you have a fantastic project that lives in a directory that we&#39;ll call <code class="verbatim">path/to/project</code> which you want to version control. You first need to go to your terminal, go to that directory, and initialize it as a git repository.</p>
 <div class="src src-bash">
@@ -345,9 +345,13 @@ Let&#39;s say you have a fantastic project that lives in a directory that we&#39
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">  <span class="nb">cd</span> path/to/project
+<pre class="chroma"><code class="language-bash" data-lang="bash">  <span class="c1"># Go to the right directory (cd stands for Change Directory)</span>
+  <span class="nb">cd</span> path/to/project
+  <span class="c1"># Initialize the git directory</span>
   git init</code></pre></td></tr></table></div>
 </div>
 </div>
@@ -364,16 +368,16 @@ This will create a new subdirectory called <code class="verbatim">.git</code> th
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text">- Project
-|- Readme.org
-|- main.py
-|- images
-||- img1.png</code></pre></td></tr></table></div>
+<pre class="chroma"><code class="language-text" data-lang="text">├─ Project
+│  ├─ Readme.org
+│  ├─ main.py
+│  ├─ images
+│  │  ├─ img1.png</code></pre></td></tr></table></div>
 </div>
 </div>
 </div>
 <p>
-We have a <code class="verbatim">Readme.org</code> that contains information about the project, a <code class="verbatim">main.py</code>, which is just the main python file, and an <code class="verbatim">images</code> directory that contains an image. To add the <code class="verbatim">Readme.org</code> to the Git tracking, we simply do the following:</p>
+We have a <code class="verbatim">Readme.org</code>, which contains information about the project, a <code class="verbatim">main.py</code>, which is just the main python file, and an <code class="verbatim">images</code> directory which contains an image (<code class="verbatim">img1.png</code>). To add the <code class="verbatim">Readme.org</code> to the Git tracking, we simply do the following:</p>
 <div class="src src-bash">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
@@ -387,7 +391,7 @@ We have a <code class="verbatim">Readme.org</code> that contains information abo
 </div>
 </div>
 <p>
-<code>Git add</code> adds the <code class="verbatim">Readme.org</code> file to the staging area to be tracked by Git. Another way to add files is by using wildcards. Say you want to add all python files (ending with <code class="verbatim">.py</code>), then you could do <code class="verbatim">git add *.py</code> in which the star means that it doesn&#39;t matter what comes before the <code class="verbatim">.py</code> as long it ends with it. <code>Git commit</code> commits the tracked file to the git directory, and the current version is saved! Now, should anything go wrong, we can always return to this version! The <code>-m</code> flag just means that we add a message to the commit. This usually is just a short description of the commit&#39;s changes, so you can easily see what you did.</p>
+<code>Git add</code> adds the <code class="verbatim">Readme.org</code> file to the tracker and stages it to be commited (so it&#39;s in the staging area now). Another way to add files is by using wildcards. Say you want to add all python files (ending with <code class="verbatim">.py</code>), then you could do <code class="verbatim">git add *.py</code> in which the star means that it doesn&#39;t matter what comes before the <code class="verbatim">.py</code> as long it ends with it. <code>Git commit</code> commits the tracked file to the git directory, and the current version is saved! Now, should anything go wrong, we can always return to this version! The <code>-m</code> flag just means that we add a message to the commit. This usually is just a short description of the commit&#39;s changes, so you can easily see what you did.</p>
 <p>
 Here you can already see the lifecycle of the status of your files. First they are untracked and Git doesn&#39;t know about those files. Then after you track them, Git knows about them and they can be in the three stages.</p>
 <p>
@@ -397,21 +401,24 @@ Here you can already see the lifecycle of the status of your files. First they a
 </p>
 </div>
 </div>
+<div id="outline-container-headline-5" class="outline-2">
+<h2 id="headline-5">
+Footnotes
+</h2>
+</div>
 <div class="footnotes">
 <hr class="footnotes-separatator">
 <div class="footnote-definitions">
 <div class="footnote-definition">
 <sup id="footnote-1"><a href="#footnote-reference-1">1</a></sup>
 <div class="footnote-body">
-<p>You can have multiple working versions of the project next to each other. For example, you can have a production version and a version in which you add functionality. Then, if the new functionality is done, you could merge the two versions.</p>
-<p>
-These three phases lend themselves to a workflow in the same order. (1) You make changes in a file (file is <strong>modified</strong>). (2) After you&#39;re happy with your changes, you can stage those changes that you want to be part of your next committed. Only the files you added are brought to the staging area and can then be considered <strong>staged</strong>. (3) You do a commit, taking those <em>staged</em> files in the staging area and storing that snapshot permanently to your Git directory.</p>
+<p>You can have multiple working versions of the project next to each other. For example, you can have a production version and a version in which you add functionality. Then, if the new functionality is done, you could merge the two versions. These three phases lend themselves to a workflow in the same order. (1) You make changes in a file (file is <strong>modified</strong>). (2) After you&#39;re happy with your changes, you can stage those changes that you want to be part of your next committed. Only the files you added are brought to the staging area and can then be considered <strong>staged</strong>. (3) You do a commit, taking those <em>staged</em> files in the staging area and storing that snapshot permanently to your Git directory.</p>
 </div>
 </div>
 <div class="footnote-definition">
 <sup id="footnote-2"><a href="#footnote-reference-2">2</a></sup>
 <div class="footnote-body">
-<p>Folders and directories are used interchangeably as they usually refer to the same thing. If we&#39;d really want to nitpick, there is a difference. In a GUI (graphical user interface), such as Windows, a folder doesn&#39;t necessarily map to a specific hard drive location, a construct meant to mimic a real folder called a shell namespace. For example, a folder you&#39;ve created to hold pictures on your desktop. While with a command-line interface (e.g., MS-DOS or Linux), you would say directory instead of folder as a directory is mapped to a physical location on a storage medium.</p>
+<p>Funfact! Folders and directories are used interchangeably as they usually refer to the same thing. If we&#39;d really want to nitpick, there is a difference. In a GUI (graphical user interface), such as Windows, a folder doesn&#39;t necessarily map to a specific hard drive location, a construct meant to mimic a real folder called a shell namespace. For example, a folder you&#39;ve created to hold pictures on your desktop. While with a command-line interface (e.g., MS-DOS or Linux), you would say directory instead of folder as a directory is mapped to a physical location on a storage medium.</p>
 </div>
 </div>
 </div>
@@ -428,7 +435,7 @@ These three phases lend themselves to a workflow in the same order. (1) You make
 
         
     <div class="updated-badge-container">
-        <span title="Updated @ 2021-03-07 16:12:30 CET" style="cursor:help">
+        <span title="Updated @ 2021-03-07 18:06:24 CET" style="cursor:help">
 
 <svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2021-03-07</text><text x="915" y="140" textLength="650" transform="scale(.1)">2021-03-07</text></g></svg>
         </span></div>
