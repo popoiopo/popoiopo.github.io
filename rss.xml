@@ -23,10 +23,207 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Thu, 04 Mar 2021 10:18:57 &#43;0100</lastBuildDate>
+        <lastBuildDate>Sun, 07 Mar 2021 16:07:26 &#43;0100</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
+        
+            <item>
+                <title>Lets talk about git (Part 2)</title>
+                <link>https://example.com/post/lets_talk_about_git2/</link>
+                <guid isPermaLink="true">https://example.com/post/lets_talk_about_git2/</guid>
+                <pubDate>Sun, 07 Mar 2021 13:35:37 &#43;0100</pubDate>
+                
+                    <author>bastiaan.chatel@gmail.com (Bas Châtel)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Recap previous
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;In the previous post, we talked about what version control is, how it stores its versions of files and how a centralized vs distributed version control works. We mostly talked about the intuition of why we would want to use version control and how it works. Furthermore, we had a glimpse of the problems that can arise once collaboration comes into play. If you haven&amp;#39;t read it, &lt;a href=&#34;https://www.baschatel.nl/post/lets_talk_about_git/&#34;&gt;here it is.&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+This post
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;In this post, we will elaborate further on the workings of Git, and we will venture into some of the command line functions. We will &lt;span style=&#34;text-decoration: underline;&#34;&gt;not&lt;/span&gt; discuss how to install Git, nor will we discuss where the command line is in your system and how that works. So some prior knowledge is assumed.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-3&#34;&gt;
+The three states
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+A file in a Git repository can be in three different main stages; modified, staged, and committed.&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;
+Modified
+&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;You changed the file but have not committed the changes to your database.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;
+Staged
+&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;You marked the modified file in the current version to go into your next commit.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;
+Committed
+&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;The data is stored in the database!&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;These three stages lead to the main sections of a Git project; the working tree, the staging area, and the git directory.&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;
+Working tree
+&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;This is a single checkout of one version of the project &lt;sup class=&#34;footnote-reference&#34;&gt;&lt;a id=&#34;footnote-reference-1&#34; href=&#34;https://example.com/post/lets_talk_about_git2/#footnote-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. The files in these versions are pulled out of the compressed database in the Git directory and placed on disk for you to use or modify.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;
+Staging area
+&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;The staging area, aka &amp;#34;index&amp;#34;, is a file in your Git directory, storing information about what will be in your next commit.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;
+Git directory
+&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;This is the place where Git stores the metadata and database for your project. Needless to say, this is the backbone of the Git experience, and it is what is copied when you &lt;em&gt;clone&lt;/em&gt; a repository from another computer.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-4&#34;&gt;
+Creating a git directory
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Say you have a project that you work on and want to have version controlled. This project lives in some folder that you have somewhere (I usually have my git directories stored in a directory called &lt;code class=&#34;verbatim&#34;&gt;github&lt;/code&gt; in the root, or home, directory). But people also keep them in the well-known &lt;code class=&#34;verbatim&#34;&gt;Documents&lt;/code&gt; folder. Note that I use folder and directory interchangeably&lt;sup class=&#34;footnote-reference&#34;&gt;&lt;a id=&#34;footnote-reference-2&#34; href=&#34;https://example.com/post/lets_talk_about_git2/#footnote-2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;
+Let&amp;#39;s say you have a fantastic project that lives in a directory that we&amp;#39;ll call &lt;code class=&#34;verbatim&#34;&gt;path/to/project&lt;/code&gt; which you want to version control. You first need to go to your terminal, go to that directory, and initialize it as a git repository.&lt;/p&gt;
+&lt;div class=&#34;src src-bash&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;  &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; path/to/project
+  git init&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+This will create a new subdirectory called &lt;code class=&#34;verbatim&#34;&gt;.git&lt;/code&gt; that contains all the repository files. At this point, it is just a bare skeleton that has no files tracked. To actually start version-controlling an existing file, you want to add those files that you want tracked. So let&amp;#39;s say this is your project directory:&lt;/p&gt;
+&lt;div class=&#34;src src-text&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;- Project
+|- Readme.org
+|- main.py
+|- images
+||- img1.png&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+We have a &lt;code class=&#34;verbatim&#34;&gt;Readme.org&lt;/code&gt; that contains information about the project, a &lt;code class=&#34;verbatim&#34;&gt;main.py&lt;/code&gt;, which is just the main python file, and an &lt;code class=&#34;verbatim&#34;&gt;images&lt;/code&gt; directory that contains an image. To add the &lt;code class=&#34;verbatim&#34;&gt;Readme.org&lt;/code&gt; to the Git tracking, we simply do the following:&lt;/p&gt;
+&lt;div class=&#34;src src-bash&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;  git add Readme.org
+  git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Adding readme to the project tracking&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;code&gt;Git add&lt;/code&gt; adds the &lt;code class=&#34;verbatim&#34;&gt;Readme.org&lt;/code&gt; file to the staging area to be tracked by Git. Another way to add files is by using wildcards. Say you want to add all python files (ending with &lt;code class=&#34;verbatim&#34;&gt;.py&lt;/code&gt;), then you could do &lt;code class=&#34;verbatim&#34;&gt;git add *.py&lt;/code&gt; in which the star means that it doesn&amp;#39;t matter what comes before the &lt;code class=&#34;verbatim&#34;&gt;.py&lt;/code&gt; as long it ends with it. &lt;code&gt;Git commit&lt;/code&gt; commits the tracked file to the git directory, and the current version is saved! Now, should anything go wrong, we can always return to this version! The &lt;code&gt;-m&lt;/code&gt; flag just means that we add a message to the commit. This usually is just a short description of the commit&amp;#39;s changes, so you can easily see what you did.&lt;/p&gt;
+&lt;p&gt;
+Here you can already see the lifecycle of the status of your files. First they are untracked and Git doesn&amp;#39;t know about those files. Then after you track them, Git knows about them and they can be in the three stages.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://popoiopo.github.io/images/lifecycle.jpg&#34;/&gt; 
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr class=&#34;footnotes-separatator&#34;&gt;
+&lt;div class=&#34;footnote-definitions&#34;&gt;
+&lt;div class=&#34;footnote-definition&#34;&gt;
+&lt;sup id=&#34;footnote-1&#34;&gt;&lt;a href=&#34;https://example.com/post/lets_talk_about_git2/#footnote-reference-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+&lt;div class=&#34;footnote-body&#34;&gt;
+&lt;p&gt;You can have multiple working versions of the project next to each other. For example, you can have a production version and a version in which you add functionality. Then, if the new functionality is done, you could merge the two versions.&lt;/p&gt;
+&lt;p&gt;
+These three phases lend themselves to a workflow in the same order. (1) You make changes in a file (file is &lt;strong&gt;modified&lt;/strong&gt;). (2) After you&amp;#39;re happy with your changes, you can stage those changes that you want to be part of your next committed. Only the files you added are brought to the staging area and can then be considered &lt;strong&gt;staged&lt;/strong&gt;. (3) You do a commit, taking those &lt;em&gt;staged&lt;/em&gt; files in the staging area and storing that snapshot permanently to your Git directory.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnote-definition&#34;&gt;
+&lt;sup id=&#34;footnote-2&#34;&gt;&lt;a href=&#34;https://example.com/post/lets_talk_about_git2/#footnote-reference-2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;
+&lt;div class=&#34;footnote-body&#34;&gt;
+&lt;p&gt;Folders and directories are used interchangeably as they usually refer to the same thing. If we&amp;#39;d really want to nitpick, there is a difference. In a GUI (graphical user interface), such as Windows, a folder doesn&amp;#39;t necessarily map to a specific hard drive location, a construct meant to mimic a real folder called a shell namespace. For example, a folder you&amp;#39;ve created to hold pictures on your desktop. While with a command-line interface (e.g., MS-DOS or Linux), you would say directory instead of folder as a directory is mapped to a physical location on a storage medium.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://example.com/categories/computerscience/">ComputerScience</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://example.com/tags/git/">Git</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://example.com/tags/versioncontrol/">VersionControl</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Lets talk about git</title>
