@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Complexity modeling</title>
+<meta name="author" content="(Bas Chatel)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/simple.css" id="theme"/>
+
+<link rel="stylesheet" href="./local.css"/>
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<meta name="description" content="Course slides">
+</head>
+<body>
+<div style="margin-top:10px; margin-left:10px;margin-bottom:-50px;"><img src="images/methodsPaper/logo_affiliation.png" alt="" style="height:50px;"></div>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h3>Complexity modeling</h3><h4>A birds eye view of the how and the why of computational modeling</h4><div><small></small><br><small><small>Bas Chatel&nbsp;:&nbsp;<a href="mailto:bas.chatel@radboudumc.nl">bas.chatel@radboudumc.nl</a></small></small></div>
+</section>
+<section id="table-of-contents"><div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#/slide-org305bfdf">Introduction to complexity modeling</a></li>
+<li><a href="#/slide-orga7b19bf">Different types of models</a></li>
+<li><a href="#/slide-org128f1e0">Uncertainty</a></li>
+</ul>
+</div>
+</div>
+</section>
+
+<section>
+<section id="slide-org305bfdf">
+<h2 id="org305bfdf">Introduction to complexity modeling</h2>
+<div class="outline-text-2" id="text-org305bfdf">
+</div>
+</section>
+<section id="slide-orge3fd351">
+<h3 id="orge3fd351">What is Complexity Science?</h3>
+<ul>
+<li class="fragment fade-in">Studies “the way in which large groups of individual components behave collectively by adapting to each other and the environment they create themselves”</li>
+<li class="fragment fade-in">Aims to model the spatio-temporal dynamics of a system to explore its inherent patterns</li>
+<li class="fragment fade-in">Necessary in order to explore, interpret, and manipulate dynamics of a system <i>in silico</i></li>
+
+</ul>
+<aside class="notes">
+<p>
+Enter speaker notes here.
+</p>
+
+</aside>
+</section>
+<section id="slide-org57eaef2">
+<h3 id="org57eaef2">Fields of application</h3>
+<div style="width:50%;float:left">
+<ul>
+<li>Mental health</li>
+<li>Public health</li>
+<li>Planetary health</li>
+<li>Social dynamics</li>
+
+</ul>
+</div>
+<div style="width:50%;float: left">
+<ul>
+<li>Depression</li>
+<li>Obesity epidemic</li>
+<li>Climate change</li>
+<li>Immune system</li>
+
+</ul>
+</div>
+</section>
+<section id="slide-orgcf4cc83">
+<h3 id="orgcf4cc83">Step 1: Conceptual modeling</h3>
+<ul>
+<li class="fragment fade-in">Explicitly state:
+<ul>
+<li>Causal hypotheses</li>
+<li>Knowledge</li>
+<li>Assumptions</li>
+
+</ul></li>
+<li class="fragment fade-in">Reason about:
+<ul>
+<li>Cause- and- effect</li>
+
+</ul></li>
+
+</ul>
+</section>
+<section id="slide-orgd92960d">
+<h3 id="orgd92960d">Step 2: Computational modeling</h3>
+<blockquote >
+<p>
+<b>All models are wrong, but some are useful</b>. - George Box
+</p>
+</blockquote>
+</section>
+<section id="slide-orgce7c33e">
+<h3 id="orgce7c33e">Why/when do we model?</h3>
+<div style="width:50%;float:left">
+<ul>
+<li>Explore dynamics</li>
+<li>Manipulate the system itself</li>
+<li>Interpret resulting dynamics</li>
+
+</ul>
+</div>
+<div style="width:50%;float: left">
+<ul>
+<li>Reduce cost</li>
+<li>Ask "what if" questions</li>
+<li>Ethics</li>
+
+</ul>
+</div>
+</section>
+<section id="slide-org0efd244">
+<h3 id="org0efd244">Why/when do we model?</h3>
+<p>
+Human brains are generally not reliable in predicting the long-term effects of interconnectedness, feedback loops, and nonlinearities
+</p>
+
+<div class="figure">
+<p><img src="images/Screenshot 2021-04-05 at 11.43.04.png" alt="Screenshot 2021-04-05 at 11.43.04.png" width="700px" />
+</p>
+</div>
+</section>
+<section id="slide-org0ec9282">
+<h3 id="org0ec9282">Problems in biopsychosocial domains</h3>
+<ul>
+<li class="fragment fade-in">Infeasibility of experimental research</li>
+<li class="fragment fade-in">Difficulty to obtain rich data</li>
+<li class="fragment fade-in">Rapid changes in underlying system</li>
+<li class="fragment fade-in">Relevant variables on many spatial and temporal scales</li>
+<li class="fragment fade-in">Unclear system boundaries</li>
+
+</ul>
+</section>
+<section id="slide-org7dd99af">
+<h3 id="org7dd99af">Step 3: Gaining confidence in your model</h3>
+<ul>
+<li>Test the model with data</li>
+<li>Quantify uncertainty</li>
+
+</ul>
+</section>
+<section id="slide-org20f29d1">
+<h3 id="org20f29d1">The scientific cycle</h3>
+
+<div class="figure">
+<p><img src="images/methodsPaper/image5.png" alt="image5.png" width="700px" />
+</p>
+</div>
+</section>
+<section id="slide-org13f8677">
+<h3 id="org13f8677">A CLD about modeling with CLDs</h3>
+
+<div class="figure">
+<p><img src="images/methodsPaper/image15.png" alt="image15.png" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orga7b19bf">
+<h2 id="orga7b19bf">Different types of models</h2>
+<div class="outline-text-2" id="text-orga7b19bf">
+</div>
+</section>
+<section id="slide-org618add5">
+<h3 id="org618add5">Agent-based</h3>
+<p>
+<b>Rule based models, often with spatial component:</b>
+</p>
+<ol>
+<li><a href="http://www.netlogoweb.org/launch#http://ccl.northwestern.edu/netlogo/models/models/Curricular%20Models/epiDEM/epiDEM%20Basic.nlogo">Basic model</a></li>
+<li><a href="http://www.netlogoweb.org/launch#http://ccl.northwestern.edu/netlogo/models/models/Curricular%20Models/epiDEM/epiDEM%20Travel%20and%20Control.nlogo">Travel, ambulance, hospital, isolation model</a></li>
+
+</ol>
+</section>
+<section id="slide-orgb01d91a">
+<h3 id="orgb01d91a">Systems of Ordinary Differential Equations</h3>
+</section>
+</section>
+<section>
+<section id="slide-org128f1e0">
+<h2 id="org128f1e0">Uncertainty</h2>
+<div class="outline-text-2" id="text-org128f1e0">
+</div>
+</section>
+<section id="slide-orgd976c67">
+<h3 id="orgd976c67">The stuff that we're not certain about</h3>
+<ul>
+<li class="fragment fade-in">Types of uncertainty:
+<ul>
+<li>Topology</li>
+<li>Equations (Parameter values)</li>
+<li>Measuring methods</li>
+<li>Etc.,</li>
+
+</ul></li>
+<li class="fragment fade-in"><b>If ignored</b>:
+<ul>
+<li>Creates bias</li>
+<li>Overstates predictive power</li>
+<li>Possibly leading to wrong conclusions</li>
+
+</ul></li>
+
+</ul>
+</section>
+<section id="slide-orgbc93bf4">
+<h3 id="orgbc93bf4">It's all about confidence</h3>
+<ul>
+<li>To increase confidence is to reduce uncertainty
+<ul>
+<li class="fragment fade-in">Confidence in model topology</li>
+<li class="fragment fade-in">Confidence in model predictions</li>
+<li class="fragment fade-in">Confidence in model Validity</li>
+
+</ul></li>
+
+</ul>
+</section>
+<section id="slide-orgfc89427">
+<h3 id="orgfc89427">Questions?</h3>
+<p>
+Any uncertainties you'd want to share?
+</p>
+</section>
+</section>
+</div>
+</div>
+<p> Created by Bas Chatel</p>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+
+
+</script>
+</body>
+</html>
